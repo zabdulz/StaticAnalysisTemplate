@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.parser.ParserExceptionTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:21" hostname="pc1295" time="0.017">
+  <properties/>
+  <testcase name="builds specific exception with preview when in error" classname="graphql.parser.ParserExceptionTest" time="0.007"/>
+  <testcase name="can work with multi source input" classname="graphql.parser.ParserExceptionTest" time="0.009"/>
+  <testcase name="more parsing error tests" classname="graphql.parser.ParserExceptionTest" time="0.0"/>
+  <testcase name="short query failure is ok" classname="graphql.parser.ParserExceptionTest" time="0.0"/>
+  <testcase name="integration test of parse exception handling " classname="graphql.parser.ParserExceptionTest" time="0.0"/>
+  <system-out><![CDATA[graphql.parser.InvalidSyntaxException: Invalid Syntax : offending token 'scala' at line 2 column 13]]></system-out>
+  <system-err><![CDATA[[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to parse : '
+query X {
+       field1
+       field2
+       field3
+       field4
+       field5
+}
+
+fragment X on SomeType {
+    fragField1
+    fragField2(syntaxErrorHere
+    fragField3
+    fragField4
+    fragField5
+}
+        '
+]]></system-err>
+</testsuite>

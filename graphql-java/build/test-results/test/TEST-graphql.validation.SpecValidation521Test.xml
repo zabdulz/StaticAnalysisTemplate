@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.validation.SpecValidation521Test" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.021">
+  <properties/>
+  <testcase name="5.2.1 Field Selections on ... fieldNotDefined" classname="graphql.validation.SpecValidation521Test" time="0.019"/>
+  <testcase name="5.2.1 Field Selections on ... aliasedLyingFieldTargetNotDefined" classname="graphql.validation.SpecValidation521Test" time="0.0"/>
+  <testcase name="5.2.1 Field Selections on ... interfaceFieldSelection" classname="graphql.validation.SpecValidation521Test" time="0.001"/>
+  <testcase name="5.2.1 Field Selections on ... definedOnImplementorsButNotInterface" classname="graphql.validation.SpecValidation521Test" time="0.0"/>
+  <testcase name="5.2.1 Field Selections on ... inDirectFieldSelectionOnUnion" classname="graphql.validation.SpecValidation521Test" time="0.0"/>
+  <testcase name="5.2.1 Field Selections on ... directFieldSelectionOnUnion" classname="graphql.validation.SpecValidation521Test" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

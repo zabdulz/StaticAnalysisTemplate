@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.ScalarsIntTest" tests="43" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:20" hostname="pc1295" time="0.008">
+  <properties/>
+  <testcase name="Int parse literal 42 as 42" classname="graphql.ScalarsIntTest" time="0.003"/>
+  <testcase name="Int parse literal 2147483647 as 2147483647" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int parse literal -2147483648 as -2147483648" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int returns null for invalid IntValue{value=12345678910}" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int returns null for invalid StringValue{value='-1'}" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int returns null for invalid FloatValue{value=42.3}" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int returns null for invalid IntValue{value=2147483648}" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int returns null for invalid IntValue{value=-2147483649}" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int returns null for invalid StringValue{value='-1'}" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int returns null for invalid FloatValue{value=42.3}" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int serialize 42 into 42 (class java.lang.Integer)" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int serialize 42.0000 into 42 (class java.lang.Integer)" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int serialize 42.0 into 42 (class java.lang.Integer)" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int serialize 42 into 42 (class java.lang.Integer)" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int serialize -1 into -1 (class java.lang.Integer)" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int serialize 42 into 42 (class java.lang.Integer)" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int serialize 42 into 42 (class java.lang.Integer)" classname="graphql.ScalarsIntTest" time="0.001"/>
+  <testcase name="Int serialize 42.0 into 42 (class java.lang.Integer)" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int serialize 42.0 into 42 (class java.lang.Integer)" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int serialize 42 into 42 (class java.lang.Integer)" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int serialize 42 into 42 (class java.lang.Integer)" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int serialize 1234567 into 1234567 (class java.lang.Integer)" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int serialize 42 into 42 (class java.lang.Integer)" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int serialize 2147483647 into 2147483647 (class java.lang.Integer)" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="Int serialize -2147483648 into -2147483648 (class java.lang.Integer)" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="serialize throws exception for invalid input " classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="serialize throws exception for invalid input not a number " classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="serialize throws exception for invalid input 42.3" classname="graphql.ScalarsIntTest" time="0.001"/>
+  <testcase name="serialize throws exception for invalid input 42345784398534785" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="serialize throws exception for invalid input 42.3" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="serialize throws exception for invalid input 42.3" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="serialize throws exception for invalid input 2147483648" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="serialize throws exception for invalid input -2147483649" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="serialize throws exception for invalid input java.lang.Object@514c8a3d" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="parsValue throws exception for invalid input " classname="graphql.ScalarsIntTest" time="0.001"/>
+  <testcase name="parsValue throws exception for invalid input not a number " classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="parsValue throws exception for invalid input 42.3" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="parsValue throws exception for invalid input 42345784398534785" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="parsValue throws exception for invalid input 42.3" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="parsValue throws exception for invalid input 42.3" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="parsValue throws exception for invalid input 2147483648" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="parsValue throws exception for invalid input -2147483649" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <testcase name="parsValue throws exception for invalid input java.lang.Object@1032c14d" classname="graphql.ScalarsIntTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

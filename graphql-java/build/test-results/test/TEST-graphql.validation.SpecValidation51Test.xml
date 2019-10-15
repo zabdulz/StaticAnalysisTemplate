@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.validation.SpecValidation51Test" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.006">
+  <properties/>
+  <testcase name="5.1.1.1 Operation Name Uniqueness Valid" classname="graphql.validation.SpecValidation51Test" time="0.004"/>
+  <testcase name="5.1.1.1 Operation Name Uniqueness Not Valid" classname="graphql.validation.SpecValidation51Test" time="0.0"/>
+  <testcase name="5.1.1.1 Operation Name Uniqueness Not Valid Different Operations" classname="graphql.validation.SpecValidation51Test" time="0.0"/>
+  <testcase name="5.1.2.1 Lone Anonymous Operation Valid" classname="graphql.validation.SpecValidation51Test" time="0.001"/>
+  <testcase name="5.1.2.1 Lone Anonymous Operation Not Valid" classname="graphql.validation.SpecValidation51Test" time="0.0"/>
+  <testcase name="5.1.2.1 Lone Anonymous Operation Not Valid (reverse order) " classname="graphql.validation.SpecValidation51Test" time="0.0"/>
+  <testcase name="5.1.2.1 Lone Anonymous Operation Not Valid (not really alone)" classname="graphql.validation.SpecValidation51Test" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

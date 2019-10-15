@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.parser.MultiSourceReaderTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:21" hostname="pc1295" time="0.026">
+  <properties/>
+  <testcase name="can combine files" classname="graphql.parser.MultiSourceReaderTest" time="0.01"/>
+  <testcase name="can read all the lines as one" classname="graphql.parser.MultiSourceReaderTest" time="0.007"/>
+  <testcase name="does not track data if told too" classname="graphql.parser.MultiSourceReaderTest" time="0.002"/>
+  <testcase name="can track data b y default" classname="graphql.parser.MultiSourceReaderTest" time="0.001"/>
+  <testcase name="can handle zero elements" classname="graphql.parser.MultiSourceReaderTest" time="0.001"/>
+  <testcase name="can handle null source name" classname="graphql.parser.MultiSourceReaderTest" time="0.0"/>
+  <testcase name="can work out relative lines from overall lines" classname="graphql.parser.MultiSourceReaderTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

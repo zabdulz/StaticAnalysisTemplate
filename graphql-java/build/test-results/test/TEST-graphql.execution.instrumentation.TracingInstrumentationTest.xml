@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.execution.instrumentation.TracingInstrumentationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:14" hostname="pc1295" time="0.031">
+  <properties/>
+  <testcase name="tracing captures timings as expected" classname="graphql.execution.instrumentation.TracingInstrumentationTest" time="0.019"/>
+  <testcase name="trivial data fetchers are ignored" classname="graphql.execution.instrumentation.TracingInstrumentationTest" time="0.011"/>
+  <testcase name="default behavior is that trivial fields ARE recorded" classname="graphql.execution.instrumentation.TracingInstrumentationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.execution.nextgen.DefaultExecutionStrategyTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:16" hostname="pc1295" time="0.06">
+  <properties/>
+  <testcase name="test simple execution with one scalar field" classname="graphql.execution.nextgen.DefaultExecutionStrategyTest" time="0.01"/>
+  <testcase name="test simple execution" classname="graphql.execution.nextgen.DefaultExecutionStrategyTest" time="0.003"/>
+  <testcase name="fields are resolved in depth in parallel" classname="graphql.execution.nextgen.DefaultExecutionStrategyTest" time="0.006"/>
+  <testcase name="test execution with lists" classname="graphql.execution.nextgen.DefaultExecutionStrategyTest" time="0.004"/>
+  <testcase name="test execution with null element " classname="graphql.execution.nextgen.DefaultExecutionStrategyTest" time="0.004"/>
+  <testcase name="test execution with null element in list" classname="graphql.execution.nextgen.DefaultExecutionStrategyTest" time="0.004"/>
+  <testcase name="test execution with null element in non null list" classname="graphql.execution.nextgen.DefaultExecutionStrategyTest" time="0.006"/>
+  <testcase name="test execution with null element bubbling up because of non null " classname="graphql.execution.nextgen.DefaultExecutionStrategyTest" time="0.004"/>
+  <testcase name="test execution with null element bubbling up to top " classname="graphql.execution.nextgen.DefaultExecutionStrategyTest" time="0.004"/>
+  <testcase name="test list" classname="graphql.execution.nextgen.DefaultExecutionStrategyTest" time="0.003"/>
+  <testcase name="test list in lists " classname="graphql.execution.nextgen.DefaultExecutionStrategyTest" time="0.004"/>
+  <testcase name="test simple batching with null value in list" classname="graphql.execution.nextgen.DefaultExecutionStrategyTest" time="0.003"/>
+  <testcase name="DataFetcherResult is respected with errors" classname="graphql.execution.nextgen.DefaultExecutionStrategyTest" time="0.005"/>
+  <system-out><![CDATA[Field{name='foo', alias='f1', arguments=[], directives=[], selectionSet=SelectionSet{selections=[Field{name='id1', alias='null', arguments=[], directives=[], selectionSet=null}]}}
+Field{name='foo', alias='f2', arguments=[], directives=[], selectionSet=SelectionSet{selections=[Field{name='id2', alias='null', arguments=[], directives=[], selectionSet=null}]}}
+Field{name='foo', alias='f3', arguments=[], directives=[], selectionSet=SelectionSet{selections=[Field{name='id3', alias='null', arguments=[], directives=[], selectionSet=null}]}}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

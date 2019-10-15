@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.idl.TypeInfoTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:07" hostname="pc1295" time="0.032">
+  <properties/>
+  <testcase name="unwrapping gets to the inner type" classname="graphql.schema.idl.TypeInfoTest" time="0.023"/>
+  <testcase name="decoration recreates new types" classname="graphql.schema.idl.TypeInfoTest" time="0.001"/>
+  <testcase name="test equality and hashcode" classname="graphql.schema.idl.TypeInfoTest" time="0.001"/>
+  <testcase name="test rename works as expected[0]" classname="graphql.schema.idl.TypeInfoTest" time="0.005"/>
+  <testcase name="test rename works as expected[1]" classname="graphql.schema.idl.TypeInfoTest" time="0.0"/>
+  <testcase name="test rename works as expected[2]" classname="graphql.schema.idl.TypeInfoTest" time="0.001"/>
+  <testcase name="test rename works as expected[3]" classname="graphql.schema.idl.TypeInfoTest" time="0.0"/>
+  <testcase name="test rename works as expected[4]" classname="graphql.schema.idl.TypeInfoTest" time="0.0"/>
+  <testcase name="test rename works as expected[5]" classname="graphql.schema.idl.TypeInfoTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

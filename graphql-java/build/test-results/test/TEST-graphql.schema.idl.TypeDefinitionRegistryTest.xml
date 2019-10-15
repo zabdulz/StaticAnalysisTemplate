@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.idl.TypeDefinitionRegistryTest" tests="31" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:07" hostname="pc1295" time="0.129">
+  <properties/>
+  <testcase name="test default scalars are locked in" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.004"/>
+  <testcase name="adding 2 schemas is not allowed" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.009"/>
+  <testcase name="merging multiple type registries does not overwrite schema definition" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.0"/>
+  <testcase name="test merge of schema types" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.001"/>
+  <testcase name="test merge of object types" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.003"/>
+  <testcase name="test merge of scalar types" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.001"/>
+  <testcase name="test merge of directive defs" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.004"/>
+  <testcase name="test successful merge of types" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.0"/>
+  <testcase name="test abstract type detection" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.0"/>
+  <testcase name="test object type detection" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.0"/>
+  <testcase name="test can get list of type definitions" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.003"/>
+  <testcase name="test can get map of type definitions" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.001"/>
+  <testcase name="test can get implements of interface" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.003"/>
+  <testcase name="test possible type detection" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.001"/>
+  <testcase name="isSubTypeOf detection" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.001"/>
+  <testcase name="remove a definition[0]" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.001"/>
+  <testcase name="remove a definition[1]" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.0"/>
+  <testcase name="remove a definition[2]" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.0"/>
+  <testcase name="remove a definition[3]" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.0"/>
+  <testcase name="remove a definition[4]" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.0"/>
+  <testcase name="remove a definition[5]" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.0"/>
+  <testcase name="remove directive definition" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.009"/>
+  <testcase name="remove object type extension" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.01"/>
+  <testcase name="remove interface type extension" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.009"/>
+  <testcase name="remove union type extension" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.008"/>
+  <testcase name="remove enum type extension" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.008"/>
+  <testcase name="remove scalar type extension" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.008"/>
+  <testcase name="remove input object type extension" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.008"/>
+  <testcase name="remove schema definition" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.0"/>
+  <testcase name="addAll can add multiple things successfully" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.001"/>
+  <testcase name="addAll will return an error on the first abd thing" classname="graphql.schema.idl.TypeDefinitionRegistryTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

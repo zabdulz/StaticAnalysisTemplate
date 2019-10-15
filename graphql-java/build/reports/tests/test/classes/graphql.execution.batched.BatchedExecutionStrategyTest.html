@@ -1,0 +1,1648 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class graphql.execution.batched.BatchedExecutionStrategyTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class graphql.execution.batched.BatchedExecutionStrategyTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/graphql.execution.batched.html">graphql.execution.batched</a> &gt; BatchedExecutionStrategyTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">22</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.198s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">#672-683 handles completable futures ok</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">#672-683 handles completable futures ok in interfaces</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">#673 optional support</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">#684 handles exceptions in DFs</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Any Iterable is accepted as GraphQL list value</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Basic case works</td>
+<td class="success">0.065s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Batching works</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Empty input</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Handle exception inside DataFetcher</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Handles explicit null input</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Handles implicit null input</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Illegal null value for an object in a list</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Invalid batch size return does not crash whole query but generates error</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Legal null entries in lists</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Legal null value for enum</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Legal null values for entire lists</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Legal null values for primitives</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Nested lists</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Return value ordering</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Shatter then append</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Shatter works</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">multi level batching with two different path</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[string:[nonNullValue:Basic, value:Basic]]
+Started execution...
+Started parse...
+	Ended parse in 0ms
+Started validation...
+	Ended validation in 1ms
+Started execute-operation...
+Started execution-strategy...
+Started field-string...
+Started fetch-string...
+	Ended fetch-string in 7ms
+	Ended field-string in 10ms
+Started field-value...
+Started fetch-value...
+	Ended fetch-value in 1ms
+	Ended field-value in 1ms
+Started field-nonNullValue...
+Started fetch-nonNullValue...
+	Ended fetch-nonNullValue in 0ms
+	Ended field-nonNullValue in 1ms
+	Ended execution-strategy in 15ms
+	Ended execute-operation in 21ms
+	Ended execution in 26ms
+Started execution...
+Started parse...
+	Ended parse in 0ms
+Started validation...
+	Ended validation in 0ms
+Started execute-operation...
+Started execution-strategy...
+Started field-string...
+Started fetch-string...
+	Ended fetch-string in 1ms
+	Ended field-string in 1ms
+Started field-value...
+Started fetch-value...
+	Ended fetch-value in 0ms
+	Ended field-value in 0ms
+	Ended execution-strategy in 1ms
+	Ended execute-operation in 1ms
+	Ended execution in 1ms
+Started execution...
+Started parse...
+	Ended parse in 0ms
+Started validation...
+	Ended validation in 0ms
+Started execute-operation...
+Started execution-strategy...
+Started field-string...
+Started fetch-string...
+	Ended fetch-string in 0ms
+	Ended field-string in 0ms
+	Ended execution-strategy in 0ms
+	Ended execute-operation in 0ms
+	Ended execution in 0ms
+Started execution...
+Started parse...
+	Ended parse in 0ms
+Started validation...
+	Ended validation in 0ms
+Started execute-operation...
+Started execution-strategy...
+Started field-string...
+Started fetch-string...
+	Ended fetch-string in 0ms
+	Ended field-string in 0ms
+Started field-value...
+Started fetch-value...
+	Ended fetch-value in 0ms
+	Ended field-value in 1ms
+	Ended execution-strategy in 1ms
+	Ended execute-operation in 1ms
+	Ended execution in 1ms
+Started execution...
+Started parse...
+	Ended parse in 0ms
+Started validation...
+	Ended validation in 0ms
+Started execute-operation...
+Started execution-strategy...
+Started field-string...
+Started fetch-string...
+	Ended fetch-string in 0ms
+	Ended field-string in 0ms
+Started field-shatter...
+Started fetch-shatter...
+	Ended fetch-shatter in 0ms
+	Ended field-shatter in 0ms
+Started field-value...
+Started fetch-value...
+	Ended fetch-value in 0ms
+	Ended field-value in 0ms
+	Ended execution-strategy in 0ms
+	Ended execute-operation in 1ms
+	Ended execution in 1ms
+Started execution...
+Started parse...
+	Ended parse in 0ms
+Started validation...
+	Ended validation in 0ms
+Started execute-operation...
+Started execution-strategy...
+Started field-string...
+Started fetch-string...
+	Ended fetch-string in 0ms
+	Ended field-string in 1ms
+Started field-shatter...
+Started fetch-shatter...
+	Ended fetch-shatter in 0ms
+	Ended field-shatter in 0ms
+Started field-append...
+Started fetch-append...
+	Ended fetch-append in 0ms
+	Ended field-append in 0ms
+Started field-value...
+Started fetch-value...
+	Ended fetch-value in 0ms
+	Ended field-value in 0ms
+	Ended execution-strategy in 1ms
+	Ended execute-operation in 1ms
+	Ended execution in 1ms
+Started execution...
+Started parse...
+	Ended parse in 0ms
+Started validation...
+	Ended validation in 0ms
+Started execute-operation...
+Started execution-strategy...
+Started field-string...
+Started fetch-string...
+	Ended fetch-string in 0ms
+	Ended field-string in 0ms
+Started field-shatter...
+Started fetch-shatter...
+	Ended fetch-shatter in 0ms
+	Ended field-shatter in 0ms
+Started field-append...
+Started fetch-append...
+	Ended fetch-append in 0ms
+	Ended field-append in 0ms
+Started field-split...
+Started fetch-split...
+	Ended fetch-split in 1ms
+	Ended field-split in 1ms
+Started field-value...
+Started fetch-value...
+	Ended fetch-value in 0ms
+	Ended field-value in 0ms
+	Ended execution-strategy in 1ms
+	Ended execute-operation in 2ms
+	Ended execution in 2ms
+Started execution...
+Started parse...
+	Ended parse in 0ms
+Started validation...
+	Ended validation in 0ms
+Started execute-operation...
+Started execution-strategy...
+Started field-string...
+Started fetch-string...
+	Ended fetch-string in 1ms
+	Ended field-string in 1ms
+Started field-shatter...
+Started fetch-shatter...
+	Ended fetch-shatter in 0ms
+	Ended field-shatter in 0ms
+Started field-append...
+Started fetch-append...
+	Ended fetch-append in 0ms
+	Ended field-append in 0ms
+Started field-split...
+Started fetch-split...
+	Ended fetch-split in 0ms
+	Ended field-split in 0ms
+	Ended execution-strategy in 1ms
+	Ended execute-operation in 1ms
+	Ended execution in 1ms
+Started execution...
+Started parse...
+	Ended parse in 0ms
+Started validation...
+	Ended validation in 0ms
+Started execute-operation...
+Started execution-strategy...
+Started field-string...
+Started fetch-string...
+	Ended fetch-string in 0ms
+	Ended field-string in 1ms
+Started field-split...
+Started fetch-split...
+	Ended fetch-split in 0ms
+	Ended field-split in 0ms
+Started field-value...
+Started fetch-value...
+	Ended fetch-value in 0ms
+	Ended field-value in 0ms
+	Ended execution-strategy in 1ms
+	Ended execute-operation in 1ms
+	Ended execution in 1ms
+Started execution...
+Started parse...
+	Ended parse in 0ms
+Started validation...
+	Ended validation in 0ms
+Started execute-operation...
+Started execution-strategy...
+Started field-nullEnum...
+Started fetch-nullEnum...
+	Ended fetch-nullEnum in 0ms
+	Ended field-nullEnum in 0ms
+	Ended execution-strategy in 1ms
+	Ended execute-operation in 1ms
+	Ended execution in 1ms
+Started execution...
+Started parse...
+	Ended parse in 0ms
+Started validation...
+	Ended validation in 0ms
+Started execute-operation...
+Started execution-strategy...
+Started field-string...
+Started fetch-string...
+	Ended fetch-string in 0ms
+	Ended field-string in 0ms
+Started field-wordsAndLetters...
+Started fetch-wordsAndLetters...
+	Ended fetch-wordsAndLetters in 3ms
+	Ended field-wordsAndLetters in 3ms
+Started field-value...
+Started fetch-value...
+	Ended fetch-value in 0ms
+	Ended field-value in 0ms
+	Ended execution-strategy in 4ms
+	Ended execute-operation in 4ms
+	Ended execution in 4ms
+Started execution...
+Started parse...
+	Ended parse in 0ms
+Started validation...
+	Ended validation in 1ms
+Started execute-operation...
+Started execution-strategy...
+Started field-string...
+Started fetch-string...
+	Ended fetch-string in 0ms
+	Ended field-string in 0ms
+Started field-append...
+Started fetch-append...
+	Ended fetch-append in 0ms
+	Ended field-append in 0ms
+Started field-shatter...
+Started fetch-shatter...
+	Ended fetch-shatter in 0ms
+	Ended field-shatter in 0ms
+Started field-value...
+Started fetch-value...
+	Ended fetch-value in 0ms
+	Ended field-value in 1ms
+Started field-append...
+Started fetch-append...
+	Ended fetch-append in 0ms
+	Ended field-append in 0ms
+Started field-split...
+Started fetch-split...
+	Ended fetch-split in 0ms
+	Ended field-split in 0ms
+Started field-value...
+Started fetch-value...
+	Ended fetch-value in 0ms
+	Ended field-value in 0ms
+	Ended execution-strategy in 1ms
+	Ended execute-operation in 1ms
+	Ended execution in 2ms
+Started execution...
+Started parse...
+	Ended parse in 1ms
+Started validation...
+	Ended validation in 0ms
+Started execute-operation...
+Started execution-strategy...
+Started field-string...
+Started fetch-string...
+	Ended fetch-string in 0ms
+	Ended field-string in 0ms
+Started field-append...
+Started fetch-append...
+	Ended fetch-append in 0ms
+	Ended field-append in 0ms
+Started field-value...
+Started fetch-value...
+	Ended fetch-value in 0ms
+	Ended field-value in 0ms
+Started field-nonNullValue...
+Started fetch-nonNullValue...
+	Ended fetch-nonNullValue in 0ms
+	Ended field-nonNullValue in 0ms
+Started field-value...
+Started fetch-value...
+	Ended fetch-value in 0ms
+	Ended field-value in 0ms
+Started field-nonNullValue...
+Started fetch-nonNullValue...
+	Ended fetch-nonNullValue in 0ms
+	Ended field-nonNullValue in 0ms
+Started field-value...
+Started fetch-value...
+	Ended fetch-value in 0ms
+	Ended field-value in 0ms
+Started field-nonNullValue...
+Started fetch-nonNullValue...
+	Ended fetch-nonNullValue in 0ms
+	Ended field-nonNullValue in 0ms
+	Ended execution-strategy in 1ms
+	Ended execute-operation in 1ms
+	Ended execution in 2ms
+Started execution...
+Started parse...
+	Ended parse in 0ms
+Started validation...
+	Ended validation in 0ms
+Started execute-operation...
+Started execution-strategy...
+Started field-string...
+Started fetch-string...
+	Ended fetch-string in 0ms
+	Ended field-string in 0ms
+Started field-throwException...
+Started fetch-throwException...
+	Ended fetch-throwException in 1ms
+	Ended field-throwException in 2ms
+	Ended execution-strategy in 2ms
+	Ended execute-operation in 2ms
+	Ended execution in 2ms
+Started execution...
+Started parse...
+	Ended parse in 0ms
+Started validation...
+	Ended validation in 0ms
+Started execute-operation...
+Started execution-strategy...
+Started field-string...
+Started fetch-string...
+	Ended fetch-string in 0ms
+	Ended field-string in 1ms
+Started field-throwException...
+Started fetch-throwException...
+	Ended fetch-throwException in 0ms
+	Ended field-throwException in 1ms
+	Ended execution-strategy in 2ms
+	Ended execute-operation in 2ms
+	Ended execution in 2ms
+Started execution...
+Started parse...
+	Ended parse in 0ms
+Started validation...
+	Ended validation in 0ms
+Started execute-operation...
+Started execution-strategy...
+Started field-string...
+Started fetch-string...
+	Ended fetch-string in 0ms
+	Ended field-string in 0ms
+Started field-returnBadList...
+Started fetch-returnBadList...
+	Ended fetch-returnBadList in 0ms
+	Ended field-returnBadList in 1ms
+	Ended execution-strategy in 1ms
+	Ended execute-operation in 1ms
+	Ended execution in 2ms
+Started execution...
+Started parse...
+	Ended parse in 0ms
+Started validation...
+	Ended validation in 1ms
+Started execute-operation...
+Started execution-strategy...
+Started field-string...
+Started fetch-string...
+	Ended fetch-string in 0ms
+	Ended field-string in 0ms
+Started field-returnBadList...
+Started fetch-returnBadList...
+	Ended fetch-returnBadList in 0ms
+	Ended field-returnBadList in 1ms
+	Ended execution-strategy in 1ms
+	Ended execute-operation in 1ms
+	Ended execution in 2ms
+[string:[emptyOptional:null, optional:673-optional-support]]
+Started execution...
+Started parse...
+	Ended parse in 1ms
+Started validation...
+	Ended validation in 0ms
+Started execute-operation...
+Started execution-strategy...
+Started field-string...
+Started fetch-string...
+	Ended fetch-string in 0ms
+	Ended field-string in 0ms
+Started field-emptyOptional...
+Started fetch-emptyOptional...
+	Ended fetch-emptyOptional in 0ms
+	Ended field-emptyOptional in 0ms
+Started field-optional...
+Started fetch-optional...
+	Ended fetch-optional in 0ms
+	Ended field-optional in 0ms
+	Ended execution-strategy in 0ms
+	Ended execute-operation in 0ms
+	Ended execution in 1ms
+Started execution...
+Started parse...
+	Ended parse in 0ms
+Started validation...
+	Ended validation in 0ms
+Started execute-operation...
+Started execution-strategy...
+Started field-string...
+Started fetch-string...
+	Ended fetch-string in 0ms
+	Ended field-string in 0ms
+Started field-anyIterable...
+Started fetch-anyIterable...
+	Ended fetch-anyIterable in 0ms
+	Ended field-anyIterable in 0ms
+	Ended execution-strategy in 0ms
+	Ended execute-operation in 0ms
+	Ended execution in 1ms
+Started execution...
+Started parse...
+	Ended parse in 0ms
+Started validation...
+	Ended validation in 0ms
+Started execute-operation...
+Started execution-strategy...
+Started field-string...
+Started fetch-string...
+	Ended fetch-string in 0ms
+	Ended field-string in 0ms
+Started field-completableFuture...
+Started fetch-completableFuture...
+	Ended fetch-completableFuture in 0ms
+	Ended field-completableFuture in 1ms
+	Ended execution-strategy in 1ms
+	Ended execute-operation in 1ms
+	Ended execution in 1ms
+Started execution...
+Started parse...
+	Ended parse in 0ms
+Started validation...
+	Ended validation in 0ms
+Started execute-operation...
+Started execution-strategy...
+Started field-interface...
+Started fetch-interface...
+	Ended fetch-interface in 0ms
+	Ended field-interface in 1ms
+Started field-value...
+Started fetch-value...
+	Ended fetch-value in 0ms
+	Ended field-value in 0ms
+	Ended execution-strategy in 1ms
+	Ended execute-operation in 1ms
+	Ended execution in 1ms
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to validate : '{ string(value: &quot;Sh&quot;) {shatter { append(text: &quot;1&quot;) {splitNonNull(regex: &quot;h&quot;) {value } } } } }'
+[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to validate : '{ string(value: &quot;Sh&quot;) {shatter { append(text: &quot;1&quot;) {splitNonNull(regex: &quot;h&quot;) {value } } } } }'
+[Test worker] WARN notprivacysafe.graphql.execution.SimpleDataFetcherExceptionHandler - Exception while fetching data (/string/throwException) : TestException
+java.lang.RuntimeException: TestException
+	at graphql.execution.batched.FunWithStringsSchemaFactory.lambda$new$1(FunWithStringsSchemaFactory.java:200)
+	at graphql.execution.ExecutionStrategy.fetchField(ExecutionStrategy.java:272)
+	at graphql.execution.ExecutionStrategy.resolveFieldWithInfo(ExecutionStrategy.java:200)
+	at graphql.execution.AsyncExecutionStrategy.execute(AsyncExecutionStrategy.java:74)
+	at graphql.execution.ExecutionStrategy.completeValueForObject(ExecutionStrategy.java:656)
+	at graphql.execution.ExecutionStrategy.completeValue(ExecutionStrategy.java:440)
+	at graphql.execution.ExecutionStrategy.completeField(ExecutionStrategy.java:390)
+	at graphql.execution.ExecutionStrategy.lambda$resolveFieldWithInfo$0(ExecutionStrategy.java:202)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:680)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:658)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2094)
+	at graphql.execution.ExecutionStrategy.resolveFieldWithInfo(ExecutionStrategy.java:201)
+	at graphql.execution.AsyncExecutionStrategy.execute(AsyncExecutionStrategy.java:74)
+	at graphql.execution.Execution.executeOperation(Execution.java:161)
+	at graphql.execution.Execution.execute(Execution.java:102)
+	at graphql.GraphQL.execute(GraphQL.java:607)
+	at graphql.GraphQL.parseValidateAndExecute(GraphQL.java:540)
+	at graphql.GraphQL.executeAsync(GraphQL.java:504)
+	at graphql.GraphQL.execute(GraphQL.java:434)
+	at graphql.GraphQL.execute(GraphQL.java:305)
+	at jdk.internal.reflect.GeneratedMethodAccessor157.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePojoMethod(InvokerHelper.java:913)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:904)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodN(ScriptBytecodeAdapter.java:168)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.runTestAsync(BatchedExecutionStrategyTest.groovy:93)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.runTest(BatchedExecutionStrategyTest.groovy:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePogoMethod(InvokerHelper.java:925)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:908)
+	at org.spockframework.runtime.GroovyRuntimeUtil.invokeMethod(GroovyRuntimeUtil.java:174)
+	at org.spockframework.runtime.SpockRuntime.verifyMethodCondition(SpockRuntime.java:83)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.$spock_feature_0_14(BatchedExecutionStrategyTest.groovy:383)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:188)
+	at org.spockframework.runtime.model.MethodInfo.invoke(MethodInfo.java:84)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runFeatureMethod(BaseSpecRunner.java:406)
+	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:324)
+	at org.spockframework.runtime.BaseSpecRunner$6.invoke(BaseSpecRunner.java:309)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:288)
+	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:278)
+	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:269)
+	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:263)
+	at org.spockframework.runtime.BaseSpecRunner$5.invoke(BaseSpecRunner.java:246)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:238)
+	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:188)
+	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:98)
+	at org.spockframework.runtime.BaseSpecRunner$1.invoke(BaseSpecRunner.java:84)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:76)
+	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:67)
+	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at jdk.internal.reflect.GeneratedMethodAccessor53.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[Test worker] WARN notprivacysafe.graphql.execution.SimpleDataFetcherExceptionHandler - Exception while fetching data (/string/throwException) : TestException
+java.lang.RuntimeException: TestException
+	at graphql.execution.batched.FunWithStringsSchemaFactory.lambda$new$1(FunWithStringsSchemaFactory.java:200)
+	at graphql.execution.batched.UnbatchedDataFetcher.get(UnbatchedDataFetcher.java:39)
+	at graphql.execution.batched.UnbatchedDataFetcher.get(UnbatchedDataFetcher.java:21)
+	at graphql.execution.instrumentation.dataloader.DataLoaderDispatcherInstrumentation.lambda$instrumentDataFetcher$0(DataLoaderDispatcherInstrumentation.java:86)
+	at graphql.execution.batched.BatchedExecutionStrategy.fetchData(BatchedExecutionStrategy.java:282)
+	at graphql.execution.batched.BatchedExecutionStrategy.resolveField(BatchedExecutionStrategy.java:221)
+	at graphql.execution.batched.BatchedExecutionStrategy.executeImpl(BatchedExecutionStrategy.java:194)
+	at graphql.execution.batched.BatchedExecutionStrategy.lambda$executeImpl$1(BatchedExecutionStrategy.java:201)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenCompleteStage(CompletableFuture.java:883)
+	at java.base/java.util.concurrent.CompletableFuture.whenComplete(CompletableFuture.java:2251)
+	at graphql.execution.batched.BatchedExecutionStrategy.executeImpl(BatchedExecutionStrategy.java:195)
+	at graphql.execution.batched.BatchedExecutionStrategy.execute(BatchedExecutionStrategy.java:124)
+	at graphql.execution.Execution.executeOperation(Execution.java:161)
+	at graphql.execution.Execution.execute(Execution.java:102)
+	at graphql.GraphQL.execute(GraphQL.java:607)
+	at graphql.GraphQL.parseValidateAndExecute(GraphQL.java:540)
+	at graphql.GraphQL.executeAsync(GraphQL.java:504)
+	at graphql.GraphQL.execute(GraphQL.java:434)
+	at graphql.GraphQL.execute(GraphQL.java:305)
+	at jdk.internal.reflect.GeneratedMethodAccessor157.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePojoMethod(InvokerHelper.java:913)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:904)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodN(ScriptBytecodeAdapter.java:168)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.runTestBatchingUnbatched(BatchedExecutionStrategyTest.groovy:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.runTest(BatchedExecutionStrategyTest.groovy:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePogoMethod(InvokerHelper.java:925)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:908)
+	at org.spockframework.runtime.GroovyRuntimeUtil.invokeMethod(GroovyRuntimeUtil.java:174)
+	at org.spockframework.runtime.SpockRuntime.verifyMethodCondition(SpockRuntime.java:83)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.$spock_feature_0_14(BatchedExecutionStrategyTest.groovy:383)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:188)
+	at org.spockframework.runtime.model.MethodInfo.invoke(MethodInfo.java:84)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runFeatureMethod(BaseSpecRunner.java:406)
+	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:324)
+	at org.spockframework.runtime.BaseSpecRunner$6.invoke(BaseSpecRunner.java:309)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:288)
+	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:278)
+	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:269)
+	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:263)
+	at org.spockframework.runtime.BaseSpecRunner$5.invoke(BaseSpecRunner.java:246)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:238)
+	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:188)
+	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:98)
+	at org.spockframework.runtime.BaseSpecRunner$1.invoke(BaseSpecRunner.java:84)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:76)
+	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:67)
+	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at jdk.internal.reflect.GeneratedMethodAccessor53.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[Test worker] WARN notprivacysafe.graphql.execution.SimpleDataFetcherExceptionHandler - Exception while fetching data (/string/throwException) : TestException
+java.lang.RuntimeException: TestException
+	at graphql.execution.batched.FunWithStringsSchemaFactory$2.get(FunWithStringsSchemaFactory.java:66)
+	at graphql.schema.DataFetcher$get.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at graphql.schema.DataFetcher$get.call(Unknown Source)
+	at graphql.execution.instrumentation.TestingInstrumentation$2.get(TestingInstrumentation.groovy:122)
+	at graphql.execution.instrumentation.dataloader.DataLoaderDispatcherInstrumentation.lambda$instrumentDataFetcher$0(DataLoaderDispatcherInstrumentation.java:86)
+	at graphql.execution.batched.BatchedExecutionStrategy.fetchData(BatchedExecutionStrategy.java:282)
+	at graphql.execution.batched.BatchedExecutionStrategy.resolveField(BatchedExecutionStrategy.java:221)
+	at graphql.execution.batched.BatchedExecutionStrategy.executeImpl(BatchedExecutionStrategy.java:194)
+	at graphql.execution.batched.BatchedExecutionStrategy.lambda$executeImpl$1(BatchedExecutionStrategy.java:201)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenCompleteStage(CompletableFuture.java:883)
+	at java.base/java.util.concurrent.CompletableFuture.whenComplete(CompletableFuture.java:2251)
+	at graphql.execution.batched.BatchedExecutionStrategy.executeImpl(BatchedExecutionStrategy.java:195)
+	at graphql.execution.batched.BatchedExecutionStrategy.execute(BatchedExecutionStrategy.java:124)
+	at graphql.execution.Execution.executeOperation(Execution.java:161)
+	at graphql.execution.Execution.execute(Execution.java:102)
+	at graphql.GraphQL.execute(GraphQL.java:607)
+	at graphql.GraphQL.parseValidateAndExecute(GraphQL.java:540)
+	at graphql.GraphQL.executeAsync(GraphQL.java:504)
+	at graphql.GraphQL.execute(GraphQL.java:434)
+	at graphql.GraphQL.execute(GraphQL.java:305)
+	at jdk.internal.reflect.GeneratedMethodAccessor157.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePojoMethod(InvokerHelper.java:913)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:904)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodN(ScriptBytecodeAdapter.java:168)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.runTestBatching(BatchedExecutionStrategyTest.groovy:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.runTest(BatchedExecutionStrategyTest.groovy:79)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePogoMethod(InvokerHelper.java:925)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:908)
+	at org.spockframework.runtime.GroovyRuntimeUtil.invokeMethod(GroovyRuntimeUtil.java:174)
+	at org.spockframework.runtime.SpockRuntime.verifyMethodCondition(SpockRuntime.java:83)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.$spock_feature_0_14(BatchedExecutionStrategyTest.groovy:383)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:188)
+	at org.spockframework.runtime.model.MethodInfo.invoke(MethodInfo.java:84)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runFeatureMethod(BaseSpecRunner.java:406)
+	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:324)
+	at org.spockframework.runtime.BaseSpecRunner$6.invoke(BaseSpecRunner.java:309)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:288)
+	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:278)
+	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:269)
+	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:263)
+	at org.spockframework.runtime.BaseSpecRunner$5.invoke(BaseSpecRunner.java:246)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:238)
+	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:188)
+	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:98)
+	at org.spockframework.runtime.BaseSpecRunner$1.invoke(BaseSpecRunner.java:84)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:76)
+	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:67)
+	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at jdk.internal.reflect.GeneratedMethodAccessor53.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[Test worker] WARN notprivacysafe.graphql.execution.SimpleDataFetcherExceptionHandler - Exception while fetching data (/string/throwException) : TestException
+java.lang.RuntimeException: TestException
+	at graphql.execution.batched.FunWithStringsSchemaFactory.lambda$new$1(FunWithStringsSchemaFactory.java:200)
+	at graphql.execution.ExecutionStrategy.fetchField(ExecutionStrategy.java:272)
+	at graphql.execution.ExecutionStrategy.resolveFieldWithInfo(ExecutionStrategy.java:200)
+	at graphql.execution.AsyncExecutionStrategy.execute(AsyncExecutionStrategy.java:74)
+	at graphql.execution.ExecutionStrategy.completeValueForObject(ExecutionStrategy.java:656)
+	at graphql.execution.ExecutionStrategy.completeValue(ExecutionStrategy.java:440)
+	at graphql.execution.ExecutionStrategy.completeField(ExecutionStrategy.java:390)
+	at graphql.execution.ExecutionStrategy.lambda$resolveFieldWithInfo$0(ExecutionStrategy.java:202)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:680)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:658)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2094)
+	at graphql.execution.ExecutionStrategy.resolveFieldWithInfo(ExecutionStrategy.java:201)
+	at graphql.execution.AsyncExecutionStrategy.execute(AsyncExecutionStrategy.java:74)
+	at graphql.execution.Execution.executeOperation(Execution.java:161)
+	at graphql.execution.Execution.execute(Execution.java:102)
+	at graphql.GraphQL.execute(GraphQL.java:607)
+	at graphql.GraphQL.parseValidateAndExecute(GraphQL.java:540)
+	at graphql.GraphQL.executeAsync(GraphQL.java:504)
+	at graphql.GraphQL.execute(GraphQL.java:434)
+	at graphql.GraphQL.execute(GraphQL.java:305)
+	at graphql.GraphQL$execute$2.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.runTestAsyncExpectErrors(BatchedExecutionStrategyTest.groovy:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.runTestExpectErrors(BatchedExecutionStrategyTest.groovy:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePogoMethod(InvokerHelper.java:925)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:908)
+	at org.spockframework.runtime.GroovyRuntimeUtil.invokeMethod(GroovyRuntimeUtil.java:174)
+	at org.spockframework.runtime.SpockRuntime.verifyMethodCondition(SpockRuntime.java:83)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.$spock_feature_0_14(BatchedExecutionStrategyTest.groovy:384)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:188)
+	at org.spockframework.runtime.model.MethodInfo.invoke(MethodInfo.java:84)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runFeatureMethod(BaseSpecRunner.java:406)
+	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:324)
+	at org.spockframework.runtime.BaseSpecRunner$6.invoke(BaseSpecRunner.java:309)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:288)
+	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:278)
+	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:269)
+	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:263)
+	at org.spockframework.runtime.BaseSpecRunner$5.invoke(BaseSpecRunner.java:246)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:238)
+	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:188)
+	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:98)
+	at org.spockframework.runtime.BaseSpecRunner$1.invoke(BaseSpecRunner.java:84)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:76)
+	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:67)
+	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at jdk.internal.reflect.GeneratedMethodAccessor53.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[Test worker] WARN notprivacysafe.graphql.execution.SimpleDataFetcherExceptionHandler - Exception while fetching data (/string/throwException) : TestException
+java.lang.RuntimeException: TestException
+	at graphql.execution.batched.FunWithStringsSchemaFactory.lambda$new$1(FunWithStringsSchemaFactory.java:200)
+	at graphql.execution.batched.UnbatchedDataFetcher.get(UnbatchedDataFetcher.java:39)
+	at graphql.execution.batched.UnbatchedDataFetcher.get(UnbatchedDataFetcher.java:21)
+	at graphql.execution.instrumentation.dataloader.DataLoaderDispatcherInstrumentation.lambda$instrumentDataFetcher$0(DataLoaderDispatcherInstrumentation.java:86)
+	at graphql.execution.batched.BatchedExecutionStrategy.fetchData(BatchedExecutionStrategy.java:282)
+	at graphql.execution.batched.BatchedExecutionStrategy.resolveField(BatchedExecutionStrategy.java:221)
+	at graphql.execution.batched.BatchedExecutionStrategy.executeImpl(BatchedExecutionStrategy.java:194)
+	at graphql.execution.batched.BatchedExecutionStrategy.lambda$executeImpl$1(BatchedExecutionStrategy.java:201)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenCompleteStage(CompletableFuture.java:883)
+	at java.base/java.util.concurrent.CompletableFuture.whenComplete(CompletableFuture.java:2251)
+	at graphql.execution.batched.BatchedExecutionStrategy.executeImpl(BatchedExecutionStrategy.java:195)
+	at graphql.execution.batched.BatchedExecutionStrategy.execute(BatchedExecutionStrategy.java:124)
+	at graphql.execution.Execution.executeOperation(Execution.java:161)
+	at graphql.execution.Execution.execute(Execution.java:102)
+	at graphql.GraphQL.execute(GraphQL.java:607)
+	at graphql.GraphQL.parseValidateAndExecute(GraphQL.java:540)
+	at graphql.GraphQL.executeAsync(GraphQL.java:504)
+	at graphql.GraphQL.execute(GraphQL.java:434)
+	at graphql.GraphQL.execute(GraphQL.java:305)
+	at graphql.GraphQL$execute$2.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.runTestBatchingUnbatchedExpectErrors(BatchedExecutionStrategyTest.groovy:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.runTestExpectErrors(BatchedExecutionStrategyTest.groovy:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePogoMethod(InvokerHelper.java:925)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:908)
+	at org.spockframework.runtime.GroovyRuntimeUtil.invokeMethod(GroovyRuntimeUtil.java:174)
+	at org.spockframework.runtime.SpockRuntime.verifyMethodCondition(SpockRuntime.java:83)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.$spock_feature_0_14(BatchedExecutionStrategyTest.groovy:384)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:188)
+	at org.spockframework.runtime.model.MethodInfo.invoke(MethodInfo.java:84)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runFeatureMethod(BaseSpecRunner.java:406)
+	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:324)
+	at org.spockframework.runtime.BaseSpecRunner$6.invoke(BaseSpecRunner.java:309)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:288)
+	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:278)
+	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:269)
+	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:263)
+	at org.spockframework.runtime.BaseSpecRunner$5.invoke(BaseSpecRunner.java:246)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:238)
+	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:188)
+	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:98)
+	at org.spockframework.runtime.BaseSpecRunner$1.invoke(BaseSpecRunner.java:84)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:76)
+	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:67)
+	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at jdk.internal.reflect.GeneratedMethodAccessor53.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[Test worker] WARN notprivacysafe.graphql.execution.SimpleDataFetcherExceptionHandler - Exception while fetching data (/string/throwException) : TestException
+java.lang.RuntimeException: TestException
+	at graphql.execution.batched.FunWithStringsSchemaFactory$2.get(FunWithStringsSchemaFactory.java:66)
+	at graphql.schema.DataFetcher$get.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at graphql.schema.DataFetcher$get.call(Unknown Source)
+	at graphql.execution.instrumentation.TestingInstrumentation$2.get(TestingInstrumentation.groovy:122)
+	at graphql.execution.instrumentation.dataloader.DataLoaderDispatcherInstrumentation.lambda$instrumentDataFetcher$0(DataLoaderDispatcherInstrumentation.java:86)
+	at graphql.execution.batched.BatchedExecutionStrategy.fetchData(BatchedExecutionStrategy.java:282)
+	at graphql.execution.batched.BatchedExecutionStrategy.resolveField(BatchedExecutionStrategy.java:221)
+	at graphql.execution.batched.BatchedExecutionStrategy.executeImpl(BatchedExecutionStrategy.java:194)
+	at graphql.execution.batched.BatchedExecutionStrategy.lambda$executeImpl$1(BatchedExecutionStrategy.java:201)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenCompleteStage(CompletableFuture.java:883)
+	at java.base/java.util.concurrent.CompletableFuture.whenComplete(CompletableFuture.java:2251)
+	at graphql.execution.batched.BatchedExecutionStrategy.executeImpl(BatchedExecutionStrategy.java:195)
+	at graphql.execution.batched.BatchedExecutionStrategy.execute(BatchedExecutionStrategy.java:124)
+	at graphql.execution.Execution.executeOperation(Execution.java:161)
+	at graphql.execution.Execution.execute(Execution.java:102)
+	at graphql.GraphQL.execute(GraphQL.java:607)
+	at graphql.GraphQL.parseValidateAndExecute(GraphQL.java:540)
+	at graphql.GraphQL.executeAsync(GraphQL.java:504)
+	at graphql.GraphQL.execute(GraphQL.java:434)
+	at graphql.GraphQL.execute(GraphQL.java:305)
+	at graphql.GraphQL$execute$2.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.runTestBatchingExpectErrors(BatchedExecutionStrategyTest.groovy:61)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.runTestBatchingExpectErrors(BatchedExecutionStrategyTest.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.runTestExpectErrors(BatchedExecutionStrategyTest.groovy:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePogoMethod(InvokerHelper.java:925)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:908)
+	at org.spockframework.runtime.GroovyRuntimeUtil.invokeMethod(GroovyRuntimeUtil.java:174)
+	at org.spockframework.runtime.SpockRuntime.verifyMethodCondition(SpockRuntime.java:83)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.$spock_feature_0_14(BatchedExecutionStrategyTest.groovy:384)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:188)
+	at org.spockframework.runtime.model.MethodInfo.invoke(MethodInfo.java:84)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runFeatureMethod(BaseSpecRunner.java:406)
+	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:324)
+	at org.spockframework.runtime.BaseSpecRunner$6.invoke(BaseSpecRunner.java:309)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:288)
+	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:278)
+	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:269)
+	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:263)
+	at org.spockframework.runtime.BaseSpecRunner$5.invoke(BaseSpecRunner.java:246)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:238)
+	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:188)
+	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:98)
+	at org.spockframework.runtime.BaseSpecRunner$1.invoke(BaseSpecRunner.java:84)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:76)
+	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:67)
+	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at jdk.internal.reflect.GeneratedMethodAccessor53.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[Test worker] WARN notprivacysafe.graphql.execution.SimpleDataFetcherExceptionHandler - Exception while fetching data (/string/returnBadList) : BatchedDataFetcher provided invalid number of result values, expected 1 but got 2. Affected fields are set to null.
+graphql.execution.batched.BatchAssertionFailed: BatchedDataFetcher provided invalid number of result values, expected 1 but got 2. Affected fields are set to null.
+	at graphql.execution.batched.BatchedExecutionStrategy.assertResult(BatchedExecutionStrategy.java:335)
+	at graphql.execution.batched.BatchedExecutionStrategy.lambda$fetchData$4(BatchedExecutionStrategy.java:289)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:680)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:658)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2094)
+	at graphql.execution.batched.BatchedExecutionStrategy.fetchData(BatchedExecutionStrategy.java:289)
+	at graphql.execution.batched.BatchedExecutionStrategy.resolveField(BatchedExecutionStrategy.java:221)
+	at graphql.execution.batched.BatchedExecutionStrategy.executeImpl(BatchedExecutionStrategy.java:194)
+	at graphql.execution.batched.BatchedExecutionStrategy.lambda$executeImpl$1(BatchedExecutionStrategy.java:201)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenCompleteStage(CompletableFuture.java:883)
+	at java.base/java.util.concurrent.CompletableFuture.whenComplete(CompletableFuture.java:2251)
+	at graphql.execution.batched.BatchedExecutionStrategy.executeImpl(BatchedExecutionStrategy.java:195)
+	at graphql.execution.batched.BatchedExecutionStrategy.execute(BatchedExecutionStrategy.java:124)
+	at graphql.execution.Execution.executeOperation(Execution.java:161)
+	at graphql.execution.Execution.execute(Execution.java:102)
+	at graphql.GraphQL.execute(GraphQL.java:607)
+	at graphql.GraphQL.parseValidateAndExecute(GraphQL.java:540)
+	at graphql.GraphQL.executeAsync(GraphQL.java:504)
+	at graphql.GraphQL.execute(GraphQL.java:434)
+	at graphql.GraphQL.execute(GraphQL.java:305)
+	at jdk.internal.reflect.GeneratedMethodAccessor157.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePojoMethod(InvokerHelper.java:913)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:904)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodN(ScriptBytecodeAdapter.java:168)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.runTestBatching(BatchedExecutionStrategyTest.groovy:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePogoMethod(InvokerHelper.java:925)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:908)
+	at org.spockframework.runtime.GroovyRuntimeUtil.invokeMethod(GroovyRuntimeUtil.java:174)
+	at org.spockframework.runtime.SpockRuntime.verifyMethodCondition(SpockRuntime.java:83)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.$spock_feature_0_15(BatchedExecutionStrategyTest.groovy:392)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:188)
+	at org.spockframework.runtime.model.MethodInfo.invoke(MethodInfo.java:84)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runFeatureMethod(BaseSpecRunner.java:406)
+	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:324)
+	at org.spockframework.runtime.BaseSpecRunner$6.invoke(BaseSpecRunner.java:309)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:288)
+	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:278)
+	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:269)
+	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:263)
+	at org.spockframework.runtime.BaseSpecRunner$5.invoke(BaseSpecRunner.java:246)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:238)
+	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:188)
+	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:98)
+	at org.spockframework.runtime.BaseSpecRunner$1.invoke(BaseSpecRunner.java:84)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:76)
+	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:67)
+	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at jdk.internal.reflect.GeneratedMethodAccessor53.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[Test worker] WARN notprivacysafe.graphql.execution.SimpleDataFetcherExceptionHandler - Exception while fetching data (/string/returnBadList) : BatchedDataFetcher provided invalid number of result values, expected 1 but got 2. Affected fields are set to null.
+graphql.execution.batched.BatchAssertionFailed: BatchedDataFetcher provided invalid number of result values, expected 1 but got 2. Affected fields are set to null.
+	at graphql.execution.batched.BatchedExecutionStrategy.assertResult(BatchedExecutionStrategy.java:335)
+	at graphql.execution.batched.BatchedExecutionStrategy.lambda$fetchData$4(BatchedExecutionStrategy.java:289)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:680)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:658)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2094)
+	at graphql.execution.batched.BatchedExecutionStrategy.fetchData(BatchedExecutionStrategy.java:289)
+	at graphql.execution.batched.BatchedExecutionStrategy.resolveField(BatchedExecutionStrategy.java:221)
+	at graphql.execution.batched.BatchedExecutionStrategy.executeImpl(BatchedExecutionStrategy.java:194)
+	at graphql.execution.batched.BatchedExecutionStrategy.lambda$executeImpl$1(BatchedExecutionStrategy.java:201)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenCompleteStage(CompletableFuture.java:883)
+	at java.base/java.util.concurrent.CompletableFuture.whenComplete(CompletableFuture.java:2251)
+	at graphql.execution.batched.BatchedExecutionStrategy.executeImpl(BatchedExecutionStrategy.java:195)
+	at graphql.execution.batched.BatchedExecutionStrategy.execute(BatchedExecutionStrategy.java:124)
+	at graphql.execution.Execution.executeOperation(Execution.java:161)
+	at graphql.execution.Execution.execute(Execution.java:102)
+	at graphql.GraphQL.execute(GraphQL.java:607)
+	at graphql.GraphQL.parseValidateAndExecute(GraphQL.java:540)
+	at graphql.GraphQL.executeAsync(GraphQL.java:504)
+	at graphql.GraphQL.execute(GraphQL.java:434)
+	at graphql.GraphQL.execute(GraphQL.java:305)
+	at graphql.GraphQL$execute$2.call(Unknown Source)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.runTestBatchingExpectErrors(BatchedExecutionStrategyTest.groovy:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokePogoMethod(InvokerHelper.java:925)
+	at org.codehaus.groovy.runtime.InvokerHelper.invokeMethod(InvokerHelper.java:908)
+	at org.spockframework.runtime.GroovyRuntimeUtil.invokeMethod(GroovyRuntimeUtil.java:174)
+	at org.spockframework.runtime.SpockRuntime.verifyMethodCondition(SpockRuntime.java:83)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.$spock_feature_0_15(BatchedExecutionStrategyTest.groovy:393)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:188)
+	at org.spockframework.runtime.model.MethodInfo.invoke(MethodInfo.java:84)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runFeatureMethod(BaseSpecRunner.java:406)
+	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:324)
+	at org.spockframework.runtime.BaseSpecRunner$6.invoke(BaseSpecRunner.java:309)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:288)
+	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:278)
+	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:269)
+	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:263)
+	at org.spockframework.runtime.BaseSpecRunner$5.invoke(BaseSpecRunner.java:246)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:238)
+	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:188)
+	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:98)
+	at org.spockframework.runtime.BaseSpecRunner$1.invoke(BaseSpecRunner.java:84)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:76)
+	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:67)
+	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at jdk.internal.reflect.GeneratedMethodAccessor53.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[Test worker] WARN notprivacysafe.graphql.execution.SimpleDataFetcherExceptionHandler - Exception while fetching data (/user/id) : Hello
+java.lang.RuntimeException: Hello
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at graphql.execution.batched.BatchedExecutionStrategyTest$__spock_feature_0_20_closure2.doCall(BatchedExecutionStrategyTest.groovy:443)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at org.codehaus.groovy.runtime.ConvertedClosure.invokeCustom(ConvertedClosure.java:54)
+	at org.codehaus.groovy.runtime.ConversionHandler.invoke(ConversionHandler.java:124)
+	at com.sun.proxy.$Proxy28.get(Unknown Source)
+	at graphql.execution.batched.UnbatchedDataFetcher.get(UnbatchedDataFetcher.java:39)
+	at graphql.execution.batched.UnbatchedDataFetcher.get(UnbatchedDataFetcher.java:21)
+	at graphql.execution.instrumentation.dataloader.DataLoaderDispatcherInstrumentation.lambda$instrumentDataFetcher$0(DataLoaderDispatcherInstrumentation.java:86)
+	at graphql.execution.batched.BatchedExecutionStrategy.fetchData(BatchedExecutionStrategy.java:282)
+	at graphql.execution.batched.BatchedExecutionStrategy.resolveField(BatchedExecutionStrategy.java:221)
+	at graphql.execution.batched.BatchedExecutionStrategy.executeImpl(BatchedExecutionStrategy.java:194)
+	at graphql.execution.batched.BatchedExecutionStrategy.lambda$executeImpl$1(BatchedExecutionStrategy.java:201)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenCompleteStage(CompletableFuture.java:883)
+	at java.base/java.util.concurrent.CompletableFuture.whenComplete(CompletableFuture.java:2251)
+	at graphql.execution.batched.BatchedExecutionStrategy.executeImpl(BatchedExecutionStrategy.java:195)
+	at graphql.execution.batched.BatchedExecutionStrategy.execute(BatchedExecutionStrategy.java:124)
+	at graphql.execution.Execution.executeOperation(Execution.java:161)
+	at graphql.execution.Execution.execute(Execution.java:102)
+	at graphql.GraphQL.execute(GraphQL.java:607)
+	at graphql.GraphQL.parseValidateAndExecute(GraphQL.java:540)
+	at graphql.GraphQL.executeAsync(GraphQL.java:504)
+	at graphql.GraphQL.execute(GraphQL.java:434)
+	at graphql.GraphQL.execute(GraphQL.java:305)
+	at graphql.GraphQL$execute$2.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at graphql.execution.batched.BatchedExecutionStrategyTest.$spock_feature_0_20(BatchedExecutionStrategyTest.groovy:471)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:188)
+	at org.spockframework.runtime.model.MethodInfo.invoke(MethodInfo.java:84)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runFeatureMethod(BaseSpecRunner.java:406)
+	at org.spockframework.runtime.BaseSpecRunner.doRunIteration(BaseSpecRunner.java:324)
+	at org.spockframework.runtime.BaseSpecRunner$6.invoke(BaseSpecRunner.java:309)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runIteration(BaseSpecRunner.java:288)
+	at org.spockframework.runtime.BaseSpecRunner.initializeAndRunIteration(BaseSpecRunner.java:278)
+	at org.spockframework.runtime.BaseSpecRunner.runSimpleFeature(BaseSpecRunner.java:269)
+	at org.spockframework.runtime.BaseSpecRunner.doRunFeature(BaseSpecRunner.java:263)
+	at org.spockframework.runtime.BaseSpecRunner$5.invoke(BaseSpecRunner.java:246)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runFeature(BaseSpecRunner.java:238)
+	at org.spockframework.runtime.BaseSpecRunner.runFeatures(BaseSpecRunner.java:188)
+	at org.spockframework.runtime.BaseSpecRunner.doRunSpec(BaseSpecRunner.java:98)
+	at org.spockframework.runtime.BaseSpecRunner$1.invoke(BaseSpecRunner.java:84)
+	at org.spockframework.runtime.BaseSpecRunner.invokeRaw(BaseSpecRunner.java:481)
+	at org.spockframework.runtime.BaseSpecRunner.invoke(BaseSpecRunner.java:464)
+	at org.spockframework.runtime.BaseSpecRunner.runSpec(BaseSpecRunner.java:76)
+	at org.spockframework.runtime.BaseSpecRunner.run(BaseSpecRunner.java:67)
+	at org.spockframework.runtime.Sputnik.run(Sputnik.java:63)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at jdk.internal.reflect.GeneratedMethodAccessor53.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10.2</a> at 1 Oct 2019, 17:24:22</p>
+</div>
+</div>
+</body>
+</html>

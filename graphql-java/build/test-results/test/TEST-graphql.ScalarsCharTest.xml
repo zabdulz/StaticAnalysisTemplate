@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.ScalarsCharTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:21" hostname="pc1295" time="0.005">
+  <properties/>
+  <testcase name="Char parse literal a as a" classname="graphql.ScalarsCharTest" time="0.004"/>
+  <testcase name="Char parse literal b as b" classname="graphql.ScalarsCharTest" time="0.0"/>
+  <testcase name="Short returns null for invalid StringValue{value='aa'}" classname="graphql.ScalarsCharTest" time="0.0"/>
+  <testcase name="Short returns null for invalid IntValue{value=12}" classname="graphql.ScalarsCharTest" time="0.0"/>
+  <testcase name="Short serialize a into a (class java.lang.String)" classname="graphql.ScalarsCharTest" time="0.0"/>
+  <testcase name="Short serialize z into z (class java.lang.String)" classname="graphql.ScalarsCharTest" time="0.001"/>
+  <testcase name="serialize throws exception for invalid input " classname="graphql.ScalarsCharTest" time="0.0"/>
+  <testcase name="serialize throws exception for invalid input aa" classname="graphql.ScalarsCharTest" time="0.0"/>
+  <testcase name="serialize throws exception for invalid input java.lang.Object@18f5c464" classname="graphql.ScalarsCharTest" time="0.0"/>
+  <testcase name="parseValue throws exception for invalid input " classname="graphql.ScalarsCharTest" time="0.0"/>
+  <testcase name="parseValue throws exception for invalid input aa" classname="graphql.ScalarsCharTest" time="0.0"/>
+  <testcase name="parseValue throws exception for invalid input java.lang.Object@2f42e91b" classname="graphql.ScalarsCharTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

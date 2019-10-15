@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.ScalarsBigIntegerTest" tests="26" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:08" hostname="pc1295" time="0.014">
+  <properties/>
+  <testcase name="BigInteger parse literal 12345678910 as 12345678910" classname="graphql.ScalarsBigIntegerTest" time="0.003"/>
+  <testcase name="BigInteger parse literal 12345678911 as 12345678911" classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <testcase name="BigInteger parse literal 42 as 42" classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <testcase name="BigInteger returns null for invalid BooleanValue{value=true}" classname="graphql.ScalarsBigIntegerTest" time="0.001"/>
+  <testcase name="BigInteger returns null for invalid StringValue{value='42.3'}" classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <testcase name="BigInteger returns null for invalid FloatValue{value=12.12}" classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <testcase name="BigInteger returns null for invalid StringValue{value='not a number'}" classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <testcase name="BigInteger serialize 42 into 42 (class java.math.BigInteger)" classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <testcase name="BigInteger serialize 42 into 42 (class java.math.BigInteger)" classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <testcase name="BigInteger serialize -1 into -1 (class java.math.BigInteger)" classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <testcase name="BigInteger serialize 42 into 42 (class java.math.BigInteger)" classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <testcase name="BigInteger serialize 42.0 into 42 (class java.math.BigInteger)" classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <testcase name="BigInteger serialize 42 into 42 (class java.math.BigInteger)" classname="graphql.ScalarsBigIntegerTest" time="0.001"/>
+  <testcase name="BigInteger serialize 42 into 42 (class java.math.BigInteger)" classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <testcase name="BigInteger serialize 1234567 into 1234567 (class java.math.BigInteger)" classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <testcase name="BigInteger serialize 42 into 42 (class java.math.BigInteger)" classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <testcase name="serialize throws exception for invalid input " classname="graphql.ScalarsBigIntegerTest" time="0.001"/>
+  <testcase name="serialize throws exception for invalid input not a number " classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <testcase name="serialize throws exception for invalid input 12.12" classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <testcase name="serialize throws exception for invalid input 12.12" classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <testcase name="serialize throws exception for invalid input java.lang.Object@30ecb8a8" classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <testcase name="parseValue throws exception for invalid input " classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <testcase name="parseValue throws exception for invalid input not a number " classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <testcase name="parseValue throws exception for invalid input 12.12" classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <testcase name="parseValue throws exception for invalid input 12.12" classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <testcase name="parseValue throws exception for invalid input java.lang.Object@4164932c" classname="graphql.ScalarsBigIntegerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

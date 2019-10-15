@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.execution.AsyncTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:15" hostname="pc1295" time="0.037">
+  <properties/>
+  <testcase name="eachSequentially test" classname="graphql.execution.AsyncTest" time="0.007"/>
+  <testcase name="eachSequentially propagates exception" classname="graphql.execution.AsyncTest" time="0.004"/>
+  <testcase name="eachSequentially catches factory exception" classname="graphql.execution.AsyncTest" time="0.003"/>
+  <testcase name="each works for mapping function" classname="graphql.execution.AsyncTest" time="0.001"/>
+  <testcase name="each with mapping function propagates factory exception" classname="graphql.execution.AsyncTest" time="0.019"/>
+  <testcase name="each works for list of futures " classname="graphql.execution.AsyncTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

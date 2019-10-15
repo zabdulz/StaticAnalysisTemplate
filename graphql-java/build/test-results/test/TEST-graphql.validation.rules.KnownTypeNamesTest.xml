@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.validation.rules.KnownTypeNamesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.006">
+  <properties/>
+  <testcase name="unknown types is an error" classname="graphql.validation.rules.KnownTypeNamesTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

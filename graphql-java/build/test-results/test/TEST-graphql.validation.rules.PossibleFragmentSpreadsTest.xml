@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.validation.rules.PossibleFragmentSpreadsTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.023">
+  <properties/>
+  <testcase name="of the same object" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.014"/>
+  <testcase name="of the same object with inline fragment" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.001"/>
+  <testcase name="object into an implemented interface" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.0"/>
+  <testcase name="object into containing union" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.0"/>
+  <testcase name="union into contained object" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.001"/>
+  <testcase name="union into overlapping interface" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.0"/>
+  <testcase name="union into overlapping union" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.001"/>
+  <testcase name="interface into implemented object" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.0"/>
+  <testcase name="interface into overlapping interface" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.0"/>
+  <testcase name="interface into overlapping interface in inline fragment" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.0"/>
+  <testcase name="interface into overlapping union" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.001"/>
+  <testcase name="different object into object" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.0"/>
+  <testcase name="different object into object in inline fragment" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.0"/>
+  <testcase name="object into not implementing interface" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.001"/>
+  <testcase name="object into not containing union" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.0"/>
+  <testcase name="union into not contained object" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.001"/>
+  <testcase name="union into non overlapping interface" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.001"/>
+  <testcase name="union into non overlapping union" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.0"/>
+  <testcase name="interface into non implementing object" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.0"/>
+  <testcase name="interface into non overlapping interface" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.001"/>
+  <testcase name="interface into non overlapping interface in inline fragment" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.0"/>
+  <testcase name="interface into non overlapping union" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.0"/>
+  <testcase name="when fragment target type is not composite type do not error - FragmentsOnCompositeType takes care of the validation" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.001"/>
+  <testcase name="when inline fragment target type is not composite type do not error - FragmentsOnCompositeType takes care of the validation" classname="graphql.validation.rules.PossibleFragmentSpreadsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

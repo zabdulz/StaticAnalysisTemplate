@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.idl.ExecutableStarWarsSchemaTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:07" hostname="pc1295" time="0.037">
+  <properties/>
+  <testcase name="Correctly identifies R2-D2 as the hero of the Star Wars Saga" classname="graphql.schema.idl.ExecutableStarWarsSchemaTest" time="0.018"/>
+  <testcase name="Allows us to query for the friends of friends of R2-D2" classname="graphql.schema.idl.ExecutableStarWarsSchemaTest" time="0.007"/>
+  <testcase name="Allows us to query for both Luke and Leia, using two root fields and an alias" classname="graphql.schema.idl.ExecutableStarWarsSchemaTest" time="0.008"/>
+  <testcase name="Allows us to use a fragment to avoid duplicating content" classname="graphql.schema.idl.ExecutableStarWarsSchemaTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.idl.SchemaTypeCheckerTest" tests="79" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:07" hostname="pc1295" time="0.156">
+  <properties/>
+  <testcase name="test missing type in object" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.026"/>
+  <testcase name="test missing type in interface" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.002"/>
+  <testcase name="test missing type in union type" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="test missing type in input type" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.0"/>
+  <testcase name="test missing type in extension type" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="test missing schema" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.0"/>
+  <testcase name="test missing schema operation types" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="test missing schema is ok with Query type" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.0"/>
+  <testcase name="test missing schema is not ok with standard named Mutation and Subscription types" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="test operation type is not an object" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.004"/>
+  <testcase name="test ext type redefines fields in their base type" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.004"/>
+  <testcase name="test ext type redefines fields in their base type with null semantics" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="test ext type redefines fields in their base type with list semantics" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.0"/>
+  <testcase name="test ext type can redefine fields in their base type of the same type" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="test ext type redefines fields in their peer types" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="test ext type redefines fields in their peer types of the same type is ok" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="test ext type is missing the base type" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.004"/>
+  <testcase name="test object interface is missing" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.004"/>
+  <testcase name="test ext type interface is missing" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="test object interface is missing because its the wrong type" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.0"/>
+  <testcase name="test object when redefining interface field" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.004"/>
+  <testcase name="test type extension when redefining interface field" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="test object when missing interface field" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.004"/>
+  <testcase name="test type extension when missing interface field" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="test field arguments on object must match the interface" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.008"/>
+  <testcase name="test field arguments on objects must match the interface" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="test field arguments on object type extensions must match the interface" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="test object interface is all ok" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="test that field names within types are unique" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="test that field args are unique" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="test that deprecation directive is valid" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.002"/>
+  <testcase name="test that directives are valid" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="test that directives args are valid" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.003"/>
+  <testcase name="object type extensions invariants are enforced" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.009"/>
+  <testcase name="interface type extensions invariants are enforced" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="union type extensions invariants are enforced" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.002"/>
+  <testcase name="enum type extensions invariants are enforced" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.004"/>
+  <testcase name="scalar type extensions invariants are enforced" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="input object type extensions invariants are enforced" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.002"/>
+  <testcase name="covariant object types are supported" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="deviant covariant object types are detected" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition bad location" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition non unique arg name" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.0"/>
+  <testcase name="directive definition unknown arg type" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="undeclared directive definition will be caught" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition can be valid" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.0"/>
+  <testcase name="directive definition allowed argument type 'String' does not match argument value 'MONDAY'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.002"/>
+  <testcase name="directive definition allowed argument type 'String' does not match argument value '{ an: &quot;object&quot; }'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type 'String' does not match argument value '[&quot;str&quot;, &quot;str2&quot;]'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type 'ACustomDate' does not match argument value '&quot;AFailingDate&quot;'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.004"/>
+  <testcase name="directive definition allowed argument type '[String]' does not match argument value '&quot;str&quot;'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type '[String]!' does not match argument value '&quot;str&quot;'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.0"/>
+  <testcase name="directive definition allowed argument type '[String!]' does not match argument value '[&quot;str&quot;, null]'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type '[[String!]!]' does not match argument value '[[&quot;str&quot;], [&quot;str2&quot;, null]]'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type 'WEEKDAY' does not match argument value '&quot;somestr&quot;'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type 'WEEKDAY' does not match argument value 'SATURDAY'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.002"/>
+  <testcase name="directive definition allowed argument type 'UserInput' does not match argument value '{ fieldNonNull: &quot;str&quot;, fieldNonNull: &quot;dupeKey&quot; }'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.003"/>
+  <testcase name="directive definition allowed argument type 'UserInput' does not match argument value '{ fieldNonNull: &quot;str&quot;, unknown: &quot;field&quot; }'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.002"/>
+  <testcase name="directive definition allowed argument type 'UserInput' does not match argument value '{ fieldNonNull: &quot;str&quot;, fieldArray: &quot;strInsteadOfArray&quot; }'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.002"/>
+  <testcase name="directive definition allowed argument type 'UserInput' does not match argument value '{ fieldNonNull: &quot;str&quot;, fieldArrayOfArray: [&quot;ArrayInsteadOfArrayOfArray&quot;] }'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.002"/>
+  <testcase name="directive definition allowed argument type 'UserInput' does not match argument value '{ fieldNonNull: &quot;str&quot;, fieldNestedInput: &quot;strInsteadOfObject&quot; }'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type 'UserInput' does not match argument value '{ fieldNonNull: &quot;str&quot;, fieldNestedInput: { street: { s: &quot;objectInsteadOfString&quot; }} }'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.002"/>
+  <testcase name="directive definition allowed argument type 'UserInput' does not match argument value '{ field: &quot;missing the `fieldNonNull` entry&quot;}'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type 'String' matches argument value '&quot;str&quot;'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type 'Boolean' matches argument value 'false'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type 'String' matches argument value 'null'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type 'ACustomDate' matches argument value '&quot;TwoThousand-June-Six&quot;'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type 'ACustomDate' matches argument value '2002'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type '[String]' matches argument value '[&quot;str&quot;, null]'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type '[String]' matches argument value 'null'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type '[String!]!' matches argument value '[&quot;str&quot;]'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type '[[String!]!]' matches argument value '[[&quot;str&quot;], [&quot;str2&quot;, &quot;str3&quot;]]'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type 'WEEKDAY' matches argument value 'MONDAY'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type 'UserInput' matches argument value '{ fieldNonNull: &quot;str&quot; }'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type 'UserInput' matches argument value '{ fieldNonNull: &quot;str&quot;, fieldString: &quot;Hey&quot; }'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type 'UserInput' matches argument value '{ fieldNonNull: &quot;str&quot;, fieldWithDefault: &quot;notDefault&quot; }'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type 'UserInput' matches argument value '{ fieldNonNull: &quot;str&quot;, fieldArray: [&quot;Hey&quot;, &quot;Low&quot;] }'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type 'UserInput' matches argument value '{ fieldNonNull: &quot;str&quot;, fieldArrayOfArray: [[&quot;Hey&quot;], [&quot;Low&quot;]] }'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <testcase name="directive definition allowed argument type 'UserInput' matches argument value '{ fieldNonNull: &quot;str&quot;, fieldNestedInput: { street: &quot;nestedStr&quot;} }'" classname="graphql.schema.idl.SchemaTypeCheckerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

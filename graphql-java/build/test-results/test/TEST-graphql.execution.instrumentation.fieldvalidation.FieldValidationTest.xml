@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.execution.instrumentation.fieldvalidation.FieldValidationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:14" hostname="pc1295" time="0.074">
+  <properties/>
+  <testcase name="test_field_args_can_be_validated" classname="graphql.execution.instrumentation.fieldvalidation.FieldValidationTest" time="0.043"/>
+  <testcase name="test SimpleFieldAndArgumentsValidator" classname="graphql.execution.instrumentation.fieldvalidation.FieldValidationTest" time="0.012"/>
+  <testcase name="test fragment value uniqueness support is handled" classname="graphql.execution.instrumentation.fieldvalidation.FieldValidationTest" time="0.009"/>
+  <testcase name="test aliased fields is handled" classname="graphql.execution.instrumentation.fieldvalidation.FieldValidationTest" time="0.004"/>
+  <testcase name="test graphql from end to end" classname="graphql.execution.instrumentation.fieldvalidation.FieldValidationTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

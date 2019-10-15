@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.validation.SchemaValidatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:06" hostname="pc1295" time="0.055">
+  <properties/>
+  <testcase name="check used rules" classname="graphql.schema.validation.SchemaValidatorTest" time="0.007"/>
+  <testcase name="rules are used" classname="graphql.schema.validation.SchemaValidatorTest" time="0.03"/>
+  <testcase name="query fields are checked" classname="graphql.schema.validation.SchemaValidatorTest" time="0.007"/>
+  <testcase name="mutation fields are checked" classname="graphql.schema.validation.SchemaValidatorTest" time="0.002"/>
+  <testcase name="subscription fields are checked" classname="graphql.schema.validation.SchemaValidatorTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

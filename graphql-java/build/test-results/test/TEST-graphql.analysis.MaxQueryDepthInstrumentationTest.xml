@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.analysis.MaxQueryDepthInstrumentationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.035">
+  <properties/>
+  <testcase name="doesn't do anything if validation errors occur" classname="graphql.analysis.MaxQueryDepthInstrumentationTest" time="0.021"/>
+  <testcase name="doesn't do anything if exception was thrown" classname="graphql.analysis.MaxQueryDepthInstrumentationTest" time="0.005"/>
+  <testcase name="throws exception" classname="graphql.analysis.MaxQueryDepthInstrumentationTest" time="0.002"/>
+  <testcase name="doesn't throw exception" classname="graphql.analysis.MaxQueryDepthInstrumentationTest" time="0.002"/>
+  <testcase name="custom max query depth exceeded function" classname="graphql.analysis.MaxQueryDepthInstrumentationTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

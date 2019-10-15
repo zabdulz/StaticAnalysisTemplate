@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.UnionTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:19" hostname="pc1295" time="0.01">
+  <properties/>
+  <testcase name="can introspect on union and intersection types" classname="graphql.UnionTest" time="0.007"/>
+  <testcase name="executes union types with inline fragments" classname="graphql.UnionTest" time="0.002"/>
+  <testcase name="allows fragment conditions to be abstract types" classname="graphql.UnionTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

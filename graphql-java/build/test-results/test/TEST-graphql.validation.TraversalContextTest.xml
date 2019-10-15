@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.validation.TraversalContextTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.01">
+  <properties/>
+  <testcase name="operation definition" classname="graphql.validation.TraversalContextTest" time="0.008"/>
+  <testcase name="SelectionSet saves current output type as parent" classname="graphql.validation.TraversalContextTest" time="0.0"/>
+  <testcase name="field saves output type and fieldDefinition" classname="graphql.validation.TraversalContextTest" time="0.001"/>
+  <testcase name="directives are saved" classname="graphql.validation.TraversalContextTest" time="0.0"/>
+  <testcase name="inlineFragment type condition saved as output type" classname="graphql.validation.TraversalContextTest" time="0.0"/>
+  <testcase name="fragmentDefinition type condition saved as output type" classname="graphql.validation.TraversalContextTest" time="0.0"/>
+  <testcase name="inlineFragment that is not a GraphQLOutputType should result as null" classname="graphql.validation.TraversalContextTest" time="0.0"/>
+  <testcase name="fragmentDefinition that is not a GraphQLOutputType should result as null" classname="graphql.validation.TraversalContextTest" time="0.0"/>
+  <testcase name="variableDefinition saved as input type" classname="graphql.validation.TraversalContextTest" time="0.0"/>
+  <testcase name="variableDefinition that is not a GraphQLInputType should result as null" classname="graphql.validation.TraversalContextTest" time="0.0"/>
+  <testcase name="field argument saves argument and input type" classname="graphql.validation.TraversalContextTest" time="0.0"/>
+  <testcase name="directive argument saves argument and input type" classname="graphql.validation.TraversalContextTest" time="0.0"/>
+  <testcase name="array value saves input type" classname="graphql.validation.TraversalContextTest" time="0.001"/>
+  <testcase name="object field saves input type" classname="graphql.validation.TraversalContextTest" time="0.0"/>
+  <testcase name="visit array with schema input type is enum: input type is null after" classname="graphql.validation.TraversalContextTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

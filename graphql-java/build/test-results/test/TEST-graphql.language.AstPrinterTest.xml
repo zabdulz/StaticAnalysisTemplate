@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.language.AstPrinterTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:20" hostname="pc1295" time="0.012">
+  <properties/>
+  <testcase name="ast printing a complete schema" classname="graphql.language.AstPrinterTest" time="0.005"/>
+  <testcase name="ast printing specific schema node" classname="graphql.language.AstPrinterTest" time="0.002"/>
+  <testcase name="ast printing specific type node" classname="graphql.language.AstPrinterTest" time="0.001"/>
+  <testcase name="ast printing of queries" classname="graphql.language.AstPrinterTest" time="0.0"/>
+  <testcase name="ast printing of fragments" classname="graphql.language.AstPrinterTest" time="0.0"/>
+  <testcase name="ast printing of variables" classname="graphql.language.AstPrinterTest" time="0.0"/>
+  <testcase name="ast printing of directives" classname="graphql.language.AstPrinterTest" time="0.001"/>
+  <testcase name="ast printing of inline fragments" classname="graphql.language.AstPrinterTest" time="0.0"/>
+  <testcase name="ast printing of default variables" classname="graphql.language.AstPrinterTest" time="0.0"/>
+  <testcase name="ast printing of null" classname="graphql.language.AstPrinterTest" time="0.0"/>
+  <testcase name="ast printing of empty string" classname="graphql.language.AstPrinterTest" time="0.001"/>
+  <testcase name="ast printing of default variables with null" classname="graphql.language.AstPrinterTest" time="0.0"/>
+  <testcase name="print arguments descriptions" classname="graphql.language.AstPrinterTest" time="0.0"/>
+  <testcase name="print type extensions" classname="graphql.language.AstPrinterTest" time="0.001"/>
+  <testcase name="compact ast printing" classname="graphql.language.AstPrinterTest" time="0.0"/>
+  <testcase name="print ast with inline fragment without type condition" classname="graphql.language.AstPrinterTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

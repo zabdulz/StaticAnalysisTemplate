@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.PropertyDataFetcherTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:06" hostname="pc1295" time="0.046">
+  <properties/>
+  <testcase name="null source is always null" classname="graphql.schema.PropertyDataFetcherTest" time="0.004"/>
+  <testcase name="function based fetcher works with non null source" classname="graphql.schema.PropertyDataFetcherTest" time="0.006"/>
+  <testcase name="function based fetcher works with null source" classname="graphql.schema.PropertyDataFetcherTest" time="0.001"/>
+  <testcase name="fetch via map lookup" classname="graphql.schema.PropertyDataFetcherTest" time="0.0"/>
+  <testcase name="fetch via public getter with private subclass" classname="graphql.schema.PropertyDataFetcherTest" time="0.003"/>
+  <testcase name="fetch via method that isn't present" classname="graphql.schema.PropertyDataFetcherTest" time="0.0"/>
+  <testcase name="fetch via method that is private" classname="graphql.schema.PropertyDataFetcherTest" time="0.001"/>
+  <testcase name="fetch via method that is private with setAccessible OFF" classname="graphql.schema.PropertyDataFetcherTest" time="0.0"/>
+  <testcase name="fetch via public method" classname="graphql.schema.PropertyDataFetcherTest" time="0.0"/>
+  <testcase name="fetch via public method declared two classes up" classname="graphql.schema.PropertyDataFetcherTest" time="0.004"/>
+  <testcase name="fetch via property only defined on package protected impl" classname="graphql.schema.PropertyDataFetcherTest" time="0.0"/>
+  <testcase name="fetch via public field" classname="graphql.schema.PropertyDataFetcherTest" time="0.001"/>
+  <testcase name="fetch via private field" classname="graphql.schema.PropertyDataFetcherTest" time="0.0"/>
+  <testcase name="fetch via private field when setAccessible OFF" classname="graphql.schema.PropertyDataFetcherTest" time="0.0"/>
+  <testcase name="fetch when caching is in place has no bad effects" classname="graphql.schema.PropertyDataFetcherTest" time="0.001"/>
+  <testcase name="support for DFE on methods" classname="graphql.schema.PropertyDataFetcherTest" time="0.003"/>
+  <testcase name="finds interface methods" classname="graphql.schema.PropertyDataFetcherTest" time="0.004"/>
+  <testcase name="finds interface methods with inheritance" classname="graphql.schema.PropertyDataFetcherTest" time="0.005"/>
+  <testcase name="ensure DFE is passed to method" classname="graphql.schema.PropertyDataFetcherTest" time="0.0"/>
+  <testcase name="end to end test of property fetcher working" classname="graphql.schema.PropertyDataFetcherTest" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

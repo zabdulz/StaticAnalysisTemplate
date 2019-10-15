@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.SchemaUtilTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:08" hostname="pc1295" time="0.038">
+  <properties/>
+  <testcase name="collectAllTypes" classname="graphql.schema.SchemaUtilTest" time="0.007"/>
+  <testcase name="collectAllTypesNestedInput" classname="graphql.schema.SchemaUtilTest" time="0.006"/>
+  <testcase name="collect all types defined in directives" classname="graphql.schema.SchemaUtilTest" time="0.014"/>
+  <testcase name="group all types by implemented interface" classname="graphql.schema.SchemaUtilTest" time="0.0"/>
+  <testcase name="using reference to input as output results in error" classname="graphql.schema.SchemaUtilTest" time="0.001"/>
+  <testcase name="all references are replaced" classname="graphql.schema.SchemaUtilTest" time="0.009"/>
+  <testcase name="redefined types are caught" classname="graphql.schema.SchemaUtilTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

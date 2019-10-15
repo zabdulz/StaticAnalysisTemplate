@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.GraphQLTest" tests="45" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:08" hostname="pc1295" time="0.223">
+  <properties/>
+  <testcase name="simple query" classname="graphql.GraphQLTest" time="0.005"/>
+  <testcase name="query with sub-fields" classname="graphql.GraphQLTest" time="0.001"/>
+  <testcase name="query with validation errors" classname="graphql.GraphQLTest" time="0.002"/>
+  <testcase name="query with invalid syntax" classname="graphql.GraphQLTest" time="0.001"/>
+  <testcase name="query with invalid syntax 2" classname="graphql.GraphQLTest" time="0.001"/>
+  <testcase name="non null argument is missing" classname="graphql.GraphQLTest" time="0.001"/>
+  <testcase name="`Iterable` can be used as a `GraphQLList` field result" classname="graphql.GraphQLTest" time="0.003"/>
+  <testcase name="document with two operations executes specified operation" classname="graphql.GraphQLTest" time="0.002"/>
+  <testcase name="document with two operations but no specified operation throws" classname="graphql.GraphQLTest" time="0.001"/>
+  <testcase name="null mutation type does not throw an npe re: #345 but returns and error" classname="graphql.GraphQLTest" time="0.003"/>
+  <testcase name="#875 a subscription query against a schema that doesn't support subscriptions should result in a GraphQL error" classname="graphql.GraphQLTest" time="0.004"/>
+  <testcase name="query with int literal too large" classname="graphql.GraphQLTest" time="0.002"/>
+  <testcase name="query with missing argument results in arguments map missing the key" classname="graphql.GraphQLTest" time="0.004"/>
+  <testcase name="query with null argument results in arguments map with value null " classname="graphql.GraphQLTest" time="0.003"/>
+  <testcase name="query with missing key in an input object result in a map with missing key" classname="graphql.GraphQLTest" time="0.004"/>
+  <testcase name="query with null value in an input object result in a map with null as value" classname="graphql.GraphQLTest" time="0.003"/>
+  <testcase name="query with missing List input field results in a map with a missing key" classname="graphql.GraphQLTest" time="0.004"/>
+  <testcase name="query with null List input field results in a map with null as key" classname="graphql.GraphQLTest" time="0.003"/>
+  <testcase name="query with List containing null input field results in a map with a list containing null" classname="graphql.GraphQLTest" time="0.003"/>
+  <testcase name="#448 invalid trailing braces are handled correctly" classname="graphql.GraphQLTest" time="0.0"/>
+  <testcase name="wrong argument type: array of enum instead of enum" classname="graphql.GraphQLTest" time="0.002"/>
+  <testcase name="execution input passing builder" classname="graphql.GraphQLTest" time="0.001"/>
+  <testcase name="execution input using builder function" classname="graphql.GraphQLTest" time="0.002"/>
+  <testcase name="execution input passing builder to async" classname="graphql.GraphQLTest" time="0.001"/>
+  <testcase name="execution input using builder function to async" classname="graphql.GraphQLTest" time="0.002"/>
+  <testcase name="abort execution if query depth is too high ({ field {field {field {field {scalar}}}} })" classname="graphql.GraphQLTest" time="0.049"/>
+  <testcase name="abort execution if query depth is too high ({ field {field {field {scalar}}}} )" classname="graphql.GraphQLTest" time="0.001"/>
+  <testcase name="abort execution if query depth is too high ({ field {field {field {field {scalar}}}} })" classname="graphql.GraphQLTest" time="0.001"/>
+  <testcase name="abort execution if query depth is too high ({ field {field {field {field {field { scalar}}}} }})" classname="graphql.GraphQLTest" time="0.001"/>
+  <testcase name="abort execution if query depth is too high ({ f2:field {field {field {scalar}}} f1: field{scalar} f3: field {scalar}})" classname="graphql.GraphQLTest" time="0.001"/>
+  <testcase name="abort execution if complexity is too high ({ field {field {field {field {scalar}}}} })" classname="graphql.GraphQLTest" time="0.016"/>
+  <testcase name="abort execution if complexity is too high ({ field {field {field {scalar}}}} )" classname="graphql.GraphQLTest" time="0.001"/>
+  <testcase name="abort execution if complexity is too high ({ field {field {field {field {scalar}}}} })" classname="graphql.GraphQLTest" time="0.001"/>
+  <testcase name="abort execution if complexity is too high ({ f2:field {scalar} f1: field{scalar} f3: field {scalar}})" classname="graphql.GraphQLTest" time="0.002"/>
+  <testcase name="validation error with (max query depth)" classname="graphql.GraphQLTest" time="0.007"/>
+  <testcase name="validation error with (max query complexity)" classname="graphql.GraphQLTest" time="0.001"/>
+  <testcase name="batched execution with non batched DataFetcher returning CompletableFuture" classname="graphql.GraphQLTest" time="0.027"/>
+  <testcase name="graphql copying works as expected" classname="graphql.GraphQLTest" time="0.04"/>
+  <testcase name="disabling data loader instrumentation leaves instrumentation as is" classname="graphql.GraphQLTest" time="0.001"/>
+  <testcase name="a single DataLoader instrumentation leaves instrumentation as is" classname="graphql.GraphQLTest" time="0.004"/>
+  <testcase name="DataLoader instrumentation is the default instrumentation" classname="graphql.GraphQLTest" time="0.001"/>
+  <testcase name="query with triple quoted multi line strings" classname="graphql.GraphQLTest" time="0.005"/>
+  <testcase name="variables map can't be null via ExecutionInput" classname="graphql.GraphQLTest" time="0.0"/>
+  <testcase name="query can't be null via ExecutionInput" classname="graphql.GraphQLTest" time="0.0"/>
+  <testcase name="query must be set via ExecutionInput" classname="graphql.GraphQLTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to validate : '{ hello(arg:11) }'
+[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to parse : '{ hello(() }'
+[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to parse : '{ hello[](() }'
+[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to validate : '{ field }'
+[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to validate : '{foo(bar: 12345678910)}'
+[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to parse : '{hero { name }} }'
+[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to validate : '{query (fooParam: [Val1,Val2])}'
+[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to validate : '{a}'
+[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to validate : '{a}'
+]]></system-err>
+</testsuite>

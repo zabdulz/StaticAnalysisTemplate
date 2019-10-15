@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.language.NodeVisitorStubTest" tests="43" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:20" hostname="pc1295" time="0.075">
+  <properties/>
+  <testcase name="visitField call visitSelection by default" classname="graphql.language.NodeVisitorStubTest" time="0.028"/>
+  <testcase name="visitFragmentSpread call visitSelection by default" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="visitInlineFragment call visitSelection by default" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="visitFloatValue call visitValue by default" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="visitArrayValue call visitValue by default" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="visitIntValue call visitValue by default" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="visitBooleanValue call visitValue by default" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="visitNullValue call visitValue by default" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="visitObjectValue call visitValue by default" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="visitVariableReference call visitValue by default" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="visitEnumValue call visitValue by default" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="visitStringValue call visitValue by default" classname="graphql.language.NodeVisitorStubTest" time="0.001"/>
+  <testcase name="visitOperationDefinition call visitDefinition by default" classname="graphql.language.NodeVisitorStubTest" time="0.001"/>
+  <testcase name="visitFragmentDefinition call visitDefinition by default" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="visitDirectiveDefinition call visitDefinition by default" classname="graphql.language.NodeVisitorStubTest" time="0.001"/>
+  <testcase name="visitSchemaDefinition call visitDefinition by default" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="visitUnionTypeDefinition call visitTypeDefinition by default" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="visitInputObjectTypeDefinition call visitTypeDefinition by default" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="visitScalarTypeDefinition call visitTypeDefinition by default" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="visitInterfaceTypeDefinition call visitTypeDefinition by default" classname="graphql.language.NodeVisitorStubTest" time="0.001"/>
+  <testcase name="visitEnumTypeDefinition call visitTypeDefinition by default" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="visitObjectTypeDefinition call visitTypeDefinition by default" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="visitNonNullType call visitTypes by default" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="visitListType call visitTypes by default" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="visitTypeName call visitTypes by default" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="default for visitArgument is to call visitNode" classname="graphql.language.NodeVisitorStubTest" time="0.001"/>
+  <testcase name="default for visitDirective is to call visitNode" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="default for visitDirectiveLocation is to call visitNode" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="default for visitDocument is to call visitNode" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="default for visitEnumValueDefinition is to call visitNode" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="default for visitFieldDefinition is to call visitNode" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="default for visitInputValueDefinition is to call visitNode" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="default for visitInputValueDefinition is to call visitNode" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="default for visitObjectField is to call visitNode" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="default for visitOperationTypeDefinition is to call visitNode" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="default for visitOperationTypeDefinition is to call visitNode" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="default for visitSelectionSet is to call visitNode" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="default for visitVariableDefinition is to call visitNode" classname="graphql.language.NodeVisitorStubTest" time="0.001"/>
+  <testcase name="default for visitValue is to call visitNode" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="default for visitDefinition is to call visitNode" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="default for visitTypeDefinition is to call visitNode" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <testcase name="default for visitSelection is to call visitNode" classname="graphql.language.NodeVisitorStubTest" time="0.001"/>
+  <testcase name="default for visitType is to call visitNode" classname="graphql.language.NodeVisitorStubTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

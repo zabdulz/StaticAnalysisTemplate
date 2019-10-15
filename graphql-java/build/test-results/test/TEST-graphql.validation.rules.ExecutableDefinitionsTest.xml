@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.validation.rules.ExecutableDefinitionsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.01">
+  <properties/>
+  <testcase name="Executable Definitions with only operation" classname="graphql.validation.rules.ExecutableDefinitionsTest" time="0.005"/>
+  <testcase name="Executable Definitions with operation and fragment" classname="graphql.validation.rules.ExecutableDefinitionsTest" time="0.0"/>
+  <testcase name="Executable Definitions with type definition" classname="graphql.validation.rules.ExecutableDefinitionsTest" time="0.004"/>
+  <testcase name="Executable Definitions with schema definition" classname="graphql.validation.rules.ExecutableDefinitionsTest" time="0.001"/>
+  <testcase name="Executable Definitions with input value type definition" classname="graphql.validation.rules.ExecutableDefinitionsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.validation.rules.KnownArgumentNamesTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.008">
+  <properties/>
+  <testcase name="unknown field argument" classname="graphql.validation.rules.KnownArgumentNamesTest" time="0.007"/>
+  <testcase name="known field argument" classname="graphql.validation.rules.KnownArgumentNamesTest" time="0.0"/>
+  <testcase name="unknown directive argument" classname="graphql.validation.rules.KnownArgumentNamesTest" time="0.0"/>
+  <testcase name="known directive argument" classname="graphql.validation.rules.KnownArgumentNamesTest" time="0.001"/>
+  <testcase name="directive argument not validated against field arguments" classname="graphql.validation.rules.KnownArgumentNamesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

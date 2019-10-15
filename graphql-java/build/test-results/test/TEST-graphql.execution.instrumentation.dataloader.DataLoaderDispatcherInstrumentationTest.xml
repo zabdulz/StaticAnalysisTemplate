@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.execution.instrumentation.dataloader.DataLoaderDispatcherInstrumentationTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:11" hostname="pc1295" time="0.111">
+  <properties/>
+  <testcase name="dataloader instrumentation is always added and an empty data loader registry is in place" classname="graphql.execution.instrumentation.dataloader.DataLoaderDispatcherInstrumentationTest" time="0.011"/>
+  <testcase name="dispatch is never called if there are no data loaders" classname="graphql.execution.instrumentation.dataloader.DataLoaderDispatcherInstrumentationTest" time="0.006"/>
+  <testcase name="dispatch is called if there are data loaders" classname="graphql.execution.instrumentation.dataloader.DataLoaderDispatcherInstrumentationTest" time="0.013"/>
+  <testcase name="ensure DataLoaderDispatcherInstrumentation works for AsyncExecutionStrategy" classname="graphql.execution.instrumentation.dataloader.DataLoaderDispatcherInstrumentationTest" time="0.045"/>
+  <testcase name="ensure DataLoaderDispatcherInstrumentation works for AsyncSerialExecutionStrategy" classname="graphql.execution.instrumentation.dataloader.DataLoaderDispatcherInstrumentationTest" time="0.007"/>
+  <testcase name="ensure DataLoaderDispatcherInstrumentation works for BatchedExecutionStrategy" classname="graphql.execution.instrumentation.dataloader.DataLoaderDispatcherInstrumentationTest" time="0.009"/>
+  <testcase name="ensure DataLoaderDispatcherInstrumentation works for ExecutorServiceExecutionStrategy" classname="graphql.execution.instrumentation.dataloader.DataLoaderDispatcherInstrumentationTest" time="0.008"/>
+  <testcase name="basic batch loading is possible via instrumentation interception of Execution Strategies" classname="graphql.execution.instrumentation.dataloader.DataLoaderDispatcherInstrumentationTest" time="0.006"/>
+  <testcase name="non list queries work as expected" classname="graphql.execution.instrumentation.dataloader.DataLoaderDispatcherInstrumentationTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

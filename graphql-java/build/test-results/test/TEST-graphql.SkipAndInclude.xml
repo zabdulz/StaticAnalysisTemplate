@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.SkipAndInclude" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:03" hostname="pc1295" time="0.119">
+  <properties/>
+  <testcase name="@skip and @include" classname="graphql.SkipAndInclude" time="0.102"/>
+  <testcase name="@skip" classname="graphql.SkipAndInclude" time="0.008"/>
+  <testcase name="@include" classname="graphql.SkipAndInclude" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

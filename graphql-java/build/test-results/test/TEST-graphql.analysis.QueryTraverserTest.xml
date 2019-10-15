@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.analysis.QueryTraverserTest" tests="62" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:19" hostname="pc1295" time="0.342">
+  <properties/>
+  <testcase name="test preOrder order for visitField" classname="graphql.analysis.QueryTraverserTest" time="0.026"/>
+  <testcase name="test postOrder order for visitField" classname="graphql.analysis.QueryTraverserTest" time="0.006"/>
+  <testcase name="test for visitArgs and visitArgsValue" classname="graphql.analysis.QueryTraverserTest" time="0.028"/>
+  <testcase name="test preOrder order for inline fragments" classname="graphql.analysis.QueryTraverserTest" time="0.009"/>
+  <testcase name="test postOrder order for inline fragments" classname="graphql.analysis.QueryTraverserTest" time="0.006"/>
+  <testcase name="test preOrder order for fragment spreads" classname="graphql.analysis.QueryTraverserTest" time="0.009"/>
+  <testcase name="test postOrder order for fragment spreads" classname="graphql.analysis.QueryTraverserTest" time="0.006"/>
+  <testcase name="test preOrder and postOrder order for fragment definitions" classname="graphql.analysis.QueryTraverserTest" time="0.008"/>
+  <testcase name="works for mutations()" classname="graphql.analysis.QueryTraverserTest" time="0.008"/>
+  <testcase name="works for subscriptions()" classname="graphql.analysis.QueryTraverserTest" time="0.008"/>
+  <testcase name="field with arguments: (postOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.003"/>
+  <testcase name="field with arguments: (preOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.001"/>
+  <testcase name="simple query (postOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.006"/>
+  <testcase name="simple query (preOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.002"/>
+  <testcase name="query with non null and lists (postOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.007"/>
+  <testcase name="query with non null and lists (preOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.002"/>
+  <testcase name="query with inline fragment (postOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.008"/>
+  <testcase name="query with inline fragment (preOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.001"/>
+  <testcase name="query with inline fragment without condition (postOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.006"/>
+  <testcase name="query with inline fragment without condition (preOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.002"/>
+  <testcase name="query with fragment (postOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.007"/>
+  <testcase name="query with fragment (preOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.002"/>
+  <testcase name="query with skipped fields (postOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.003"/>
+  <testcase name="query with skipped fields (preOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.002"/>
+  <testcase name="query with skipped fields and variables (postOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.003"/>
+  <testcase name="query with skipped fields and variables (preOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.002"/>
+  <testcase name="nested fragments (postOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.009"/>
+  <testcase name="nested fragments (preOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.003"/>
+  <testcase name="skipped Fragment (postOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.003"/>
+  <testcase name="skipped Fragment (preOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.002"/>
+  <testcase name="skipped inline Fragment (postOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.003"/>
+  <testcase name="skipped inline Fragment (preOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.002"/>
+  <testcase name="skipped Field (postOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.003"/>
+  <testcase name="skipped Field (preOrder)" classname="graphql.analysis.QueryTraverserTest" time="0.002"/>
+  <testcase name="reduce preOrder" classname="graphql.analysis.QueryTraverserTest" time="0.009"/>
+  <testcase name="reduce postOrder" classname="graphql.analysis.QueryTraverserTest" time="0.006"/>
+  <testcase name="works for interfaces()" classname="graphql.analysis.QueryTraverserTest" time="0.008"/>
+  <testcase name="works for unions()" classname="graphql.analysis.QueryTraverserTest" time="0.008"/>
+  <testcase name="works for modified types (non null list elements)" classname="graphql.analysis.QueryTraverserTest" time="0.011"/>
+  <testcase name="works with introspection fields" classname="graphql.analysis.QueryTraverserTest" time="0.01"/>
+  <testcase name="#763 handles union types and introspection fields" classname="graphql.analysis.QueryTraverserTest" time="0.03"/>
+  <testcase name="can select an arbitrary root node" classname="graphql.analysis.QueryTraverserTest" time="0.005"/>
+  <testcase name="builder doesn't allow ambiguous arguments[0]" classname="graphql.analysis.QueryTraverserTest" time="0.0"/>
+  <testcase name="builder doesn't allow ambiguous arguments[1]" classname="graphql.analysis.QueryTraverserTest" time="0.001"/>
+  <testcase name="builder doesn't allow ambiguous arguments[2]" classname="graphql.analysis.QueryTraverserTest" time="0.0"/>
+  <testcase name="builder doesn't allow ambiguous arguments[3]" classname="graphql.analysis.QueryTraverserTest" time="0.0"/>
+  <testcase name="builder doesn't allow ambiguous arguments[4]" classname="graphql.analysis.QueryTraverserTest" time="0.0"/>
+  <testcase name="builder doesn't allow ambiguous arguments[5]" classname="graphql.analysis.QueryTraverserTest" time="0.0"/>
+  <testcase name="builder doesn't allow ambiguous arguments[6]" classname="graphql.analysis.QueryTraverserTest" time="0.0"/>
+  <testcase name="builder doesn't allow ambiguous arguments[7]" classname="graphql.analysis.QueryTraverserTest" time="0.0"/>
+  <testcase name="builder doesn't allow ambiguous arguments[8]" classname="graphql.analysis.QueryTraverserTest" time="0.0"/>
+  <testcase name="builder doesn't allow ambiguous arguments[9]" classname="graphql.analysis.QueryTraverserTest" time="0.0"/>
+  <testcase name="builder doesn't allow ambiguous arguments[10]" classname="graphql.analysis.QueryTraverserTest" time="0.0"/>
+  <testcase name="typename special field doens't have a fields container and throws exception" classname="graphql.analysis.QueryTraverserTest" time="0.003"/>
+  <testcase name="traverserContext is passed along" classname="graphql.analysis.QueryTraverserTest" time="0.007"/>
+  <testcase name="traverserContext parent nodes for fragment definitions" classname="graphql.analysis.QueryTraverserTest" time="0.003"/>
+  <testcase name="test depthFirst" classname="graphql.analysis.QueryTraverserTest" time="0.013"/>
+  <testcase name="test accumulate  is returned" classname="graphql.analysis.QueryTraverserTest" time="0.008"/>
+  <testcase name="can select an interface field as root node" classname="graphql.analysis.QueryTraverserTest" time="0.003"/>
+  <testcase name="can select __typename field as root node" classname="graphql.analysis.QueryTraverserTest" time="0.004"/>
+  <testcase name="respects visitorWithControl result" classname="graphql.analysis.QueryTraverserTest" time="0.003"/>
+  <testcase name="can copy with Scalar ObjectField visits" classname="graphql.analysis.QueryTraverserTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

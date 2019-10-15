@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.ScalarsIDTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:19" hostname="pc1295" time="0.006">
+  <properties/>
+  <testcase name="ID parse literal 1234ab as 1234ab" classname="graphql.ScalarsIDTest" time="0.003"/>
+  <testcase name="ID parse literal 123 as 123" classname="graphql.ScalarsIDTest" time="0.0"/>
+  <testcase name="ID returns null for invalid BooleanValue{value=true}" classname="graphql.ScalarsIDTest" time="0.001"/>
+  <testcase name="ID serialize 123ab into 123ab (class java.lang.String)" classname="graphql.ScalarsIDTest" time="0.0"/>
+  <testcase name="ID serialize 123 into 123 (class java.lang.String)" classname="graphql.ScalarsIDTest" time="0.0"/>
+  <testcase name="ID serialize 123123123123123123 into 123123123123123123 (class java.lang.String)" classname="graphql.ScalarsIDTest" time="0.0"/>
+  <testcase name="ID serialize 123123123123123123 into 123123123123123123 (class java.lang.String)" classname="graphql.ScalarsIDTest" time="0.0"/>
+  <testcase name="ID serialize 037ebc7a-f9b8-4d76-89f6-31b34a40e10b into 037ebc7a-f9b8-4d76-89f6-31b34a40e10b (class java.lang.String)" classname="graphql.ScalarsIDTest" time="0.0"/>
+  <testcase name="serialize throws exception for invalid input java.lang.Object@1a60d3c7" classname="graphql.ScalarsIDTest" time="0.001"/>
+  <testcase name="parseValue throws exception for invalid input java.lang.Object@7cf13c49" classname="graphql.ScalarsIDTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

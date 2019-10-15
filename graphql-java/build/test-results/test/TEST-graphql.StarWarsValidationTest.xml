@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.StarWarsValidationTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:19" hostname="pc1295" time="0.007">
+  <properties/>
+  <testcase name="Validates a complex but valid query" classname="graphql.StarWarsValidationTest" time="0.004"/>
+  <testcase name="Notes that non-existent fields are invalid" classname="graphql.StarWarsValidationTest" time="0.001"/>
+  <testcase name="Requires fields on objects" classname="graphql.StarWarsValidationTest" time="0.0"/>
+  <testcase name="Disallows fields on scalars" classname="graphql.StarWarsValidationTest" time="0.0"/>
+  <testcase name="Disallows object fields on interfaces" classname="graphql.StarWarsValidationTest" time="0.0"/>
+  <testcase name="Allows object fields in fragments" classname="graphql.StarWarsValidationTest" time="0.001"/>
+  <testcase name="Allows object fields in inline fragments" classname="graphql.StarWarsValidationTest" time="0.0"/>
+  <testcase name="Allows object fields in inline fragments on with no type" classname="graphql.StarWarsValidationTest" time="0.0"/>
+  <testcase name="Allows object fields in inline fragments with no type in array context" classname="graphql.StarWarsValidationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

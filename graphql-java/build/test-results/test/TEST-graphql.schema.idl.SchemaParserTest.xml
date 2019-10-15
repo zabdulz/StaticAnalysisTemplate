@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.idl.SchemaParserTest" tests="57" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:07" hostname="pc1295" time="0.053">
+  <properties/>
+  <testcase name="test full schema parsing" classname="graphql.schema.idl.SchemaParserTest" time="0.006"/>
+  <testcase name="test bad schema" classname="graphql.schema.idl.SchemaParserTest" time="0.017"/>
+  <testcase name="schema with union" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="empty types (with and without parentheses) are allowed in ' type Foo '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="empty types (with and without parentheses) are allowed in ' type Foo @directive '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="empty types (with and without parentheses) are allowed in ' type Foo { } '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="empty types (with and without parentheses) are allowed in ' type Foo @directive { } '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="empty types (with and without parentheses) are allowed in ' interface Foo '" classname="graphql.schema.idl.SchemaParserTest" time="0.002"/>
+  <testcase name="empty types (with and without parentheses) are allowed in ' interface Foo @directive '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="empty types (with and without parentheses) are allowed in ' interface Foo { } '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="empty types (with and without parentheses) are allowed in ' interface Foo @directive { } '" classname="graphql.schema.idl.SchemaParserTest" time="0.001"/>
+  <testcase name="empty types (with and without parentheses) are allowed in ' input Foo '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="empty types (with and without parentheses) are allowed in ' input Foo @directive '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="empty types (with and without parentheses) are allowed in ' input Foo { } '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="empty types (with and without parentheses) are allowed in ' input Foo @directive { } '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="empty types (with and without parentheses) are allowed in ' enum Foo '" classname="graphql.schema.idl.SchemaParserTest" time="0.001"/>
+  <testcase name="empty types (with and without parentheses) are allowed in ' enum Foo @directive '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="empty types (with and without parentheses) are allowed in ' enum Foo { } '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="empty types (with and without parentheses) are allowed in ' enum Foo @directive { } '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="empty types (with and without parentheses) are allowed in ' union Foo '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="empty types (with and without parentheses) are allowed in ' union Foo @directive  '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="empty types (with and without parentheses) are allowed in ' scalar Foo '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions are not allowed to be empty without directives in ' extend type Foo'" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions are not allowed to be empty without directives in ' extend type Foo {}'" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions are not allowed to be empty without directives in ' extend interface Foo '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions are not allowed to be empty without directives in ' extend interface Foo {}'" classname="graphql.schema.idl.SchemaParserTest" time="0.001"/>
+  <testcase name="extensions are not allowed to be empty without directives in ' extend input Foo '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions are not allowed to be empty without directives in ' extend input Foo {}'" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions are not allowed to be empty without directives in ' extend enum Foo '" classname="graphql.schema.idl.SchemaParserTest" time="0.001"/>
+  <testcase name="extensions are not allowed to be empty without directives in ' extend enum Foo {}'" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions are not allowed to be empty without directives in ' extend union Foo '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions are not allowed to be empty without directives in ' extend scalar Foo '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions are allowed to be empty with directives in ' extend type Foo @d1 @d2 {}'" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions are allowed to be empty with directives in ' extend interface Foo @d1 @d2  {}'" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions are allowed to be empty with directives in ' extend input Foo @d1 @d2 {}'" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions are allowed to be empty with directives in ' extend enum Foo @d1 @d2 {}'" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions are allowed to be empty with directives in ' extend union Foo @d1 @d2 '" classname="graphql.schema.idl.SchemaParserTest" time="0.001"/>
+  <testcase name="extensions are allowed to be empty with directives in ' extend scalar Foo @d1 @d2 '" classname="graphql.schema.idl.SchemaParserTest" time="0.002"/>
+  <testcase name="extensions must extend with fields or directives in ' extend type Foo @directive'" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions must extend with fields or directives in ' extend type Foo { f : Int }'" classname="graphql.schema.idl.SchemaParserTest" time="0.001"/>
+  <testcase name="extensions must extend with fields or directives in ' extend type Foo @directive { f : Int }'" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions must extend with fields or directives in ' extend interface Foo @directive '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions must extend with fields or directives in ' extend interface Foo { f : Int }'" classname="graphql.schema.idl.SchemaParserTest" time="0.001"/>
+  <testcase name="extensions must extend with fields or directives in ' extend interface Foo { f : Int }'" classname="graphql.schema.idl.SchemaParserTest" time="0.001"/>
+  <testcase name="extensions must extend with fields or directives in ' extend input Foo @directive '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions must extend with fields or directives in ' extend input Foo { f : Int }'" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions must extend with fields or directives in ' extend input Foo { f : Int }'" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions must extend with fields or directives in ' extend enum Foo @directive '" classname="graphql.schema.idl.SchemaParserTest" time="0.001"/>
+  <testcase name="extensions must extend with fields or directives in ' extend enum Foo { a,b,c }'" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions must extend with fields or directives in ' extend enum Foo @directive { a,b,c }'" classname="graphql.schema.idl.SchemaParserTest" time="0.001"/>
+  <testcase name="extensions must extend with fields or directives in ' extend union Foo @directive '" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions must extend with fields or directives in ' extend union Foo = | a | b | c'" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions must extend with fields or directives in ' extend union Foo = a | b | c'" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions must extend with fields or directives in ' extend union Foo @directive = | a | b | c'" classname="graphql.schema.idl.SchemaParserTest" time="0.001"/>
+  <testcase name="extensions must extend with fields or directives in ' extend union Foo @directive = a | b | c'" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="extensions must extend with fields or directives in ' extend scalar Foo @directive'" classname="graphql.schema.idl.SchemaParserTest" time="0.0"/>
+  <testcase name="1447 - non schema elements are detected" classname="graphql.schema.idl.SchemaParserTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

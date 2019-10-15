@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.validation.rules.VariablesTypesMatcherTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.001">
+  <properties/>
+  <testcase name="GraphQLScalarType{name='String', description='Built-in String', coercing=graphql.Scalars$3@5657c848} with default value null and expected GraphQLScalarType{name='String', description='Built-in String', coercing=graphql.Scalars$3@5657c848} should result: true " classname="graphql.validation.rules.VariablesTypesMatcherTest" time="0.001"/>
+  <testcase name="[String] with default value null and expected [String] should result: true " classname="graphql.validation.rules.VariablesTypesMatcherTest" time="0.0"/>
+  <testcase name="Boolean! with default value BooleanValue{value=true} and expected GraphQLScalarType{name='Boolean', description='Built-in Boolean', coercing=graphql.Scalars$4@222a2468} should result: true " classname="graphql.validation.rules.VariablesTypesMatcherTest" time="0.0"/>
+  <testcase name="String! with default value null and expected [String] should result: false " classname="graphql.validation.rules.VariablesTypesMatcherTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

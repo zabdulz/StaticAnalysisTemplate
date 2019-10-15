@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.language.AstValueHelperTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:20" hostname="pc1295" time="0.019">
+  <properties/>
+  <testcase name="converts boolean values to ASTs" classname="graphql.language.AstValueHelperTest" time="0.009"/>
+  <testcase name="converts Int values to Int ASTs" classname="graphql.language.AstValueHelperTest" time="0.0"/>
+  <testcase name="converts Float values to Int/Float ASTs" classname="graphql.language.AstValueHelperTest" time="0.001"/>
+  <testcase name="converts String values to String ASTs" classname="graphql.language.AstValueHelperTest" time="0.0"/>
+  <testcase name="converts ID values to Int/String ASTs" classname="graphql.language.AstValueHelperTest" time="0.0"/>
+  <testcase name="does not converts NonNull values to NullValue" classname="graphql.language.AstValueHelperTest" time="0.001"/>
+  <testcase name="converts string values to Enum ASTs if possible" classname="graphql.language.AstValueHelperTest" time="0.0"/>
+  <testcase name="converts array values to List ASTs" classname="graphql.language.AstValueHelperTest" time="0.0"/>
+  <testcase name="converts list singletons" classname="graphql.language.AstValueHelperTest" time="0.0"/>
+  <testcase name="converts input objects" classname="graphql.language.AstValueHelperTest" time="0.003"/>
+  <testcase name="converts input objects with explicit nulls" classname="graphql.language.AstValueHelperTest" time="0.003"/>
+  <testcase name="parse ast literals" classname="graphql.language.AstValueHelperTest" time="0.002"/>
+  <testcase name="1105 - encoding of json strings" classname="graphql.language.AstValueHelperTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

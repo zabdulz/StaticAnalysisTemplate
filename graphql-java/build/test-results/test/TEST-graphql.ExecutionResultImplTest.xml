@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.ExecutionResultImplTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:19" hostname="pc1295" time="0.006">
+  <properties/>
+  <testcase name="data with no errors" classname="graphql.ExecutionResultImplTest" time="0.004"/>
+  <testcase name="errors and data" classname="graphql.ExecutionResultImplTest" time="0.0"/>
+  <testcase name="errors and no data" classname="graphql.ExecutionResultImplTest" time="0.0"/>
+  <testcase name="errors and (present) null data" classname="graphql.ExecutionResultImplTest" time="0.0"/>
+  <testcase name="can have extensions" classname="graphql.ExecutionResultImplTest" time="0.001"/>
+  <testcase name="test set error building " classname="graphql.ExecutionResultImplTest" time="0.0"/>
+  <testcase name="test add error building " classname="graphql.ExecutionResultImplTest" time="0.001"/>
+  <testcase name="test add data building" classname="graphql.ExecutionResultImplTest" time="0.0"/>
+  <testcase name="test setting extensions" classname="graphql.ExecutionResultImplTest" time="0.0"/>
+  <testcase name="test adding extension" classname="graphql.ExecutionResultImplTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

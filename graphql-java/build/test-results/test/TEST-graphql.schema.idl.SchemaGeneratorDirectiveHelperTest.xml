@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.idl.SchemaGeneratorDirectiveHelperTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:07" hostname="pc1295" time="0.182">
+  <properties/>
+  <testcase name="will trace down into each directive callback" classname="graphql.schema.idl.SchemaGeneratorDirectiveHelperTest" time="0.039"/>
+  <testcase name="can modify the existing behaviour" classname="graphql.schema.idl.SchemaGeneratorDirectiveHelperTest" time="0.018"/>
+  <testcase name="ensure the readme examples work" classname="graphql.schema.idl.SchemaGeneratorDirectiveHelperTest" time="0.039"/>
+  <testcase name="can state-fully track wrapped elements" classname="graphql.schema.idl.SchemaGeneratorDirectiveHelperTest" time="0.013"/>
+  <testcase name="ordering of directive wiring is locked in place" classname="graphql.schema.idl.SchemaGeneratorDirectiveHelperTest" time="0.027"/>
+  <testcase name="all directives are available to all callbacks" classname="graphql.schema.idl.SchemaGeneratorDirectiveHelperTest" time="0.023"/>
+  <testcase name="parent and child element directives can be accessed" classname="graphql.schema.idl.SchemaGeneratorDirectiveHelperTest" time="0.012"/>
+  <testcase name="data fetchers can be changed in argument and object callbacks" classname="graphql.schema.idl.SchemaGeneratorDirectiveHelperTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

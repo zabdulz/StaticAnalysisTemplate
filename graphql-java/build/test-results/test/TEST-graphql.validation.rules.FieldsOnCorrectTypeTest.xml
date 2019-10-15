@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.validation.rules.FieldsOnCorrectTypeTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.027">
+  <properties/>
+  <testcase name="should add error to collector when field definition is null" classname="graphql.validation.rules.FieldsOnCorrectTypeTest" time="0.026"/>
+  <testcase name="should results in no error when field definition is filled" classname="graphql.validation.rules.FieldsOnCorrectTypeTest" time="0.0"/>
+  <testcase name="should results in no error when parent type is null" classname="graphql.validation.rules.FieldsOnCorrectTypeTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class graphql.execution.instrumentation.dataloader.DataLoaderPerformanceWithChainedInstrumentationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class graphql.execution.instrumentation.dataloader.DataLoaderPerformanceWithChainedInstrumentationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/graphql.execution.instrumentation.dataloader.html">graphql.execution.instrumentation.dataloader</a> &gt; DataLoaderPerformanceWithChainedInstrumentationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">1</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.699s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox skipped" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">chainedInstrumentation: 760 ensure data loader is performant for lists</td>
+<td class="success">0.091s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">chainedInstrumentation: 970 ensure data loader is performant for multiple field with lists</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">chainedInstrumentation: 970 ensure data loader is performant for multiple field with lists using async batch loading</td>
+<td class="success">0.219s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">chainedInstrumentation: data loader will work with deferred queries</td>
+<td class="success">0.139s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">chainedInstrumentation: data loader will work with deferred queries on multiple levels deep</td>
+<td class="success">0.122s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">chainedInstrumentation: ensure data loader is performant for lists using async batch loading</td>
+<td class="success">0.128s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>ids[shop-1, shop-2, shop-3]
+getDepartmentsForShops batch: [Shop{id='shop-1', name='Shop 1', departmentIds=[department-1, department-2, department-3]}, Shop{id='shop-2', name='Shop 2', departmentIds=[department-4, department-5, department-6]}, Shop{id='shop-3', name='Shop 3', departmentIds=[department-7, department-8, department-9]}]
+result [[Department{id='department-1', name='Department 1', productIds=[product-1]}, Department{id='department-2', name='Department 2', productIds=[product-2]}, Department{id='department-3', name='Department 3', productIds=[product-3]}], [Department{id='department-4', name='Department 4', productIds=[product-4]}, Department{id='department-5', name='Department 5', productIds=[product-5]}, Department{id='department-6', name='Department 6', productIds=[product-6]}], [Department{id='department-7', name='Department 7', productIds=[product-7]}, Department{id='department-8', name='Department 8', productIds=[product-8]}, Department{id='department-9', name='Department 9', productIds=[product-9]}]]
+getProductsForDepartments batch: [Department{id='department-1', name='Department 1', productIds=[product-1]}, Department{id='department-2', name='Department 2', productIds=[product-2]}, Department{id='department-3', name='Department 3', productIds=[product-3]}, Department{id='department-4', name='Department 4', productIds=[product-4]}, Department{id='department-5', name='Department 5', productIds=[product-5]}, Department{id='department-6', name='Department 6', productIds=[product-6]}, Department{id='department-7', name='Department 7', productIds=[product-7]}, Department{id='department-8', name='Department 8', productIds=[product-8]}, Department{id='department-9', name='Department 9', productIds=[product-9]}]
+ids[shop-1, shop-2, shop-3]
+getDepartmentsForShops batch: [Shop{id='shop-1', name='Shop 1', departmentIds=[department-1, department-2, department-3]}, Shop{id='shop-2', name='Shop 2', departmentIds=[department-4, department-5, department-6]}, Shop{id='shop-3', name='Shop 3', departmentIds=[department-7, department-8, department-9]}]
+result [[Department{id='department-1', name='Department 1', productIds=[product-1]}, Department{id='department-2', name='Department 2', productIds=[product-2]}, Department{id='department-3', name='Department 3', productIds=[product-3]}], [Department{id='department-4', name='Department 4', productIds=[product-4]}, Department{id='department-5', name='Department 5', productIds=[product-5]}, Department{id='department-6', name='Department 6', productIds=[product-6]}], [Department{id='department-7', name='Department 7', productIds=[product-7]}, Department{id='department-8', name='Department 8', productIds=[product-8]}, Department{id='department-9', name='Department 9', productIds=[product-9]}]]
+getProductsForDepartments batch: [Department{id='department-1', name='Department 1', productIds=[product-1]}, Department{id='department-2', name='Department 2', productIds=[product-2]}, Department{id='department-3', name='Department 3', productIds=[product-3]}, Department{id='department-4', name='Department 4', productIds=[product-4]}, Department{id='department-5', name='Department 5', productIds=[product-5]}, Department{id='department-6', name='Department 6', productIds=[product-6]}, Department{id='department-7', name='Department 7', productIds=[product-7]}, Department{id='department-8', name='Department 8', productIds=[product-8]}, Department{id='department-9', name='Department 9', productIds=[product-9]}]
+ids[shop-1, shop-2, shop-3, exshop-1, exshop-2, exshop-3]
+getDepartmentsForShops batch: [Shop{id='shop-1', name='Shop 1', departmentIds=[department-1, department-2, department-3]}, Shop{id='shop-2', name='Shop 2', departmentIds=[department-4, department-5, department-6]}, Shop{id='shop-3', name='Shop 3', departmentIds=[department-7, department-8, department-9]}, Shop{id='exshop-1', name='ExShop 1', departmentIds=[department-1, department-2, department-3]}, Shop{id='exshop-2', name='ExShop 2', departmentIds=[department-4, department-5, department-6]}, Shop{id='exshop-3', name='ExShop 3', departmentIds=[department-7, department-8, department-9]}]
+result [[Department{id='department-1', name='Department 1', productIds=[product-1]}, Department{id='department-2', name='Department 2', productIds=[product-2]}, Department{id='department-3', name='Department 3', productIds=[product-3]}], [Department{id='department-4', name='Department 4', productIds=[product-4]}, Department{id='department-5', name='Department 5', productIds=[product-5]}, Department{id='department-6', name='Department 6', productIds=[product-6]}], [Department{id='department-7', name='Department 7', productIds=[product-7]}, Department{id='department-8', name='Department 8', productIds=[product-8]}, Department{id='department-9', name='Department 9', productIds=[product-9]}], [Department{id='department-1', name='Department 1', productIds=[product-1]}, Department{id='department-2', name='Department 2', productIds=[product-2]}, Department{id='department-3', name='Department 3', productIds=[product-3]}], [Department{id='department-4', name='Department 4', productIds=[product-4]}, Department{id='department-5', name='Department 5', productIds=[product-5]}, Department{id='department-6', name='Department 6', productIds=[product-6]}], [Department{id='department-7', name='Department 7', productIds=[product-7]}, Department{id='department-8', name='Department 8', productIds=[product-8]}, Department{id='department-9', name='Department 9', productIds=[product-9]}]]
+getProductsForDepartments batch: [Department{id='department-1', name='Department 1', productIds=[product-1]}, Department{id='department-2', name='Department 2', productIds=[product-2]}, Department{id='department-3', name='Department 3', productIds=[product-3]}, Department{id='department-4', name='Department 4', productIds=[product-4]}, Department{id='department-5', name='Department 5', productIds=[product-5]}, Department{id='department-6', name='Department 6', productIds=[product-6]}, Department{id='department-7', name='Department 7', productIds=[product-7]}, Department{id='department-8', name='Department 8', productIds=[product-8]}, Department{id='department-9', name='Department 9', productIds=[product-9]}]
+ids[shop-1]
+getDepartmentsForShops batch: [Shop{id='shop-1', name='Shop 1', departmentIds=[department-1, department-2, department-3]}]
+result [[Department{id='department-1', name='Department 1', productIds=[product-1]}, Department{id='department-2', name='Department 2', productIds=[product-2]}, Department{id='department-3', name='Department 3', productIds=[product-3]}]]
+getProductsForDepartments batch: [Department{id='department-1', name='Department 1', productIds=[product-1]}, Department{id='department-2', name='Department 2', productIds=[product-2]}, Department{id='department-3', name='Department 3', productIds=[product-3]}]
+ids[shop-2]
+getDepartmentsForShops batch: [Shop{id='shop-2', name='Shop 2', departmentIds=[department-4, department-5, department-6]}]
+result [[Department{id='department-4', name='Department 4', productIds=[product-4]}, Department{id='department-5', name='Department 5', productIds=[product-5]}, Department{id='department-6', name='Department 6', productIds=[product-6]}]]
+getProductsForDepartments batch: [Department{id='department-4', name='Department 4', productIds=[product-4]}, Department{id='department-5', name='Department 5', productIds=[product-5]}, Department{id='department-6', name='Department 6', productIds=[product-6]}]
+ids[shop-3]
+getDepartmentsForShops batch: [Shop{id='shop-3', name='Shop 3', departmentIds=[department-7, department-8, department-9]}]
+result [[Department{id='department-7', name='Department 7', productIds=[product-7]}, Department{id='department-8', name='Department 8', productIds=[product-8]}, Department{id='department-9', name='Department 9', productIds=[product-9]}]]
+getProductsForDepartments batch: [Department{id='department-7', name='Department 7', productIds=[product-7]}, Department{id='department-8', name='Department 8', productIds=[product-8]}, Department{id='department-9', name='Department 9', productIds=[product-9]}]
+ids[shop-1]
+getDepartmentsForShops batch: [Shop{id='shop-1', name='Shop 1', departmentIds=[department-1, department-2, department-3]}]
+result [[Department{id='department-1', name='Department 1', productIds=[product-1]}, Department{id='department-2', name='Department 2', productIds=[product-2]}, Department{id='department-3', name='Department 3', productIds=[product-3]}]]
+getProductsForDepartments batch: [Department{id='department-1', name='Department 1', productIds=[product-1]}, Department{id='department-2', name='Department 2', productIds=[product-2]}, Department{id='department-3', name='Department 3', productIds=[product-3]}]
+ids[shop-2]
+getDepartmentsForShops batch: [Shop{id='shop-2', name='Shop 2', departmentIds=[department-4, department-5, department-6]}]
+result [[Department{id='department-4', name='Department 4', productIds=[product-4]}, Department{id='department-5', name='Department 5', productIds=[product-5]}, Department{id='department-6', name='Department 6', productIds=[product-6]}]]
+getProductsForDepartments batch: [Department{id='department-4', name='Department 4', productIds=[product-4]}, Department{id='department-5', name='Department 5', productIds=[product-5]}, Department{id='department-6', name='Department 6', productIds=[product-6]}]
+ids[shop-3]
+getDepartmentsForShops batch: [Shop{id='shop-3', name='Shop 3', departmentIds=[department-7, department-8, department-9]}]
+result [[Department{id='department-7', name='Department 7', productIds=[product-7]}, Department{id='department-8', name='Department 8', productIds=[product-8]}, Department{id='department-9', name='Department 9', productIds=[product-9]}]]
+getProductsForDepartments batch: [Department{id='department-7', name='Department 7', productIds=[product-7]}, Department{id='department-8', name='Department 8', productIds=[product-8]}, Department{id='department-9', name='Department 9', productIds=[product-9]}]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10.2</a> at 1 Oct 2019, 17:24:22</p>
+</div>
+</div>
+</body>
+</html>

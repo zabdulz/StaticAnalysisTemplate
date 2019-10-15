@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.execution.reactive.CompletionStageMappingPublisherTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:17" hostname="pc1295" time="0.038">
+  <properties/>
+  <testcase name="basic mapping" classname="graphql.execution.reactive.CompletionStageMappingPublisherTest" time="0.024"/>
+  <testcase name="multiple subscribers get there messages" classname="graphql.execution.reactive.CompletionStageMappingPublisherTest" time="0.004"/>
+  <testcase name="error handling" classname="graphql.execution.reactive.CompletionStageMappingPublisherTest" time="0.005"/>
+  <testcase name="mapper exception causes onError" classname="graphql.execution.reactive.CompletionStageMappingPublisherTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

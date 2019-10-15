@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.SchemaTraverserTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:05" hostname="pc1295" time="0.097">
+  <properties/>
+  <testcase name="reachable scalar type" classname="graphql.schema.SchemaTraverserTest" time="0.021"/>
+  <testcase name="reachable string argument type" classname="graphql.schema.SchemaTraverserTest" time="0.001"/>
+  <testcase name="reachable number argument type" classname="graphql.schema.SchemaTraverserTest" time="0.001"/>
+  <testcase name="reachable enum type" classname="graphql.schema.SchemaTraverserTest" time="0.013"/>
+  <testcase name="reachable field definition type" classname="graphql.schema.SchemaTraverserTest" time="0.001"/>
+  <testcase name="reachable input object field type" classname="graphql.schema.SchemaTraverserTest" time="0.007"/>
+  <testcase name="reachable input object type" classname="graphql.schema.SchemaTraverserTest" time="0.001"/>
+  <testcase name="reachable interface type" classname="graphql.schema.SchemaTraverserTest" time="0.008"/>
+  <testcase name="reachable list type" classname="graphql.schema.SchemaTraverserTest" time="0.001"/>
+  <testcase name="reachable nonNull type" classname="graphql.schema.SchemaTraverserTest" time="0.001"/>
+  <testcase name="reachable object type" classname="graphql.schema.SchemaTraverserTest" time="0.001"/>
+  <testcase name="reachable reference type" classname="graphql.schema.SchemaTraverserTest" time="0.003"/>
+  <testcase name="reachable union type" classname="graphql.schema.SchemaTraverserTest" time="0.009"/>
+  <testcase name="reachable scalar directive" classname="graphql.schema.SchemaTraverserTest" time="0.005"/>
+  <testcase name="reachable object directive" classname="graphql.schema.SchemaTraverserTest" time="0.001"/>
+  <testcase name="reachable field definition directive" classname="graphql.schema.SchemaTraverserTest" time="0.002"/>
+  <testcase name="reachable argument directive" classname="graphql.schema.SchemaTraverserTest" time="0.002"/>
+  <testcase name="reachable interface directive" classname="graphql.schema.SchemaTraverserTest" time="0.001"/>
+  <testcase name="reachable union directive" classname="graphql.schema.SchemaTraverserTest" time="0.001"/>
+  <testcase name="reachable enum directive" classname="graphql.schema.SchemaTraverserTest" time="0.0"/>
+  <testcase name="reachable enum value directive" classname="graphql.schema.SchemaTraverserTest" time="0.002"/>
+  <testcase name="reachable input object directive" classname="graphql.schema.SchemaTraverserTest" time="0.001"/>
+  <testcase name="reachable input field definition directive" classname="graphql.schema.SchemaTraverserTest" time="0.001"/>
+  <testcase name="back references is are called when a type reference node is visited more than once" classname="graphql.schema.SchemaTraverserTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

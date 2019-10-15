@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.GraphQLErrorTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:03" hostname="pc1295" time="0.018">
+  <properties/>
+  <testcase name="toSpecification works as expected for class graphql.validation.ValidationError" classname="graphql.GraphQLErrorTest" time="0.007"/>
+  <testcase name="toSpecification works as expected for class graphql.execution.MissingRootTypeException" classname="graphql.GraphQLErrorTest" time="0.001"/>
+  <testcase name="toSpecification works as expected for class graphql.InvalidSyntaxError" classname="graphql.GraphQLErrorTest" time="0.0"/>
+  <testcase name="toSpecification works as expected for class graphql.execution.NonNullableFieldWasNullError" classname="graphql.GraphQLErrorTest" time="0.0"/>
+  <testcase name="toSpecification works as expected for class graphql.SerializationError" classname="graphql.GraphQLErrorTest" time="0.0"/>
+  <testcase name="toSpecification works as expected for class graphql.ExceptionWhileDataFetching" classname="graphql.GraphQLErrorTest" time="0.001"/>
+  <testcase name="transfer of extensions values works on ErrorWhileDataFetching case: has map" classname="graphql.GraphQLErrorTest" time="0.0"/>
+  <testcase name="transfer of extensions values works on ErrorWhileDataFetching case: empty map" classname="graphql.GraphQLErrorTest" time="0.0"/>
+  <testcase name="transfer of extensions values works on ErrorWhileDataFetching case: null map" classname="graphql.GraphQLErrorTest" time="0.0"/>
+  <testcase name="transfer of extensions values works on ErrorWhileDataFetching case: not gError" classname="graphql.GraphQLErrorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

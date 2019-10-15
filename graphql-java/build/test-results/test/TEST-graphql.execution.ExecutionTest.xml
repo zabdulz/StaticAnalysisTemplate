@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.execution.ExecutionTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:10" hostname="pc1295" time="0.027">
+  <properties/>
+  <testcase name="query strategy is used for query requests" classname="graphql.execution.ExecutionTest" time="0.021"/>
+  <testcase name="mutation strategy is used for mutation requests" classname="graphql.execution.ExecutionTest" time="0.0"/>
+  <testcase name="subscription strategy is used for subscription requests" classname="graphql.execution.ExecutionTest" time="0.001"/>
+  <testcase name="Update query strategy when instrumenting exection context" classname="graphql.execution.ExecutionTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

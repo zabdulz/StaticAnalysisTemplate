@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.execution.ValuesResolverTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:16" hostname="pc1295" time="0.032">
+  <properties/>
+  <testcase name="getVariableValues: simple variable input 100" classname="graphql.execution.ValuesResolverTest" time="0.004"/>
+  <testcase name="getVariableValues: simple variable input someString" classname="graphql.execution.ValuesResolverTest" time="0.001"/>
+  <testcase name="getVariableValues: simple variable input true" classname="graphql.execution.ValuesResolverTest" time="0.0"/>
+  <testcase name="getVariableValues: simple variable input 42.43" classname="graphql.execution.ValuesResolverTest" time="0.0"/>
+  <testcase name="getVariableValues: map object as variable input" classname="graphql.execution.ValuesResolverTest" time="0.001"/>
+  <testcase name="getVariableValues: object as variable input" classname="graphql.execution.ValuesResolverTest" time="0.005"/>
+  <testcase name="getVariableValues: simple value gets resolved to a list when the type is a List" classname="graphql.execution.ValuesResolverTest" time="0.0"/>
+  <testcase name="getArgumentValues: resolves argument with variable reference" classname="graphql.execution.ValuesResolverTest" time="0.001"/>
+  <testcase name="getArgumentValues: resolves object literal" classname="graphql.execution.ValuesResolverTest" time="0.007"/>
+  <testcase name="getArgumentValues: uses default value if object literal omits field" classname="graphql.execution.ValuesResolverTest" time="0.001"/>
+  <testcase name="getArgumentValues: missing InputObject fields which are non-null cause error" classname="graphql.execution.ValuesResolverTest" time="0.0"/>
+  <testcase name="getArgumentValues: resolves enum literals" classname="graphql.execution.ValuesResolverTest" time="0.001"/>
+  <testcase name="getArgumentValues: resolves array literals" classname="graphql.execution.ValuesResolverTest" time="0.007"/>
+  <testcase name="getArgumentValues: resolves single value literal to a list when type is a list " classname="graphql.execution.ValuesResolverTest" time="0.0"/>
+  <testcase name="getVariableValues: enum as variable input" classname="graphql.execution.ValuesResolverTest" time="0.0"/>
+  <testcase name="getVariableValues: input object with non-required fields and default values" classname="graphql.execution.ValuesResolverTest" time="0.001"/>
+  <testcase name="getVariableInput: Missing InputObject fields which are non-null cause error" classname="graphql.execution.ValuesResolverTest" time="0.001"/>
+  <testcase name="getVariableValues: simple types with values not provided in variables map" classname="graphql.execution.ValuesResolverTest" time="0.0"/>
+  <testcase name="getVariableValues: null default value for non null type" classname="graphql.execution.ValuesResolverTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.ScalarsFloatTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:08" hostname="pc1295" time="0.018">
+  <properties/>
+  <testcase name="Float parse literal 42.442 as 42.442" classname="graphql.ScalarsFloatTest" time="0.003"/>
+  <testcase name="Float parse literal 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368 as 1.7976931348623157E308" classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="Float parse literal 4.940656458412465441765687928682213723650598026143247644255856825006755072702087518652998363616359923797965646954457177309266567103559397963987747960107818781263007131903114045278458171678489821036887186360569987307230500063874091535649843873124733972731696151400317153853980741262385655911710266585566867681870395603106249319452715914924553293054565444011274801297099995419319894090804165633245247571478690147267801593552386115501348035264934720193790268107107491703332226844753335720832431936092382893458368060106011506169809753078342277318329247904982524730776375927247874656084778203734469699533647017972677717585125660551199131504891101451037862738167250955837389733598993664809941164205702637090279242767544565229087538682506419718265533447265625E-324 as 4.9E-324" classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="Float parse literal 12345678910 as 12345678910" classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="Float returns null for invalid BooleanValue{value=true}" classname="graphql.ScalarsFloatTest" time="0.001"/>
+  <testcase name="Float returns null for invalid StringValue{value=''}" classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="Float serialize 42 into 42.0 (class java.lang.Double)" classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="Float serialize 42.123 into 42.123 (class java.lang.Double)" classname="graphql.ScalarsFloatTest" time="0.001"/>
+  <testcase name="Float serialize 42.0 into 42 (class java.lang.Integer)" classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="Float serialize 42 into 42 (class java.lang.Integer)" classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="Float serialize -1 into -1 (class java.lang.Integer)" classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="Float serialize 42 into 42 (class java.lang.Integer)" classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="Float serialize 42 into 42 (class java.lang.Integer)" classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="Float serialize 42.3 into 42.3 (class java.lang.Double)" classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="Float serialize 42.0 into 42.0 (class java.lang.Double)" classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="Float serialize 42 into 42 (class java.lang.Integer)" classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="Float serialize 42 into 42 (class java.lang.Integer)" classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="Float serialize 1234567 into 1234567.0 (class java.lang.Double)" classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="Float serialize 42 into 42 (class java.lang.Integer)" classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="Float serialize 1.7976931348623157E308 into 1.7976931348623157E308 (class java.lang.Double)" classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="Float serialize 4.9E-324 into 4.9E-324 (class java.lang.Double)" classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="serialize throws exception for invalid input " classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="serialize throws exception for invalid input not a number " classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="serialize throws exception for invalid input NaN" classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="serialize/parseValue throws exception for invalid input " classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="serialize/parseValue throws exception for invalid input not a number " classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <testcase name="serialize/parseValue throws exception for invalid input NaN" classname="graphql.ScalarsFloatTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

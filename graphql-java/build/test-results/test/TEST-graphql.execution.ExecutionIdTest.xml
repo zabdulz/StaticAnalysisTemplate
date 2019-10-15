@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.execution.ExecutionIdTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:16" hostname="pc1295" time="0.014">
+  <properties/>
+  <testcase name="Ensures that an execution identifier is present by default" classname="graphql.execution.ExecutionIdTest" time="0.008"/>
+  <testcase name="Ensures that an execution identifier provider is able to be specified" classname="graphql.execution.ExecutionIdTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

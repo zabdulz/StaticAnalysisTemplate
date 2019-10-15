@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.execution.instrumentation.dataloader.DataLoaderNodeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:11" hostname="pc1295" time="0.012">
+  <properties/>
+  <testcase name="levels of loading" classname="graphql.execution.instrumentation.dataloader.DataLoaderNodeTest" time="0.012"/>
+  <system-out><![CDATA[BatchLoader called for [1] -> got [[2, 3]]
+BatchLoader called for [2, 3] -> got [[4, 5], [6, 7]]
+BatchLoader called for [4, 5, 6, 7] -> got [[], [], [], []]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

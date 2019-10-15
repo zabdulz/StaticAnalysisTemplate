@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.GraphQLNonNullTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:04" hostname="pc1295" time="0.017">
+  <properties/>
+  <testcase name="non null wrapping" classname="graphql.schema.GraphQLNonNullTest" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

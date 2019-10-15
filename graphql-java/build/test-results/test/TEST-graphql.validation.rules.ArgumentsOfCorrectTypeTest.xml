@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.validation.rules.ArgumentsOfCorrectTypeTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.016">
+  <properties/>
+  <testcase name="valid type results in no error" classname="graphql.validation.rules.ArgumentsOfCorrectTypeTest" time="0.006"/>
+  <testcase name="invalid type results in error" classname="graphql.validation.rules.ArgumentsOfCorrectTypeTest" time="0.001"/>
+  <testcase name="invalid input object type results in error" classname="graphql.validation.rules.ArgumentsOfCorrectTypeTest" time="0.0"/>
+  <testcase name="invalid list object type results in error" classname="graphql.validation.rules.ArgumentsOfCorrectTypeTest" time="0.001"/>
+  <testcase name="invalid list inside object type results in error" classname="graphql.validation.rules.ArgumentsOfCorrectTypeTest" time="0.001"/>
+  <testcase name="invalid list simple type results in error" classname="graphql.validation.rules.ArgumentsOfCorrectTypeTest" time="0.0"/>
+  <testcase name="type missing fields results in error" classname="graphql.validation.rules.ArgumentsOfCorrectTypeTest" time="0.001"/>
+  <testcase name="type not object results in error" classname="graphql.validation.rules.ArgumentsOfCorrectTypeTest" time="0.0"/>
+  <testcase name="type null fields results in error" classname="graphql.validation.rules.ArgumentsOfCorrectTypeTest" time="0.005"/>
+  <testcase name="type with extra fields results in error" classname="graphql.validation.rules.ArgumentsOfCorrectTypeTest" time="0.001"/>
+  <testcase name="current null argument from context is no error" classname="graphql.validation.rules.ArgumentsOfCorrectTypeTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

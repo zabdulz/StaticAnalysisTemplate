@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.idl.SchemaGeneratorTest" tests="54" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:06" hostname="pc1295" time="0.266">
+  <properties/>
+  <testcase name="test simple schema generate" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.016"/>
+  <testcase name="schema can come from multiple sources and be bound together" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.005"/>
+  <testcase name="union type: union member used two times " classname="graphql.schema.idl.SchemaGeneratorTest" time="0.006"/>
+  <testcase name="union type: union members only used once" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.001"/>
+  <testcase name="union type: union declared before members" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.002"/>
+  <testcase name="union type: recursive definition via union type: Foo -&gt; FooOrBar -&gt; Foo  " classname="graphql.schema.idl.SchemaGeneratorTest" time="0.004"/>
+  <testcase name="enum types are handled" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.005"/>
+  <testcase name="interface types are handled" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.005"/>
+  <testcase name="type extensions can be specified multiple times #406" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.012"/>
+  <testcase name="read me type example makes sense" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.003"/>
+  <testcase name="Type used as inputType should throw appropriate error #425" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.005"/>
+  <testcase name="InputType used as type should throw appropriate error #425" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.005"/>
+  <testcase name="schema with subscription" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.002"/>
+  <testcase name="comments are used as descriptions" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.003"/>
+  <testcase name="doc string comments are used as descriptions by preference" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.003"/>
+  <testcase name="comments are separated from descriptions with empty lines" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.002"/>
+  <testcase name="static enum values provider" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.028"/>
+  <testcase name="enum with no values provider: value is the name" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.002"/>
+  <testcase name="when using implicit directive (w/o definition), stringArg is supported" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.002"/>
+  <testcase name="when using implicit directive (w/o definition), boolArg is supported" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.001"/>
+  <testcase name="when using implicit directive (w/o definition), floatArg is supported" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.001"/>
+  <testcase name="when using implicit directive (w/o definition), intArg is supported" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.001"/>
+  <testcase name="when using implicit directive (w/o definition), nullArg is supported" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.001"/>
+  <testcase name="when using implicit directive (w/o definition), emptyArrayArg is supported" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.002"/>
+  <testcase name="when using implicit directive (w/o definition), arrayNullsArg is supported" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.001"/>
+  <testcase name="when using implicit directive (w/o definition), arrayArg is supported" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.005"/>
+  <testcase name="when using implicit directive (w/o definition), arrayWithNullsArg is supported" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.002"/>
+  <testcase name="when using implicit directive (w/o definition), objArg is NOT supported" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.001"/>
+  <testcase name="when using implicit directive (w/o definition), enumArg is NOT supported" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.002"/>
+  <testcase name="when using implicit directive (w/o definition), polymorphicArrayArg is NOT supported" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.0"/>
+  <testcase name="deprecated directive is supported" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.002"/>
+  <testcase name="schema is optional if there is a type called Query" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.001"/>
+  <testcase name="schema is optional if there is a type called Query while Mutation and Subscription will be found" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.002"/>
+  <testcase name="builds additional types not referenced from schema top level" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.002"/>
+  <testcase name="scalar default value is parsed" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.002"/>
+  <testcase name="null default arguments are ok" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.001"/>
+  <testcase name="object type directives are gathered and turned into runtime objects with arguments" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.014"/>
+  <testcase name="other type directives are captured" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.01"/>
+  <testcase name="input object default value is parsed" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.003"/>
+  <testcase name="field visibility is used" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.005"/>
+  <testcase name="empty types are allowed and expanded" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.002"/>
+  <testcase name="interface extension types are combined" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.006"/>
+  <testcase name="union extension types are combined" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.01"/>
+  <testcase name="enum extension types are combined" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.011"/>
+  <testcase name="input extension types are combined" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.011"/>
+  <testcase name="arguments can have directives (which themselves can have arguments)" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.002"/>
+  <testcase name="directives definitions can be made" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.002"/>
+  <testcase name="directive definitions don't have to provide default values" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.002"/>
+  <testcase name="missing directive arguments are transferred as are default values" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.001"/>
+  <testcase name="deprecated directive is implicit" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.005"/>
+  <testcase name="@fetch directive is respected" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.003"/>
+  <testcase name="does not break for circular references to interfaces" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.006"/>
+  <testcase name="transformers get called once the schema is built" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.023"/>
+  <testcase name="1509- enum object string default values are handled" classname="graphql.schema.idl.SchemaGeneratorTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

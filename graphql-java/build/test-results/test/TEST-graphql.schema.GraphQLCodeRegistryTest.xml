@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.GraphQLCodeRegistryTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:05" hostname="pc1295" time="0.036">
+  <properties/>
+  <testcase name="records data fetchers against parent objects and fields" classname="graphql.schema.GraphQLCodeRegistryTest" time="0.019"/>
+  <testcase name="data fetchers can be retrieved using field coordinates" classname="graphql.schema.GraphQLCodeRegistryTest" time="0.001"/>
+  <testcase name="records type resolvers against unions and interfaces" classname="graphql.schema.GraphQLCodeRegistryTest" time="0.005"/>
+  <testcase name="records field visibility" classname="graphql.schema.GraphQLCodeRegistryTest" time="0.004"/>
+  <testcase name="schema delegates field visibility to code registry" classname="graphql.schema.GraphQLCodeRegistryTest" time="0.001"/>
+  <testcase name="integration test that code registry gets asked for data fetchers" classname="graphql.schema.GraphQLCodeRegistryTest" time="0.002"/>
+  <testcase name="integration test that code registry works with SDL and the code registry can be pre-specified" classname="graphql.schema.GraphQLCodeRegistryTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

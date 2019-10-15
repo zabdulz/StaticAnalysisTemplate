@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" tests="25" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.051">
+  <properties/>
+  <testcase name="identical fields are ok" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.009"/>
+  <testcase name="two aliases with different targets" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.002"/>
+  <testcase name="conflicting scalar return types" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.006"/>
+  <testcase name="same wrapped scalar return types" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.001"/>
+  <testcase name="not the same non null return types" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.002"/>
+  <testcase name="not the same list return types" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.002"/>
+  <testcase name="unique fields" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.001"/>
+  <testcase name="identical fields" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.001"/>
+  <testcase name="identical fields with identical args" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.002"/>
+  <testcase name="identical fields with identical directives" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.002"/>
+  <testcase name="different args with different aliases" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.001"/>
+  <testcase name="different directives with different aliases" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.001"/>
+  <testcase name="Same aliases with different field targets" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.001"/>
+  <testcase name="Alias masking direct field access" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.001"/>
+  <testcase name="conflicting args" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.001"/>
+  <testcase name="different skip/include directives accepted" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.002"/>
+  <testcase name="encounters conflict in fragments" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.001"/>
+  <testcase name="reports each conflict once" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.002"/>
+  <testcase name="deep conflict" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.001"/>
+  <testcase name="deep conflict with multiple issues" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.002"/>
+  <testcase name="very deep conflict" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.001"/>
+  <testcase name="reports deep conflict to nearest common ancestor" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.001"/>
+  <testcase name="parent type is of List NonNull" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.002"/>
+  <testcase name="parent type is of List List NonNull" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.003"/>
+  <testcase name="parent type is of List NonNull and field is nullable" classname="graphql.validation.rules.OverlappingFieldsCanBeMergedTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

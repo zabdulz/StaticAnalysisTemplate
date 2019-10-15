@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.DataFetcherWithErrorsAndDataTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:20" hostname="pc1295" time="0.063">
+  <properties/>
+  <testcase name="#820 - data fetcher can return data and errors (strategy: executor)" classname="graphql.DataFetcherWithErrorsAndDataTest" time="0.015"/>
+  <testcase name="#820 - data fetcher can return data and errors (strategy: async)" classname="graphql.DataFetcherWithErrorsAndDataTest" time="0.002"/>
+  <testcase name="#820 - data fetcher can return data and errors (strategy: asyncSerial)" classname="graphql.DataFetcherWithErrorsAndDataTest" time="0.001"/>
+  <testcase name="#820 - data fetcher can return multiple errors (strategy: executor)" classname="graphql.DataFetcherWithErrorsAndDataTest" time="0.005"/>
+  <testcase name="#820 - data fetcher can return multiple errors (strategy: async)" classname="graphql.DataFetcherWithErrorsAndDataTest" time="0.002"/>
+  <testcase name="#820 - data fetcher can return multiple errors (strategy: asyncSerial)" classname="graphql.DataFetcherWithErrorsAndDataTest" time="0.001"/>
+  <testcase name="#820 - data fetcher can return multiple errors on one field, but collapsed (strategy: executor)" classname="graphql.DataFetcherWithErrorsAndDataTest" time="0.005"/>
+  <testcase name="#820 - data fetcher can return multiple errors on one field, but collapsed (strategy: async)" classname="graphql.DataFetcherWithErrorsAndDataTest" time="0.001"/>
+  <testcase name="#820 - data fetcher can return multiple errors on one field, but collapsed (strategy: asyncSerial)" classname="graphql.DataFetcherWithErrorsAndDataTest" time="0.002"/>
+  <testcase name="#820 - data fetcher can return data and errors as completable future (strategy: executor)" classname="graphql.DataFetcherWithErrorsAndDataTest" time="0.005"/>
+  <testcase name="#820 - data fetcher can return data and errors as completable future (strategy: async)" classname="graphql.DataFetcherWithErrorsAndDataTest" time="0.002"/>
+  <testcase name="#820 - data fetcher can return data and errors as completable future (strategy: asyncSerial)" classname="graphql.DataFetcherWithErrorsAndDataTest" time="0.002"/>
+  <testcase name="data fetcher can return context down each level (strategy: executor)" classname="graphql.DataFetcherWithErrorsAndDataTest" time="0.015"/>
+  <testcase name="data fetcher can return context down each level (strategy: async)" classname="graphql.DataFetcherWithErrorsAndDataTest" time="0.002"/>
+  <testcase name="data fetcher can return context down each level (strategy: asyncSerial)" classname="graphql.DataFetcherWithErrorsAndDataTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.language.AstTransformerTest" tests="29" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:19" hostname="pc1295" time="0.75">
+  <properties/>
+  <testcase name="modify multiple nodes" classname="graphql.language.AstTransformerTest" time="0.02"/>
+  <testcase name="modify multiple nodes parallel" classname="graphql.language.AstTransformerTest" time="0.314"/>
+  <testcase name="no change at all" classname="graphql.language.AstTransformerTest" time="0.001"/>
+  <testcase name="no change at all parallel" classname="graphql.language.AstTransformerTest" time="0.0"/>
+  <testcase name="one node changed" classname="graphql.language.AstTransformerTest" time="0.007"/>
+  <testcase name="one node changed parallel" classname="graphql.language.AstTransformerTest" time="0.006"/>
+  <testcase name="add new children" classname="graphql.language.AstTransformerTest" time="0.008"/>
+  <testcase name="add new children parallel" classname="graphql.language.AstTransformerTest" time="0.006"/>
+  <testcase name="reorder children and sub children" classname="graphql.language.AstTransformerTest" time="0.01"/>
+  <testcase name="reorder children and sub children parallel" classname="graphql.language.AstTransformerTest" time="0.009"/>
+  <testcase name="remove a subtree " classname="graphql.language.AstTransformerTest" time="0.008"/>
+  <testcase name="remove a subtree parallel" classname="graphql.language.AstTransformerTest" time="0.007"/>
+  <testcase name="delete node" classname="graphql.language.AstTransformerTest" time="0.005"/>
+  <testcase name="delete node parallel" classname="graphql.language.AstTransformerTest" time="0.255"/>
+  <testcase name="delete multiple nodes and change others" classname="graphql.language.AstTransformerTest" time="0.011"/>
+  <testcase name="add sibling after" classname="graphql.language.AstTransformerTest" time="0.006"/>
+  <testcase name="add sibling before" classname="graphql.language.AstTransformerTest" time="0.005"/>
+  <testcase name="add sibling before and after" classname="graphql.language.AstTransformerTest" time="0.005"/>
+  <testcase name="add sibling before and after parallel" classname="graphql.language.AstTransformerTest" time="0.005"/>
+  <testcase name="delete node and add sibling" classname="graphql.language.AstTransformerTest" time="0.005"/>
+  <testcase name="delete node and change sibling" classname="graphql.language.AstTransformerTest" time="0.007"/>
+  <testcase name="change root node" classname="graphql.language.AstTransformerTest" time="0.008"/>
+  <testcase name="change different kind of children" classname="graphql.language.AstTransformerTest" time="0.007"/>
+  <testcase name="insertAfter and then insertBefore" classname="graphql.language.AstTransformerTest" time="0.005"/>
+  <testcase name="mix of all modifications at once" classname="graphql.language.AstTransformerTest" time="0.007"/>
+  <testcase name="replace first , insert After twice, replace second" classname="graphql.language.AstTransformerTest" time="0.005"/>
+  <testcase name="replaced and inserted in random order" classname="graphql.language.AstTransformerTest" time="0.007"/>
+  <testcase name="changeNode can be called multiple times" classname="graphql.language.AstTransformerTest" time="0.005"/>
+  <testcase name="delete root node" classname="graphql.language.AstTransformerTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

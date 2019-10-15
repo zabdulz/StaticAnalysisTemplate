@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.validation.rules.KnownDirectivesTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.043">
+  <properties/>
+  <testcase name="misplaced directive" classname="graphql.validation.rules.KnownDirectivesTest" time="0.036"/>
+  <testcase name="well placed directive" classname="graphql.validation.rules.KnownDirectivesTest" time="0.001"/>
+  <testcase name="correct placed directive on mutation" classname="graphql.validation.rules.KnownDirectivesTest" time="0.0"/>
+  <testcase name="misplaced directive on mutation" classname="graphql.validation.rules.KnownDirectivesTest" time="0.001"/>
+  <testcase name="bogus directive" classname="graphql.validation.rules.KnownDirectivesTest" time="0.001"/>
+  <testcase name="misplaced directive on fragment definition" classname="graphql.validation.rules.KnownDirectivesTest" time="0.0"/>
+  <testcase name="directive on external fragment spread" classname="graphql.validation.rules.KnownDirectivesTest" time="0.002"/>
+  <testcase name="directive on inline fragment spread" classname="graphql.validation.rules.KnownDirectivesTest" time="0.0"/>
+  <testcase name="directive on inline fragment spread and type" classname="graphql.validation.rules.KnownDirectivesTest" time="0.001"/>
+  <testcase name="directive on fragment spread" classname="graphql.validation.rules.KnownDirectivesTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

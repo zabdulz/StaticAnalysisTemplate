@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.Issue938" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:17" hostname="pc1295" time="0.018">
+  <properties/>
+  <testcase name="938 custom scalar and variables" classname="graphql.Issue938" time="0.018"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to validate : '
+                        query myTwoBestFriends($friendOne: String!, $friendTwo: String!) {
+                            friendOne: User(user1: $friendOne) {
+                                 id
+                                 username
+                                 email
+                            }
+                            friendTwo: User(username: $friendTwo) {
+                                 id
+                                 username
+                                 email
+                            }
+                        }
+                        '
+]]></system-err>
+</testsuite>

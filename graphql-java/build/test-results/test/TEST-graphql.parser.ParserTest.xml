@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.parser.ParserTest" tests="43" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:21" hostname="pc1295" time="0.045">
+  <properties/>
+  <testcase name="parse anonymous simple query" classname="graphql.parser.ParserTest" time="0.004"/>
+  <testcase name="parse selectionSet for field" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="parse query with variable definition" classname="graphql.parser.ParserTest" time="0.001"/>
+  <testcase name="parse mutation" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="parse subscription" classname="graphql.parser.ParserTest" time="0.001"/>
+  <testcase name="parse field arguments" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="parse fragment and query" classname="graphql.parser.ParserTest" time="0.012"/>
+  <testcase name="parse inline fragment" classname="graphql.parser.ParserTest" time="0.001"/>
+  <testcase name="parse directives" classname="graphql.parser.ParserTest" time="0.001"/>
+  <testcase name="parse variable definition for type String" classname="graphql.parser.ParserTest" time="0.001"/>
+  <testcase name="parse variable definition for type [String]" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="parse variable definition for type Boolean!" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="parse variable definition for type [Int]!" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="parse variable definition for type [[String!]]" classname="graphql.parser.ParserTest" time="0.001"/>
+  <testcase name="parse variable with default value" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="parse complex object values" classname="graphql.parser.ParserTest" time="0.001"/>
+  <testcase name="parse complex string value and comment" classname="graphql.parser.ParserTest" time="0.001"/>
+  <testcase name="parse floatValue 1.0" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="parse floatValue -0.3" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="parse floatValue -3.4" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="parse floatValue -3.4e3" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="parse floatValue 3.4E3" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="parse floatValue 3e4" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="parse floatValue 123e-4" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="#848 floats must have digits" classname="graphql.parser.ParserTest" time="0.001"/>
+  <testcase name="extraneous input is an exception" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="invalid syntax is an error" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="mutation without a name" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="subscription without a name" classname="graphql.parser.ParserTest" time="0.001"/>
+  <testcase name="keywords can be used as field names" classname="graphql.parser.ParserTest" time="0.001"/>
+  <testcase name="#352 - incorrect parentheses are detected" classname="graphql.parser.ParserTest" time="0.001"/>
+  <testcase name="#352 - lots of incorrect parentheses are detected" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="#352 - comments don't count as unused" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="parses null value" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="whitespace_ignored" classname="graphql.parser.ParserTest" time="0.001"/>
+  <testcase name="triple quoted strings" classname="graphql.parser.ParserTest" time="0.001"/>
+  <testcase name="triple quoted strings with the one special escape character" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="parse IDL type definitions with doc string comments" classname="graphql.parser.ParserTest" time="0.003"/>
+  <testcase name="parse ignored chars" classname="graphql.parser.ParserTest" time="0.006"/>
+  <testcase name="parsed float with positive exponent" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="parse fragment definition" classname="graphql.parser.ParserTest" time="0.0"/>
+  <testcase name="parser should throw syntax errors" classname="graphql.parser.ParserTest" time="0.001"/>
+  <testcase name="allow emoji in comments" classname="graphql.parser.ParserTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

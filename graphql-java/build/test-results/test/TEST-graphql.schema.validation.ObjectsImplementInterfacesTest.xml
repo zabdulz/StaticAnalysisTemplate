@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.validation.ObjectsImplementInterfacesTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:06" hostname="pc1295" time="0.036">
+  <properties/>
+  <testcase name="objects implement interfaces" classname="graphql.schema.validation.ObjectsImplementInterfacesTest" time="0.015"/>
+  <testcase name="field is object implementing interface" classname="graphql.schema.validation.ObjectsImplementInterfacesTest" time="0.008"/>
+  <testcase name="field is list of objects implementing interface" classname="graphql.schema.validation.ObjectsImplementInterfacesTest" time="0.004"/>
+  <testcase name="field is member of union" classname="graphql.schema.validation.ObjectsImplementInterfacesTest" time="0.004"/>
+  <testcase name="field is non-null" classname="graphql.schema.validation.ObjectsImplementInterfacesTest" time="0.002"/>
+  <testcase name="field is a non null object" classname="graphql.schema.validation.ObjectsImplementInterfacesTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

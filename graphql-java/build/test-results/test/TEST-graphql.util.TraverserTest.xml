@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.util.TraverserTest" tests="26" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:21" hostname="pc1295" time="0.138">
+  <properties/>
+  <testcase name="test depth-first traversal" classname="graphql.util.TraverserTest" time="0.015"/>
+  <testcase name="test breadth-first traversal" classname="graphql.util.TraverserTest" time="0.005"/>
+  <testcase name="quit traversal immediately" classname="graphql.util.TraverserTest" time="0.005"/>
+  <testcase name="quit traversal in first leave" classname="graphql.util.TraverserTest" time="0.004"/>
+  <testcase name="abort subtree traversal depth-first" classname="graphql.util.TraverserTest" time="0.005"/>
+  <testcase name="abort subtree traversal breadth-first" classname="graphql.util.TraverserTest" time="0.005"/>
+  <testcase name="simple cycle" classname="graphql.util.TraverserTest" time="0.011"/>
+  <testcase name="more complex cycles" classname="graphql.util.TraverserTest" time="0.005"/>
+  <testcase name="abort when cycle found" classname="graphql.util.TraverserTest" time="0.003"/>
+  <testcase name="test context variables" classname="graphql.util.TraverserTest" time="0.005"/>
+  <testcase name="test context variables from parents" classname="graphql.util.TraverserTest" time="0.004"/>
+  <testcase name="test accumulator" classname="graphql.util.TraverserTest" time="0.005"/>
+  <testcase name="test accumulate with initial value unchanged" classname="graphql.util.TraverserTest" time="0.004"/>
+  <testcase name="test shared data" classname="graphql.util.TraverserTest" time="0.004"/>
+  <testcase name="test traversal with zero roots" classname="graphql.util.TraverserTest" time="0.004"/>
+  <testcase name="test node position" classname="graphql.util.TraverserTest" time="0.004"/>
+  <testcase name="breadth first with named children" classname="graphql.util.TraverserTest" time="0.004"/>
+  <testcase name="depth first with named children" classname="graphql.util.TraverserTest" time="0.005"/>
+  <testcase name="test parent nodes" classname="graphql.util.TraverserTest" time="0.005"/>
+  <testcase name="changing the node while traversing" classname="graphql.util.TraverserTest" time="0.004"/>
+  <testcase name="depth-first traversal children contexts are available" classname="graphql.util.TraverserTest" time="0.006"/>
+  <testcase name="breadth-first traversal children contexts are available" classname="graphql.util.TraverserTest" time="0.006"/>
+  <testcase name="delete node depth-first" classname="graphql.util.TraverserTest" time="0.005"/>
+  <testcase name="delete nodes breadth-first" classname="graphql.util.TraverserTest" time="0.004"/>
+  <testcase name="phase is provided for enter and leave" classname="graphql.util.TraverserTest" time="0.006"/>
+  <testcase name="phase is provided for backRef" classname="graphql.util.TraverserTest" time="0.005"/>
+  <system-out><![CDATA[enter:[0]
+enter:[0, 1]
+enter:[0, 1, 3]
+leave:[3]
+leave:[3, 1]
+enter:[0, 1, 3, 2]
+enter:[0, 1, 3, 2, 4]
+leave:[3, 1, 4]
+enter:[0, 1, 3, 2, 4, 5]
+leave:[3, 1, 4, 5]
+leave:[3, 1, 4, 5, 2]
+leave:[3, 1, 4, 5, 2, 0]
+enter:[0]
+enter:[0, 1]
+enter:[0, 1, 2]
+leave:[0]
+enter:[0, 1, 2, 3]
+leave:[0, 1]
+enter:[0, 1, 2, 3, 4]
+enter:[0, 1, 2, 3, 4, 5]
+leave:[0, 1, 2]
+leave:[0, 1, 2, 3]
+leave:[0, 1, 2, 3, 4]
+leave:[0, 1, 2, 3, 4, 5]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

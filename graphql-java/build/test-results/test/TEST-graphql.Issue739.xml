@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.Issue739" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:20" hostname="pc1295" time="0.014">
+  <properties/>
+  <testcase name="#739 test" classname="graphql.Issue739" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to validate : '{ bar(input: 123) { id } } '
+]]></system-err>
+</testsuite>

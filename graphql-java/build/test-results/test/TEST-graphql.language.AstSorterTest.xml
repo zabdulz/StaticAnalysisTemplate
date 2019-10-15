@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.language.AstSorterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:20" hostname="pc1295" time="0.029">
+  <properties/>
+  <testcase name="basic sorting of a query works" classname="graphql.language.AstSorterTest" time="0.019"/>
+  <testcase name="sdl will sort as expected" classname="graphql.language.AstSorterTest" time="0.008"/>
+  <testcase name="object literals gets sorted" classname="graphql.language.AstSorterTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.GraphQLContextTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:21" hostname="pc1295" time="0.019">
+  <properties/>
+  <testcase name="of builder" classname="graphql.GraphQLContextTest" time="0.006"/>
+  <testcase name="put works" classname="graphql.GraphQLContextTest" time="0.002"/>
+  <testcase name="putAll works" classname="graphql.GraphQLContextTest" time="0.0"/>
+  <testcase name="hasKey works" classname="graphql.GraphQLContextTest" time="0.0"/>
+  <testcase name="getOrDefault works" classname="graphql.GraphQLContextTest" time="0.0"/>
+  <testcase name="getOrEmpty works" classname="graphql.GraphQLContextTest" time="0.001"/>
+  <testcase name="stream works" classname="graphql.GraphQLContextTest" time="0.007"/>
+  <testcase name="delete works" classname="graphql.GraphQLContextTest" time="0.0"/>
+  <testcase name="graphql context integration test" classname="graphql.GraphQLContextTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.IssueNonNullDefaultAttribute" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:20" hostname="pc1295" time="0.019">
+  <properties/>
+  <testcase name="Can omit non-null attributes that have default values" classname="graphql.IssueNonNullDefaultAttribute" time="0.011"/>
+  <testcase name="Explicit null value for non-null attribute causes validation error" classname="graphql.IssueNonNullDefaultAttribute" time="0.002"/>
+  <testcase name="Provided non-null attribute will override default value" classname="graphql.IssueNonNullDefaultAttribute" time="0.002"/>
+  <testcase name="Can omit non-null attributes in input objects that have default values" classname="graphql.IssueNonNullDefaultAttribute" time="0.002"/>
+  <testcase name="Provided non-null attribute in input objects will override default value" classname="graphql.IssueNonNullDefaultAttribute" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to validate : '
+                {
+                    name(characterNumber: null)
+                }
+            '
+]]></system-err>
+</testsuite>

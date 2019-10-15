@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.analysis.QueryTransformerTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:19" hostname="pc1295" time="0.1">
+  <properties/>
+  <testcase name="transform query rename query fields based on type information " classname="graphql.analysis.QueryTransformerTest" time="0.028"/>
+  <testcase name="transform query delete midA nodes" classname="graphql.analysis.QueryTransformerTest" time="0.007"/>
+  <testcase name="transform query add midA sibling" classname="graphql.analysis.QueryTransformerTest" time="0.007"/>
+  <testcase name="transform query delete fragment spread and inline fragment" classname="graphql.analysis.QueryTransformerTest" time="0.008"/>
+  <testcase name="transform query does not traverse named fragments when started from query" classname="graphql.analysis.QueryTransformerTest" time="0.005"/>
+  <testcase name="fragment definition is traversed if it is a root and can be transformed" classname="graphql.analysis.QueryTransformerTest" time="0.008"/>
+  <testcase name="transform starting in a interface field" classname="graphql.analysis.QueryTransformerTest" time="0.009"/>
+  <testcase name="transform starting in a union field" classname="graphql.analysis.QueryTransformerTest" time="0.007"/>
+  <testcase name="transform starting in a selectionSet node belonging to an interface" classname="graphql.analysis.QueryTransformerTest" time="0.009"/>
+  <testcase name="transform starting in a selectionSet node belonging to an union" classname="graphql.analysis.QueryTransformerTest" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

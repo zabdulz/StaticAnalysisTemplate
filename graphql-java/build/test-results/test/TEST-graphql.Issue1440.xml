@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.Issue1440" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:02" hostname="pc1295" time="1.407">
+  <properties/>
+  <testcase name="#1440 when fragment type condition is input type it should return validation error - not classCastException" classname="graphql.Issue1440" time="1.394"/>
+  <testcase name="#1440 when inline fragment type condition is input type it should return validation error - not classCastException" classname="graphql.Issue1440" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to validate : '                    
+                    mutation UpdateUDI($input: UDIInput!) { 
+                        updateUDI(input: $input) { 
+                            ...fragOnInputType 
+                            __typename 
+                        } 
+                    }
+                    
+                    # fragment should only target composite types
+                    fragment fragOnInputType on UDIInput { 
+                        device
+                        version 
+                        __typename 
+                    } 
+                    
+                    '
+[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to validate : '                    
+                    mutation UpdateUDI($input: UDIInput!) { 
+                        updateUDI(input: $input) { 
+                            # fragment should only target composite types
+                            ... on UDIInput { 
+                                device
+                                version 
+                                __typename 
+                            }  
+                            __typename 
+                        } 
+                    }
+                    '
+]]></system-err>
+</testsuite>

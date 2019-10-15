@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.idl.SchemaTypeDirectivesCheckerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:07" hostname="pc1295" time="0.024">
+  <properties/>
+  <testcase name="legal directives" classname="graphql.schema.idl.SchemaTypeDirectivesCheckerTest" time="0.008"/>
+  <testcase name="find undeclared directives" classname="graphql.schema.idl.SchemaTypeDirectivesCheckerTest" time="0.004"/>
+  <testcase name="find illegal args directives" classname="graphql.schema.idl.SchemaTypeDirectivesCheckerTest" time="0.005"/>
+  <testcase name="find illegal location directives" classname="graphql.schema.idl.SchemaTypeDirectivesCheckerTest" time="0.004"/>
+  <testcase name="catches directives that fail to provide non null arguments" classname="graphql.schema.idl.SchemaTypeDirectivesCheckerTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

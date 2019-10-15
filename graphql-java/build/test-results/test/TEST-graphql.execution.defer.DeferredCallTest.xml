@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.execution.defer.DeferredCallTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:09" hostname="pc1295" time="0.008">
+  <properties/>
+  <testcase name="test call capture gives a CF" classname="graphql.execution.defer.DeferredCallTest" time="0.005"/>
+  <testcase name="test error capture happens via CF" classname="graphql.execution.defer.DeferredCallTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

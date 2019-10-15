@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.validation.ValidationUtilTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.025">
+  <properties/>
+  <testcase name="getUnmodified type of list of nonNull" classname="graphql.validation.ValidationUtilTest" time="0.007"/>
+  <testcase name="getUnmodified type of string" classname="graphql.validation.ValidationUtilTest" time="0.001"/>
+  <testcase name="getUnmodified type of nonNull" classname="graphql.validation.ValidationUtilTest" time="0.001"/>
+  <testcase name="null and NonNull is invalid" classname="graphql.validation.ValidationUtilTest" time="0.001"/>
+  <testcase name="NullValue and NonNull is invalid" classname="graphql.validation.ValidationUtilTest" time="0.001"/>
+  <testcase name="a nonNull value for a NonNull type is valid" classname="graphql.validation.ValidationUtilTest" time="0.001"/>
+  <testcase name="null is valid when type is NonNull" classname="graphql.validation.ValidationUtilTest" time="0.0"/>
+  <testcase name="NullValue is valid when type is NonNull" classname="graphql.validation.ValidationUtilTest" time="0.001"/>
+  <testcase name="variables are valid" classname="graphql.validation.ValidationUtilTest" time="0.001"/>
+  <testcase name="ArrayValue and ListType is invalid when one entry is invalid" classname="graphql.validation.ValidationUtilTest" time="0.001"/>
+  <testcase name="One value is a single element List" classname="graphql.validation.ValidationUtilTest" time="0.001"/>
+  <testcase name="a valid array" classname="graphql.validation.ValidationUtilTest" time="0.001"/>
+  <testcase name="a valid scalar" classname="graphql.validation.ValidationUtilTest" time="0.0"/>
+  <testcase name="invalid scalar" classname="graphql.validation.ValidationUtilTest" time="0.001"/>
+  <testcase name="valid enum" classname="graphql.validation.ValidationUtilTest" time="0.001"/>
+  <testcase name="invalid enum value" classname="graphql.validation.ValidationUtilTest" time="0.001"/>
+  <testcase name="invalid enum name" classname="graphql.validation.ValidationUtilTest" time="0.001"/>
+  <testcase name="a valid ObjectValue" classname="graphql.validation.ValidationUtilTest" time="0.001"/>
+  <testcase name="a invalid ObjectValue with a invalid field" classname="graphql.validation.ValidationUtilTest" time="0.001"/>
+  <testcase name="a invalid ObjectValue with a missing field" classname="graphql.validation.ValidationUtilTest" time="0.001"/>
+  <testcase name="a valid ObjectValue with a nonNull field and default value" classname="graphql.validation.ValidationUtilTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

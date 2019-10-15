@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.parser.LineNumberingTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:21" hostname="pc1295" time="0.006">
+  <properties/>
+  <testcase name="basic line numbering works as expected with string input" classname="graphql.parser.LineNumberingTest" time="0.004"/>
+  <testcase name="multi source line numbering works as expected" classname="graphql.parser.LineNumberingTest" time="0.001"/>
+  <testcase name="error is on the right line with string input[0]" classname="graphql.parser.LineNumberingTest" time="0.0"/>
+  <testcase name="error is on the right line with string input[1]" classname="graphql.parser.LineNumberingTest" time="0.001"/>
+  <testcase name="error is on the right line with string input[2]" classname="graphql.parser.LineNumberingTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

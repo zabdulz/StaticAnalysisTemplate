@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.GraphQLEnumTypeTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:07" hostname="pc1295" time="0.029">
+  <properties/>
+  <testcase name="parse throws exception for unknown value" classname="graphql.schema.GraphQLEnumTypeTest" time="0.006"/>
+  <testcase name="parse value return value for the name" classname="graphql.schema.GraphQLEnumTypeTest" time="0.0"/>
+  <testcase name="serialize returns name for value" classname="graphql.schema.GraphQLEnumTypeTest" time="0.001"/>
+  <testcase name="serialize throws exception for unknown value" classname="graphql.schema.GraphQLEnumTypeTest" time="0.0"/>
+  <testcase name="parseLiteral return null for invalid input" classname="graphql.schema.GraphQLEnumTypeTest" time="0.005"/>
+  <testcase name="parseLiteral return null for invalid enum name" classname="graphql.schema.GraphQLEnumTypeTest" time="0.008"/>
+  <testcase name="parseLiteral returns value for 'NAME'" classname="graphql.schema.GraphQLEnumTypeTest" time="0.0"/>
+  <testcase name="null values are not allowed" classname="graphql.schema.GraphQLEnumTypeTest" time="0.001"/>
+  <testcase name="duplicate value definition overwrites" classname="graphql.schema.GraphQLEnumTypeTest" time="0.0"/>
+  <testcase name="serialize Java enum objects with String definition values" classname="graphql.schema.GraphQLEnumTypeTest" time="0.004"/>
+  <testcase name="serialize Java enum objects with Java enum definition values" classname="graphql.schema.GraphQLEnumTypeTest" time="0.0"/>
+  <testcase name="serialize String objects with Java enum definition values" classname="graphql.schema.GraphQLEnumTypeTest" time="0.001"/>
+  <testcase name="object can be transformed" classname="graphql.schema.GraphQLEnumTypeTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.language.AstMultiZipperTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:20" hostname="pc1295" time="0.02">
+  <properties/>
+  <testcase name="toRootNode with one zipper" classname="graphql.language.AstMultiZipperTest" time="0.016"/>
+  <testcase name="toRootNode with two zippers" classname="graphql.language.AstMultiZipperTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

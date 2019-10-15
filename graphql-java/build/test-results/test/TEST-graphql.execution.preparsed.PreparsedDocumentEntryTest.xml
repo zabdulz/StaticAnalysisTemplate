@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.execution.preparsed.PreparsedDocumentEntryTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:17" hostname="pc1295" time="0.003">
+  <properties/>
+  <testcase name="Ensure a non-null document returns" classname="graphql.execution.preparsed.PreparsedDocumentEntryTest" time="0.003"/>
+  <testcase name="Ensure a null document throws Exception" classname="graphql.execution.preparsed.PreparsedDocumentEntryTest" time="0.0"/>
+  <testcase name="Ensure a non-null errors returns" classname="graphql.execution.preparsed.PreparsedDocumentEntryTest" time="0.0"/>
+  <testcase name="Ensure a null errors throws Exception" classname="graphql.execution.preparsed.PreparsedDocumentEntryTest" time="0.0"/>
+  <testcase name="Ensure a null error throws Exception" classname="graphql.execution.preparsed.PreparsedDocumentEntryTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

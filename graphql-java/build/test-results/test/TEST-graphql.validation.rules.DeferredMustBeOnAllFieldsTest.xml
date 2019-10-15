@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.validation.rules.DeferredMustBeOnAllFieldsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.019">
+  <properties/>
+  <testcase name="all fields MUST contain @defer on all declarations" classname="graphql.validation.rules.DeferredMustBeOnAllFieldsTest" time="0.012"/>
+  <testcase name="if all fields contain @defer then its ok" classname="graphql.validation.rules.DeferredMustBeOnAllFieldsTest" time="0.004"/>
+  <testcase name="if only one field contain @defer then its ok" classname="graphql.validation.rules.DeferredMustBeOnAllFieldsTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to validate : '
+             fragment StoryDetail on Story {
+                id
+                text @defer
+              }
+              query {
+                newsFeed {
+                  stories {
+                    text @defer
+                    
+                    # fragment
+                    ...StoryDetail
+                    
+                    ## inline fragment
+                    ... on Story {
+                        id
+                        text # @defer is missing 
+                    }
+                  }
+                }
+              }        
+          '
+[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to validate : '
+             fragment StoryDetail on Story {
+                id
+                text # @defer is missing
+              }
+              query {
+                newsFeed {
+                  stories {
+                    text @defer
+                    
+                    # fragment
+                    ...StoryDetail
+                    
+                    ## inline fragment
+                    ... on Story {
+                        id
+                        text @defer 
+                    }
+                  }
+                }
+              }        
+          '
+[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to validate : '
+             fragment StoryDetail on Story {
+                id
+                text @defer
+              }
+              query {
+                newsFeed {
+                  stories {
+                    text # @defer is missing
+                    
+                    # fragment
+                    ...StoryDetail
+                    
+                    ## inline fragment
+                    ... on Story {
+                        id
+                        text @defer 
+                    }
+                  }
+                }
+              }        
+          '
+]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.execution.instrumentation.dataloader.DataLoaderCompanyProductMutationTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:14" hostname="pc1295" time="0.032">
+  <properties/>
+  <testcase name="bug #1099 test mutation completes as expected and does not hang - running mutation - spec compliant" classname="graphql.execution.instrumentation.dataloader.DataLoaderCompanyProductMutationTest" time="0.018"/>
+  <testcase name="bug #1099 test mutation completes as expected and does not hang - running mutation - all serial" classname="graphql.execution.instrumentation.dataloader.DataLoaderCompanyProductMutationTest" time="0.003"/>
+  <testcase name="bug #1099 test mutation completes as expected and does not hang - running mutation - non spec compliant" classname="graphql.execution.instrumentation.dataloader.DataLoaderCompanyProductMutationTest" time="0.002"/>
+  <testcase name="bug #1099 test mutation completes as expected and does not hang - running query - spec compliant" classname="graphql.execution.instrumentation.dataloader.DataLoaderCompanyProductMutationTest" time="0.003"/>
+  <testcase name="bug #1099 test mutation completes as expected and does not hang - running query - all serial" classname="graphql.execution.instrumentation.dataloader.DataLoaderCompanyProductMutationTest" time="0.002"/>
+  <testcase name="bug #1099 test mutation completes as expected and does not hang - running query - non spec compliant" classname="graphql.execution.instrumentation.dataloader.DataLoaderCompanyProductMutationTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

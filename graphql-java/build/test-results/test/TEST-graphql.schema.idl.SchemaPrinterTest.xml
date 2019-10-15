@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.idl.SchemaPrinterTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:06" hostname="pc1295" time="0.231">
+  <properties/>
+  <testcase name="typeString" classname="graphql.schema.idl.SchemaPrinterTest" time="0.012"/>
+  <testcase name="argsString" classname="graphql.schema.idl.SchemaPrinterTest" time="0.002"/>
+  <testcase name="argsString_sorts" classname="graphql.schema.idl.SchemaPrinterTest" time="0.001"/>
+  <testcase name="print type direct" classname="graphql.schema.idl.SchemaPrinterTest" time="0.011"/>
+  <testcase name="starWars default Test" classname="graphql.schema.idl.SchemaPrinterTest" time="0.004"/>
+  <testcase name="starWars non default Test" classname="graphql.schema.idl.SchemaPrinterTest" time="0.005"/>
+  <testcase name="default root names are handled" classname="graphql.schema.idl.SchemaPrinterTest" time="0.002"/>
+  <testcase name="schema prints if forced with default root names" classname="graphql.schema.idl.SchemaPrinterTest" time="0.002"/>
+  <testcase name="schema is printed if default root names are not ALL present" classname="graphql.schema.idl.SchemaPrinterTest" time="0.001"/>
+  <testcase name="prints object description as comment" classname="graphql.schema.idl.SchemaPrinterTest" time="0.001"/>
+  <testcase name="prints field description as comment" classname="graphql.schema.idl.SchemaPrinterTest" time="0.0"/>
+  <testcase name="does not print empty field description as comment" classname="graphql.schema.idl.SchemaPrinterTest" time="0.031"/>
+  <testcase name="prints enum description as comment" classname="graphql.schema.idl.SchemaPrinterTest" time="0.002"/>
+  <testcase name="prints union description as comment" classname="graphql.schema.idl.SchemaPrinterTest" time="0.002"/>
+  <testcase name="prints union" classname="graphql.schema.idl.SchemaPrinterTest" time="0.002"/>
+  <testcase name="prints input description as comment" classname="graphql.schema.idl.SchemaPrinterTest" time="0.003"/>
+  <testcase name="prints interface description as comment" classname="graphql.schema.idl.SchemaPrinterTest" time="0.005"/>
+  <testcase name="prints scalar description as comment" classname="graphql.schema.idl.SchemaPrinterTest" time="0.005"/>
+  <testcase name="special formatting for argument descriptions" classname="graphql.schema.idl.SchemaPrinterTest" time="0.002"/>
+  <testcase name="prints derived object type" classname="graphql.schema.idl.SchemaPrinterTest" time="0.012"/>
+  <testcase name="prints extended types" classname="graphql.schema.idl.SchemaPrinterTest" time="0.009"/>
+  <testcase name="schema will be sorted" classname="graphql.schema.idl.SchemaPrinterTest" time="0.004"/>
+  <testcase name="print introspection result back to IDL" classname="graphql.schema.idl.SchemaPrinterTest" time="0.057"/>
+  <testcase name="AST doc string entries are printed if present" classname="graphql.schema.idl.SchemaPrinterTest" time="0.002"/>
+  <testcase name="directives will be printed with the includeDirectives flag set" classname="graphql.schema.idl.SchemaPrinterTest" time="0.035"/>
+  <testcase name="directives with default values are printed correctly" classname="graphql.schema.idl.SchemaPrinterTest" time="0.005"/>
+  <testcase name="directives are printed as top level types when the includeDirectives flag is set" classname="graphql.schema.idl.SchemaPrinterTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

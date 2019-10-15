@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.SchemaPrinterComparatorsTest" tests="28" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:05" hostname="pc1295" time="0.151">
+  <properties/>
+  <testcase name="scalarPrinter default comparator" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.031"/>
+  <testcase name="enumPrinter default comparator" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.003"/>
+  <testcase name="unionPrinter default comparator" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.003"/>
+  <testcase name="interfacePrinter default comparator" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.005"/>
+  <testcase name="objectPrinter default comparator" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.003"/>
+  <testcase name="inputObjectPrinter default comparator" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.002"/>
+  <testcase name="argsString default comparator" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.001"/>
+  <testcase name="directivesString default comparator" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.002"/>
+  <testcase name="scalarPrinter uses most specific registered comparators" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.016"/>
+  <testcase name="scalarPrinter uses least specific registered comparators" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.003"/>
+  <testcase name="enumPrinter uses most specific registered comparators" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.005"/>
+  <testcase name="enumPrinter uses least specific registered comparators" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.004"/>
+  <testcase name="unionPrinter uses most specific registered comparators" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.004"/>
+  <testcase name="unionPrinter uses least specific registered comparators" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.004"/>
+  <testcase name="interfacePrinter uses most specific registered comparators" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.006"/>
+  <testcase name="interfacePrinter uses least specific registered comparators" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.006"/>
+  <testcase name="objectPrinter uses most specific registered comparators" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.007"/>
+  <testcase name="objectPrinter uses least specific registered comparators" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.006"/>
+  <testcase name="inputObjectPrinter uses most specific registered comparators" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.005"/>
+  <testcase name="inputObjectPrinter uses least specific registered comparators" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.004"/>
+  <testcase name="argsString uses most specific registered comparators" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.001"/>
+  <testcase name="argsString uses least specific registered comparators" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.002"/>
+  <testcase name="directivesString uses most specific registered comparators" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.002"/>
+  <testcase name="directivesString uses least specific registered comparators" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.003"/>
+  <testcase name="least specific comparator applied across different types" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.012"/>
+  <testcase name="DefaultSchemaPrinterComparatorRegistry finds expected comparator" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.006"/>
+  <testcase name="DefaultSchemaPrinterComparatorRegistry provides default comparator when environment is not found" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.0"/>
+  <testcase name="directive string when argument has no value" classname="graphql.schema.SchemaPrinterComparatorsTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.SchemaTransformerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:08" hostname="pc1295" time="0.048">
+  <properties/>
+  <testcase name="can change field in schema" classname="graphql.schema.SchemaTransformerTest" time="0.041"/>
+  <testcase name="can change schema with cycles" classname="graphql.schema.SchemaTransformerTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

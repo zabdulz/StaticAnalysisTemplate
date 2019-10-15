@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.AssertTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:20" hostname="pc1295" time="0.01">
+  <properties/>
+  <testcase name="assertNull should not throw on none null value" classname="graphql.AssertTest" time="0.007"/>
+  <testcase name="assertNull should throw on null value" classname="graphql.AssertTest" time="0.0"/>
+  <testcase name="assertNull with error message should not throw on none null value" classname="graphql.AssertTest" time="0.0"/>
+  <testcase name="assertNull with error message should throw on null value with formatted message" classname="graphql.AssertTest" time="0.0"/>
+  <testcase name="assertNeverCalled should always throw" classname="graphql.AssertTest" time="0.001"/>
+  <testcase name="assertShouldNeverHappen should always throw" classname="graphql.AssertTest" time="0.0"/>
+  <testcase name="assertShouldNeverHappen should always throw with formatted message" classname="graphql.AssertTest" time="0.0"/>
+  <testcase name="assertNotEmpty collection should throw on null or empty" classname="graphql.AssertTest" time="0.0"/>
+  <testcase name="assertNotEmpty should not throw on none empty collection" classname="graphql.AssertTest" time="0.001"/>
+  <testcase name="assertTrue should not throw on true value" classname="graphql.AssertTest" time="0.0"/>
+  <testcase name="assertTrue with error message should throw on false value with formatted message" classname="graphql.AssertTest" time="0.0"/>
+  <testcase name="assertValidName should not throw on valid names" classname="graphql.AssertTest" time="0.001"/>
+  <testcase name="assertValidName should throw on invalid names" classname="graphql.AssertTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

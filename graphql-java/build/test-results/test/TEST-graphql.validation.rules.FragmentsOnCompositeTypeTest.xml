@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.validation.rules.FragmentsOnCompositeTypeTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.013">
+  <properties/>
+  <testcase name="inline fragment type condition must refer to a composite type" classname="graphql.validation.rules.FragmentsOnCompositeTypeTest" time="0.012"/>
+  <testcase name="should results in no error" classname="graphql.validation.rules.FragmentsOnCompositeTypeTest" time="0.001"/>
+  <testcase name="fragment type condition must refer to a composite type" classname="graphql.validation.rules.FragmentsOnCompositeTypeTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

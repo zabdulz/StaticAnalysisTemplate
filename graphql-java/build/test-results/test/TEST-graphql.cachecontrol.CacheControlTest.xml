@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.cachecontrol.CacheControlTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.021">
+  <properties/>
+  <testcase name="can build up hints when there is no extensions present" classname="graphql.cachecontrol.CacheControlTest" time="0.012"/>
+  <testcase name="can build up hints when extensions are present" classname="graphql.cachecontrol.CacheControlTest" time="0.0"/>
+  <testcase name="integration test of cache control" classname="graphql.cachecontrol.CacheControlTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

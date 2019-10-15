@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.NullValueSupportTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:03" hostname="pc1295" time="0.183">
+  <properties/>
+  <testcase name="test graphql spec examples that output results : A" classname="graphql.NullValueSupportTest" time="0.061"/>
+  <testcase name="test graphql spec examples that output results : E" classname="graphql.NullValueSupportTest" time="0.006"/>
+  <testcase name="test graphql spec examples that output results : F" classname="graphql.NullValueSupportTest" time="0.005"/>
+  <testcase name="test graphql spec examples that output results : I" classname="graphql.NullValueSupportTest" time="0.005"/>
+  <testcase name="test graphql spec examples that output results : J" classname="graphql.NullValueSupportTest" time="0.006"/>
+  <testcase name="test graphql spec examples that output results : K" classname="graphql.NullValueSupportTest" time="0.007"/>
+  <testcase name="test graphql spec examples that output results : L" classname="graphql.NullValueSupportTest" time="0.005"/>
+  <testcase name="test graphql spec examples that output errors C" classname="graphql.NullValueSupportTest" time="0.008"/>
+  <testcase name="test graphql spec examples that output errors D" classname="graphql.NullValueSupportTest" time="0.007"/>
+  <testcase name="test graphql spec examples that output errors via internally throwing exception : G" classname="graphql.NullValueSupportTest" time="0.014"/>
+  <testcase name="test graphql spec examples that output errors via internally throwing exception : H" classname="graphql.NullValueSupportTest" time="0.005"/>
+  <testcase name="test graphql spec examples that output errors via internally throwing exception : M" classname="graphql.NullValueSupportTest" time="0.005"/>
+  <testcase name="test graphql spec examples that output errors via internally throwing exception : N" classname="graphql.NullValueSupportTest" time="0.004"/>
+  <testcase name="test graphql spec examples that output errors via internally throwing exception : O" classname="graphql.NullValueSupportTest" time="0.008"/>
+  <testcase name="nulls in literal places are supported in general" classname="graphql.NullValueSupportTest" time="0.033"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to validate : '
+            mutation mutate {
+                mutate(inputArg : { a: "abc"}) {
+                    a
+                }        
+            }
+        '
+[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to validate : '
+            mutation mutate {
+                mutate(inputArg : { a: "abc", b: null }) {
+                    a
+                }        
+            }
+        '
+]]></system-err>
+</testsuite>

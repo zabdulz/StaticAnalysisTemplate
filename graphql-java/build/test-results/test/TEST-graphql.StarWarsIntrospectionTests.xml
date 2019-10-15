@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.StarWarsIntrospectionTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.034">
+  <properties/>
+  <testcase name="Allows querying the schema for types" classname="graphql.StarWarsIntrospectionTests" time="0.004"/>
+  <testcase name="Allows querying the schema for query type" classname="graphql.StarWarsIntrospectionTests" time="0.0"/>
+  <testcase name="Allows querying the schema for a specific type" classname="graphql.StarWarsIntrospectionTests" time="0.001"/>
+  <testcase name="Allows querying the schema for an object kind" classname="graphql.StarWarsIntrospectionTests" time="0.0"/>
+  <testcase name="Allows querying the schema for an interface kind" classname="graphql.StarWarsIntrospectionTests" time="0.001"/>
+  <testcase name="Allows querying the schema for object fields" classname="graphql.StarWarsIntrospectionTests" time="0.001"/>
+  <testcase name="Allows querying the schema for nested object fields" classname="graphql.StarWarsIntrospectionTests" time="0.002"/>
+  <testcase name="Allows querying the schema for field args" classname="graphql.StarWarsIntrospectionTests" time="0.001"/>
+  <testcase name="Allows querying the schema for documentation" classname="graphql.StarWarsIntrospectionTests" time="0.001"/>
+  <testcase name="Allow querying the schema with pre-defined full introspection query" classname="graphql.StarWarsIntrospectionTests" time="0.023"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

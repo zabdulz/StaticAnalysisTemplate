@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.visibility.GraphqlFieldVisibilityTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:06" hostname="pc1295" time="0.167">
+  <properties/>
+  <testcase name="visibility is enforced" classname="graphql.schema.visibility.GraphqlFieldVisibilityTest" time="0.007"/>
+  <testcase name="introspection visibility is enforced" classname="graphql.schema.visibility.GraphqlFieldVisibilityTest" time="0.088"/>
+  <testcase name="introspection turned off via field visibility" classname="graphql.schema.visibility.GraphqlFieldVisibilityTest" time="0.007"/>
+  <testcase name="schema printing filters on visibility" classname="graphql.schema.visibility.GraphqlFieldVisibilityTest" time="0.005"/>
+  <testcase name="ensure execution cant get to the field" classname="graphql.schema.visibility.GraphqlFieldVisibilityTest" time="0.016"/>
+  <testcase name="ensure input field are blocked" classname="graphql.schema.visibility.GraphqlFieldVisibilityTest" time="0.004"/>
+  <testcase name="input introspection is blocked" classname="graphql.schema.visibility.GraphqlFieldVisibilityTest" time="0.037"/>
+  <testcase name="input schema print is blocked" classname="graphql.schema.visibility.GraphqlFieldVisibilityTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to validate : '
+        {
+            hero {
+                id
+                name
+                friends {
+                    aliasHandled: name
+                }
+            }
+        }
+        '
+[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to validate : '
+  query IntrospectionQuery {
+    __schema {
+      queryType { name }
+      mutationType { name }
+      subscriptionType { name }
+      types {
+        ...FullType
+      }
+      directives {
+        name
+        description
+        locations
+        args {
+          ...InputValue
+        }
+      }
+    }
+  }
+
+  fragment FullType on __Type {
+    kind
+    name
+    description
+    fields(includeDeprecated: true) {
+      name
+      description
+      args {
+        ...InputValue
+      }
+      type {
+        ...TypeRef
+      }
+      isDeprecated
+      deprecationReason
+    }
+    inputFields {
+      ...InputValue
+    }
+    interfaces {
+      ...TypeRef
+    }
+    enumValues(includeDeprecated: true) {
+      name
+      description
+      isDeprecated
+      deprecationReason
+    }
+    possibleTypes {
+      ...TypeRef
+    }
+  }
+
+  fragment InputValue on __InputValue {
+    name
+    description
+    type { ...TypeRef }
+    defaultValue
+  }
+
+fragment TypeRef on __Type {
+    kind
+    name
+    ofType {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+'
+[Test worker] WARN notprivacysafe.graphql.GraphQL - Query failed to validate : '
+            {
+                hello(arg : {
+                    openField: "open", 
+                    closedField:"closed"
+                    })
+            }
+        '
+]]></system-err>
+</testsuite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.introspection.IntrospectionResultToSchemaTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:17" hostname="pc1295" time="0.242">
+  <properties/>
+  <testcase name="create object" classname="graphql.introspection.IntrospectionResultToSchemaTest" time="0.014"/>
+  <testcase name="create interface" classname="graphql.introspection.IntrospectionResultToSchemaTest" time="0.0"/>
+  <testcase name="create enum" classname="graphql.introspection.IntrospectionResultToSchemaTest" time="0.001"/>
+  <testcase name="create union" classname="graphql.introspection.IntrospectionResultToSchemaTest" time="0.0"/>
+  <testcase name="create input object" classname="graphql.introspection.IntrospectionResultToSchemaTest" time="0.0"/>
+  <testcase name="create schema" classname="graphql.introspection.IntrospectionResultToSchemaTest" time="0.001"/>
+  <testcase name="test starwars introspection result" classname="graphql.introspection.IntrospectionResultToSchemaTest" time="0.012"/>
+  <testcase name="test simpsons introspection result" classname="graphql.introspection.IntrospectionResultToSchemaTest" time="0.004"/>
+  <testcase name="test complete round trip" classname="graphql.introspection.IntrospectionResultToSchemaTest" time="0.024"/>
+  <testcase name="test argument encoding" classname="graphql.introspection.IntrospectionResultToSchemaTest" time="0.185"/>
+  <testcase name="doesn't create schemaDefinition if not needed" classname="graphql.introspection.IntrospectionResultToSchemaTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

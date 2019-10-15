@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.execution.instrumentation.dataloader.DataLoaderHangingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:12" hostname="pc1295" time="0.937">
+  <properties/>
+  <testcase name="deadlock attempt" classname="graphql.execution.instrumentation.dataloader.DataLoaderHangingTest" time="0.937"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.execution.ExecutionStepInfoTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:10" hostname="pc1295" time="0.03">
+  <properties/>
+  <testcase name="basic hierarchy" classname="graphql.execution.ExecutionStepInfoTest" time="0.007"/>
+  <testcase name="morphing type works" classname="graphql.execution.ExecutionStepInfoTest" time="0.001"/>
+  <testcase name="unwrapping stack works" classname="graphql.execution.ExecutionStepInfoTest" time="0.002"/>
+  <testcase name="end to end type hierarchy is maintained during execution" classname="graphql.execution.ExecutionStepInfoTest" time="0.018"/>
+  <testcase name="transform copies fieldContainer" classname="graphql.execution.ExecutionStepInfoTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

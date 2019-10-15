@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.ScalarsBigDecimalTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.006">
+  <properties/>
+  <testcase name="BigDecimal parse literal 12345678910 as 12345678910" classname="graphql.ScalarsBigDecimalTest" time="0.003"/>
+  <testcase name="BigDecimal parse literal 12345678911.12 as 12345678911.12" classname="graphql.ScalarsBigDecimalTest" time="0.0"/>
+  <testcase name="BigDecimal parse literal 42.42 as 42.42" classname="graphql.ScalarsBigDecimalTest" time="0.0"/>
+  <testcase name="BigDecimal returns null for invalid BooleanValue{value=true}" classname="graphql.ScalarsBigDecimalTest" time="0.001"/>
+  <testcase name="BigDecimal returns null for invalid StringValue{value='not a number'}" classname="graphql.ScalarsBigDecimalTest" time="0.0"/>
+  <testcase name="BigDecimal serialize 42 into 42 (class java.math.BigDecimal)" classname="graphql.ScalarsBigDecimalTest" time="0.0"/>
+  <testcase name="BigDecimal serialize 42.123 into 42.123 (class java.math.BigDecimal)" classname="graphql.ScalarsBigDecimalTest" time="0.0"/>
+  <testcase name="BigDecimal serialize 42.0 into 42.000 (class java.math.BigDecimal)" classname="graphql.ScalarsBigDecimalTest" time="0.0"/>
+  <testcase name="BigDecimal serialize 42 into 42 (class java.math.BigDecimal)" classname="graphql.ScalarsBigDecimalTest" time="0.0"/>
+  <testcase name="BigDecimal serialize -1 into -1 (class java.math.BigDecimal)" classname="graphql.ScalarsBigDecimalTest" time="0.0"/>
+  <testcase name="BigDecimal serialize 42 into 42 (class java.math.BigDecimal)" classname="graphql.ScalarsBigDecimalTest" time="0.0"/>
+  <testcase name="BigDecimal serialize 42 into 42 (class java.math.BigDecimal)" classname="graphql.ScalarsBigDecimalTest" time="0.0"/>
+  <testcase name="BigDecimal serialize 42.3 into 42.3 (class java.math.BigDecimal)" classname="graphql.ScalarsBigDecimalTest" time="0.0"/>
+  <testcase name="BigDecimal serialize 42.0 into 42 (class java.math.BigDecimal)" classname="graphql.ScalarsBigDecimalTest" time="0.0"/>
+  <testcase name="BigDecimal serialize 42 into 42 (class java.math.BigDecimal)" classname="graphql.ScalarsBigDecimalTest" time="0.0"/>
+  <testcase name="BigDecimal serialize 42 into 42 (class java.math.BigDecimal)" classname="graphql.ScalarsBigDecimalTest" time="0.0"/>
+  <testcase name="BigDecimal serialize 1234567 into 1234567 (class java.math.BigDecimal)" classname="graphql.ScalarsBigDecimalTest" time="0.0"/>
+  <testcase name="BigDecimal serialize 42 into 42 (class java.math.BigDecimal)" classname="graphql.ScalarsBigDecimalTest" time="0.001"/>
+  <testcase name="serialize throws exception for invalid input " classname="graphql.ScalarsBigDecimalTest" time="0.0"/>
+  <testcase name="serialize throws exception for invalid input not a number " classname="graphql.ScalarsBigDecimalTest" time="0.0"/>
+  <testcase name="serialize throws exception for invalid input java.lang.Object@17c051cf" classname="graphql.ScalarsBigDecimalTest" time="0.0"/>
+  <testcase name="parseValue throws exception for invalid input " classname="graphql.ScalarsBigDecimalTest" time="0.0"/>
+  <testcase name="parseValue throws exception for invalid input not a number " classname="graphql.ScalarsBigDecimalTest" time="0.0"/>
+  <testcase name="parseValue throws exception for invalid input java.lang.Object@23de825b" classname="graphql.ScalarsBigDecimalTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

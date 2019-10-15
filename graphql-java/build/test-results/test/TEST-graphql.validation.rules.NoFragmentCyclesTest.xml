@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.validation.rules.NoFragmentCyclesTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.011">
+  <properties/>
+  <testcase name="single reference is valid" classname="graphql.validation.rules.NoFragmentCyclesTest" time="0.007"/>
+  <testcase name="spreading twice is not circular" classname="graphql.validation.rules.NoFragmentCyclesTest" time="0.001"/>
+  <testcase name="spreading twice indirectly is not circular" classname="graphql.validation.rules.NoFragmentCyclesTest" time="0.0"/>
+  <testcase name="double spread within abstract types" classname="graphql.validation.rules.NoFragmentCyclesTest" time="0.001"/>
+  <testcase name="circular fragments" classname="graphql.validation.rules.NoFragmentCyclesTest" time="0.0"/>
+  <testcase name="no spreading itself directly" classname="graphql.validation.rules.NoFragmentCyclesTest" time="0.0"/>
+  <testcase name="no spreading itself indirectly within inline fragment" classname="graphql.validation.rules.NoFragmentCyclesTest" time="0.001"/>
+  <testcase name="no spreading itself deeply two paths" classname="graphql.validation.rules.NoFragmentCyclesTest" time="0.0"/>
+  <testcase name="#583 no npe on undefined fragment" classname="graphql.validation.rules.NoFragmentCyclesTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.GraphQLTypeUtilTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:04" hostname="pc1295" time="0.03">
+  <properties/>
+  <testcase name="test it builds its wrapped types" classname="graphql.schema.GraphQLTypeUtilTest" time="0.023"/>
+  <testcase name="isList tests" classname="graphql.schema.GraphQLTypeUtilTest" time="0.001"/>
+  <testcase name="isNonNull tests" classname="graphql.schema.GraphQLTypeUtilTest" time="0.0"/>
+  <testcase name="isWrapperType tests" classname="graphql.schema.GraphQLTypeUtilTest" time="0.0"/>
+  <testcase name="isNotWrapped tests" classname="graphql.schema.GraphQLTypeUtilTest" time="0.0"/>
+  <testcase name="isScalar tests" classname="graphql.schema.GraphQLTypeUtilTest" time="0.001"/>
+  <testcase name="isEnum tests" classname="graphql.schema.GraphQLTypeUtilTest" time="0.0"/>
+  <testcase name="unwrap tests" classname="graphql.schema.GraphQLTypeUtilTest" time="0.001"/>
+  <testcase name="unwrapAll tests" classname="graphql.schema.GraphQLTypeUtilTest" time="0.001"/>
+  <testcase name="isLeaf tests" classname="graphql.schema.GraphQLTypeUtilTest" time="0.0"/>
+  <testcase name="isInput tests" classname="graphql.schema.GraphQLTypeUtilTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

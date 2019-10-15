@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.validation.rules.UniqueDirectiveNamesPerLocationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.012">
+  <properties/>
+  <testcase name="5.7.3 Directives Are Unique Per Location - FragmentDefinition" classname="graphql.validation.rules.UniqueDirectiveNamesPerLocationTest" time="0.005"/>
+  <testcase name="5.7.3 Directives Are Unique Per Location - OperationDefinition" classname="graphql.validation.rules.UniqueDirectiveNamesPerLocationTest" time="0.001"/>
+  <testcase name="5.7.3 Directives Are Unique Per Location - Field" classname="graphql.validation.rules.UniqueDirectiveNamesPerLocationTest" time="0.0"/>
+  <testcase name="5.7.3 Directives Are Unique Per Location - FragmentSpread" classname="graphql.validation.rules.UniqueDirectiveNamesPerLocationTest" time="0.001"/>
+  <testcase name="5.7.3 Directives Are Unique Per Location - InlineFragment" classname="graphql.validation.rules.UniqueDirectiveNamesPerLocationTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

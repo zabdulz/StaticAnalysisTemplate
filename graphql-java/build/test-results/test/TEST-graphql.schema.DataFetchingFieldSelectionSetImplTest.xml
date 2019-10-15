@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.DataFetchingFieldSelectionSetImplTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:06" hostname="pc1295" time="0.133">
+  <properties/>
+  <testcase name="glob pattern matching works" classname="graphql.schema.DataFetchingFieldSelectionSetImplTest" time="0.049"/>
+  <testcase name="test field selection set capture works" classname="graphql.schema.DataFetchingFieldSelectionSetImplTest" time="0.012"/>
+  <testcase name="test field argument capture works" classname="graphql.schema.DataFetchingFieldSelectionSetImplTest" time="0.015"/>
+  <testcase name="test field type capture works" classname="graphql.schema.DataFetchingFieldSelectionSetImplTest" time="0.007"/>
+  <testcase name="test getting sub selected fields by name" classname="graphql.schema.DataFetchingFieldSelectionSetImplTest" time="0.014"/>
+  <testcase name="test getting sub selected fields by glob" classname="graphql.schema.DataFetchingFieldSelectionSetImplTest" time="0.014"/>
+  <testcase name="test that aster aster is equal to get all" classname="graphql.schema.DataFetchingFieldSelectionSetImplTest" time="0.012"/>
+  <testcase name="fields are returned in pre order" classname="graphql.schema.DataFetchingFieldSelectionSetImplTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

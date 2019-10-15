@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.StarWarsQueryTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:20" hostname="pc1295" time="0.011">
+  <properties/>
+  <testcase name="Correctly identifies R2-D2 as the hero of the Star Wars Saga" classname="graphql.StarWarsQueryTest" time="0.004"/>
+  <testcase name="Allows us to query for the ID and friends of R2-D2" classname="graphql.StarWarsQueryTest" time="0.001"/>
+  <testcase name="Allows us to query for the friends of friends of R2-D2" classname="graphql.StarWarsQueryTest" time="0.001"/>
+  <testcase name="Allows us to query for Luke Skywalker directly, using his ID" classname="graphql.StarWarsQueryTest" time="0.0"/>
+  <testcase name="Allows us to create a generic query, then use it to fetch Luke Skywalker using his ID" classname="graphql.StarWarsQueryTest" time="0.001"/>
+  <testcase name="Allows us to create a generic query, then pass an invalid ID to get null back" classname="graphql.StarWarsQueryTest" time="0.001"/>
+  <testcase name="Allows us to query for Luke, changing his key with an alias" classname="graphql.StarWarsQueryTest" time="0.0"/>
+  <testcase name="Allows us to query for both Luke and Leia, using two root fields and an alias" classname="graphql.StarWarsQueryTest" time="0.001"/>
+  <testcase name="Allows us to query using duplicated content" classname="graphql.StarWarsQueryTest" time="0.0"/>
+  <testcase name="Allows us to use a fragment to avoid duplicating content" classname="graphql.StarWarsQueryTest" time="0.001"/>
+  <testcase name="Allows us to verify that R2-D2 is a droid" classname="graphql.StarWarsQueryTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

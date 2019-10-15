@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.validation.rules.DeferredDirectiveOnQueryOperationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.008">
+  <properties/>
+  <testcase name="denies operations that are not queries" classname="graphql.validation.rules.DeferredDirectiveOnQueryOperationTest" time="0.008"/>
+  <testcase name="allows operations that are queries" classname="graphql.validation.rules.DeferredDirectiveOnQueryOperationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,60 @@
+"Method, Nodes, Cyclomatic Complexity
+"
+"java/awt/geom/Area.<init>, 14, 1
+"
+"java/awt/geom/Area.<init>, 32, 2
+"
+"java/awt/geom/Area.pathToCurves, 228, 4
+"
+"java/awt/geom/Area.add, 21, 1
+"
+"java/awt/geom/Area.subtract, 21, 1
+"
+"java/awt/geom/Area.intersect, 21, 1
+"
+"java/awt/geom/Area.exclusiveOr, 21, 1
+"
+"java/awt/geom/Area.reset, 16, 1
+"
+"java/awt/geom/Area.isEmpty, 16, 2
+"
+"java/awt/geom/Area.isPolygonal, 31, 3
+"
+"java/awt/geom/Area.isRectangular, 103, 9
+"
+"java/awt/geom/Area.isSingular, 47, 4
+"
+"java/awt/geom/Area.invalidateBounds, 10, 1
+"
+"java/awt/geom/Area.getCachedBounds, 75, 4
+"
+"java/awt/geom/Area.getBounds2D, 8, 1
+"
+"java/awt/geom/Area.getBounds, 8, 1
+"
+"java/awt/geom/Area.clone, 9, 1
+"
+"java/awt/geom/Area.equals, 37, 3
+"
+"java/awt/geom/Area.transform, 29, 2
+"
+"java/awt/geom/Area.createTransformedArea, 18, 1
+"
+"java/awt/geom/Area.contains, 65, 4
+"
+"java/awt/geom/Area.contains, 11, 1
+"
+"java/awt/geom/Area.contains, 66, 6
+"
+"java/awt/geom/Area.contains, 15, 1
+"
+"java/awt/geom/Area.intersects, 64, 6
+"
+"java/awt/geom/Area.intersects, 15, 1
+"
+"java/awt/geom/Area.getPathIterator, 11, 1
+"
+"java/awt/geom/Area.getPathIterator, 12, 1
+"
+"java/awt/geom/Area.<clinit>, 9, 1
+"

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.idl.WiringFactoryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:07" hostname="pc1295" time="0.054">
+  <properties/>
+  <testcase name="ensure that wiring factory is called to resolve and create data fetchers" classname="graphql.schema.idl.WiringFactoryTest" time="0.035"/>
+  <testcase name="ensure field wiring environment makes sense" classname="graphql.schema.idl.WiringFactoryTest" time="0.008"/>
+  <testcase name="default data fetcher is used" classname="graphql.schema.idl.WiringFactoryTest" time="0.006"/>
+  <testcase name="@fetch directive is respected by default data fetcher wiring" classname="graphql.schema.idl.WiringFactoryTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

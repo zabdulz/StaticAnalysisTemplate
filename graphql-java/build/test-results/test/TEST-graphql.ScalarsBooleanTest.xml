@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.ScalarsBooleanTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:21" hostname="pc1295" time="0.006">
+  <properties/>
+  <testcase name="Boolean parse literal true as true" classname="graphql.ScalarsBooleanTest" time="0.003"/>
+  <testcase name="Boolean parse literal false as false" classname="graphql.ScalarsBooleanTest" time="0.0"/>
+  <testcase name="Boolean returns null for invalid IntValue{value=12345678910}" classname="graphql.ScalarsBooleanTest" time="0.0"/>
+  <testcase name="Boolean returns null for invalid StringValue{value='-1'}" classname="graphql.ScalarsBooleanTest" time="0.0"/>
+  <testcase name="Boolean returns null for invalid FloatValue{value=42.3}" classname="graphql.ScalarsBooleanTest" time="0.0"/>
+  <testcase name="Boolean serialize true into true (class java.lang.Boolean)" classname="graphql.ScalarsBooleanTest" time="0.0"/>
+  <testcase name="Boolean serialize false into false (class java.lang.Boolean)" classname="graphql.ScalarsBooleanTest" time="0.0"/>
+  <testcase name="Boolean serialize true into true (class java.lang.Boolean)" classname="graphql.ScalarsBooleanTest" time="0.0"/>
+  <testcase name="Boolean serialize True into true (class java.lang.Boolean)" classname="graphql.ScalarsBooleanTest" time="0.0"/>
+  <testcase name="Boolean serialize some value not true into false (class java.lang.Boolean)" classname="graphql.ScalarsBooleanTest" time="0.0"/>
+  <testcase name="Boolean serialize  into false (class java.lang.Boolean)" classname="graphql.ScalarsBooleanTest" time="0.0"/>
+  <testcase name="Boolean serialize 0 into false (class java.lang.Boolean)" classname="graphql.ScalarsBooleanTest" time="0.0"/>
+  <testcase name="Boolean serialize 1 into true (class java.lang.Boolean)" classname="graphql.ScalarsBooleanTest" time="0.0"/>
+  <testcase name="Boolean serialize -1 into true (class java.lang.Boolean)" classname="graphql.ScalarsBooleanTest" time="0.0"/>
+  <testcase name="Boolean serialize 42345784398534785 into true (class java.lang.Boolean)" classname="graphql.ScalarsBooleanTest" time="0.0"/>
+  <testcase name="Boolean serialize 42.3 into true (class java.lang.Boolean)" classname="graphql.ScalarsBooleanTest" time="0.0"/>
+  <testcase name="Boolean serialize 42.3 into true (class java.lang.Boolean)" classname="graphql.ScalarsBooleanTest" time="0.0"/>
+  <testcase name="Boolean serialize 2147483648 into true (class java.lang.Boolean)" classname="graphql.ScalarsBooleanTest" time="0.0"/>
+  <testcase name="Boolean serialize -2147483649 into true (class java.lang.Boolean)" classname="graphql.ScalarsBooleanTest" time="0.0"/>
+  <testcase name="serialize throws exception for invalid input java.lang.Object@6fcd8420" classname="graphql.ScalarsBooleanTest" time="0.001"/>
+  <testcase name="parseValue throws exception for invalid input java.lang.Object@5016e98e" classname="graphql.ScalarsBooleanTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

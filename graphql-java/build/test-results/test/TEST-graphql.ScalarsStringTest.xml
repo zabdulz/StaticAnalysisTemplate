@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.ScalarsStringTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:17" hostname="pc1295" time="0.003">
+  <properties/>
+  <testcase name="String parse literal 1234ab as 1234ab" classname="graphql.ScalarsStringTest" time="0.003"/>
+  <testcase name="String returns null for invalid BooleanValue{value=true}" classname="graphql.ScalarsStringTest" time="0.0"/>
+  <testcase name="String serialize 123ab into 123ab (class java.lang.String)" classname="graphql.ScalarsStringTest" time="0.0"/>
+  <testcase name="String serialize 123 into 123 (class java.lang.String)" classname="graphql.ScalarsStringTest" time="0.0"/>
+  <testcase name="String serialize foo into foo (class java.lang.String)" classname="graphql.ScalarsStringTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

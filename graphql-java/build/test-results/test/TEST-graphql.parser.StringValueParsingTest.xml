@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.parser.StringValueParsingTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:21" hostname="pc1295" time="0.008">
+  <properties/>
+  <testcase name="parsing quoted string should work" classname="graphql.parser.StringValueParsingTest" time="0.006"/>
+  <testcase name="parsing escaped json should work" classname="graphql.parser.StringValueParsingTest" time="0.0"/>
+  <testcase name="parsing quoted quote should work" classname="graphql.parser.StringValueParsingTest" time="0.0"/>
+  <testcase name="parsing emoji should work" classname="graphql.parser.StringValueParsingTest" time="0.0"/>
+  <testcase name="parsing simple unicode should work" classname="graphql.parser.StringValueParsingTest" time="0.0"/>
+  <testcase name="parsing triple quoted string should work" classname="graphql.parser.StringValueParsingTest" time="0.001"/>
+  <testcase name="parsing triple quoted string where escaping should work" classname="graphql.parser.StringValueParsingTest" time="0.0"/>
+  <testcase name="removes uniform indentation from a string" classname="graphql.parser.StringValueParsingTest" time="0.0"/>
+  <testcase name="removes empty leading and trailing lines" classname="graphql.parser.StringValueParsingTest" time="0.0"/>
+  <testcase name="removes blank leading and trailing lines" classname="graphql.parser.StringValueParsingTest" time="0.0"/>
+  <testcase name="retains indentation from first line" classname="graphql.parser.StringValueParsingTest" time="0.001"/>
+  <testcase name="does not alter trailing spaces" classname="graphql.parser.StringValueParsingTest" time="0.0"/>
+  <testcase name="1438 - losing one character when followed by a space is fixed" classname="graphql.parser.StringValueParsingTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

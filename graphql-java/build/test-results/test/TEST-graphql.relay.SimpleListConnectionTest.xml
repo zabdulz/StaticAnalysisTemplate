@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.relay.SimpleListConnectionTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.031">
+  <properties/>
+  <testcase name="invalid list indices handled" classname="graphql.relay.SimpleListConnectionTest" time="0.026"/>
+  <testcase name="invalid cursor throws exception" classname="graphql.relay.SimpleListConnectionTest" time="0.0"/>
+  <testcase name="can accept a list with nulls" classname="graphql.relay.SimpleListConnectionTest" time="0.005"/>
+  <testcase name="can accept an empty list" classname="graphql.relay.SimpleListConnectionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

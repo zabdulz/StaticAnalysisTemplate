@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.analysis.MaxQueryComplexityInstrumentationTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:18" hostname="pc1295" time="0.034">
+  <properties/>
+  <testcase name="doesn't do anything if validation errors occur" classname="graphql.analysis.MaxQueryComplexityInstrumentationTest" time="0.009"/>
+  <testcase name="doesn't do anything if exception was thrown" classname="graphql.analysis.MaxQueryComplexityInstrumentationTest" time="0.005"/>
+  <testcase name="default complexity calculator" classname="graphql.analysis.MaxQueryComplexityInstrumentationTest" time="0.002"/>
+  <testcase name="complexity calculator works with __typename field with score 0" classname="graphql.analysis.MaxQueryComplexityInstrumentationTest" time="0.001"/>
+  <testcase name="custom calculator" classname="graphql.analysis.MaxQueryComplexityInstrumentationTest" time="0.01"/>
+  <testcase name="custom max query complexity exceeded function" classname="graphql.analysis.MaxQueryComplexityInstrumentationTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

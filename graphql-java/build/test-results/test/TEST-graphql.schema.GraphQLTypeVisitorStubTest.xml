@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.schema.GraphQLTypeVisitorStubTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2019-10-01T16:24:08" hostname="pc1295" time="0.0">
+  <properties/>
+  <testcase name="#visitMethod scalar type" classname="graphql.schema.GraphQLTypeVisitorStubTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

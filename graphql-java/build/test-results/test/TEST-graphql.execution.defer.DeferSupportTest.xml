@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphql.execution.defer.DeferSupportTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-10-01T16:24:08" hostname="pc1295" time="1.105">
+  <properties/>
+  <testcase name="emits N deferred calls with order preserved" classname="graphql.execution.defer.DeferSupportTest" time="0.261"/>
+  <testcase name="calls within calls are enqueued correctly" classname="graphql.execution.defer.DeferSupportTest" time="0.411"/>
+  <testcase name="stops at first exception encountered" classname="graphql.execution.defer.DeferSupportTest" time="0.208"/>
+  <testcase name="you can cancel the subscription" classname="graphql.execution.defer.DeferSupportTest" time="0.209"/>
+  <testcase name="you cant subscribe twice" classname="graphql.execution.defer.DeferSupportTest" time="0.008"/>
+  <testcase name="indicates of there any defers present" classname="graphql.execution.defer.DeferSupportTest" time="0.001"/>
+  <testcase name="detects @defer directive" classname="graphql.execution.defer.DeferSupportTest" time="0.006"/>
+  <testcase name="detects @defer directive can be controlled via if" classname="graphql.execution.defer.DeferSupportTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
