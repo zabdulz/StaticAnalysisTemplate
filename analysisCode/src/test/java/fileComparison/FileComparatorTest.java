@@ -12,7 +12,7 @@ public class FileComparatorTest {
 
     String from = "src/test/java/ClassMetricsTest.java";
 
-    String to = "src/test/java/structuralAnalysis/ClassDiagramSolutionTest.java";
+    String to = "src/test/java/ClassMetricsTest.java";
 
     @Test
     public void IndividualFileComparisonTest(){
