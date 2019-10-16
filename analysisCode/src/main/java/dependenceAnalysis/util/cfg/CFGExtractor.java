@@ -10,8 +10,11 @@ import org.objectweb.asm.tree.analysis.Analyzer;
 import org.objectweb.asm.tree.analysis.AnalyzerException;
 import org.objectweb.asm.tree.analysis.BasicInterpreter;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -76,17 +79,24 @@ public class CFGExtractor {
 	}
 	
 	public static void main(String[] args) throws IOException {
+		String path = "../graphql-java/build/classes/java/main/graphql/Assert.class";
+		File file = new File(path);
+		
+		System.out.println(new File(path).exists());//checks if file exists
+		
 		ClassNode cn = new ClassNode(Opcodes.ASM4);
-        InputStream in = CFGExtractor.class.getResourceAsStream("/java/awt/geom/Area.class");
-        ClassReader classReader=new ClassReader(in);
-        classReader.accept(cn, 0);
-        for(MethodNode mn : (List<MethodNode>)cn.methods){
-        	try {
-        		System.out.println("================CFG FOR: "+cn.name+"."+mn.name+mn.desc+" =================");
-        		System.out.println(CFGExtractor.getCFG(cn.name, mn));
+		InputStream in = new FileInputStream(file);
+		
+		ClassReader classReader = new ClassReader(in);
+		classReader.accept(cn, 0);
+		for (MethodNode mn : (List<MethodNode>) cn.methods) {
+			try {
+				System.out.println(
+						"================CFG FOR: " + cn.name + "." + mn.name + mn.desc + " =================");
+				System.out.println(CFGExtractor.getCFG(cn.name, mn));
 			} catch (AnalyzerException e) {
 				e.printStackTrace();
 			}
-        }
+		}
 	}
 }
